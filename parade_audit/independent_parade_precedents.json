@@ -1,0 +1,66 @@
+{
+  "accessed_date": "2026-10-27",
+  "scope": "Targeted independent precedent search, not an exhaustive incidence census",
+  "exact_reconstruction_precedents": [
+    {
+      "place": "Behror, Rajasthan",
+      "event_date": "2019-09-22",
+      "event_date_basis": "Both September 23 and September 24 reports say Sunday; calendar conversion gives September 22",
+      "publication_date": "2019-09-23",
+      "source": "https://timesofindia.indiatimes.com/city/jaipur/rajasthan-cops-parade-13-in-underwear-in-public/articleshow/71251170.cms",
+      "corroboration": "https://indianexpress.com/article/india/rajasthan-cops-parade-13-accused-in-underwear-6022691/",
+      "actor": "Police",
+      "subjects": "13 men accused of helping gangster Papla escape police custody",
+      "clothing": "Innerwear / semi-clad, barefoot; not described as fully naked",
+      "public_street": true,
+      "claimed_reconstruction": true,
+      "short_quote": "We had taken them out simply to recreate the crime scene",
+      "quote_attribution": "SP (Bhiwadi) Amandeep Singh Kapoor quoted by TOI",
+      "counting_note": "One parade involving 13 accused; not 13 independent parade events"
+    },
+    {
+      "place": "Howrah, West Bengal",
+      "event_date": "2026-05-24/2026-05-25",
+      "event_date_basis": "Indian Express May26 describes Monday (May25); a separate IndiaToday May24 report describes Sunday for Akash Singh. Retain May24-25 uncertainty and do not deduplicate or split solely by publication dates.",
+      "publication_date": "2026-05-26",
+      "source": "https://indianexpress.com/article/cities/kolkata/howrah-police-public-parade-accused-controversy-10708947/",
+      "date_check_source": "https://www.indiatoday.in/amp/india/west-bengal/story/akash-singh-howrah-police-reconstruction-underwear-political-row-2916439-2026-05-24",
+      "actor": "Howrah police; some actions involved central forces",
+      "subjects": "Akash Singh, Shahin Molla, and Shamim Ahmed, separately accused in different criminal cases",
+      "clothing": "Some wore only undershirts and boxer shorts; some tied with ropes; handcuffed. Do not assert every subject fully naked.",
+      "public_street": true,
+      "claimed_reconstruction": true,
+      "short_quote": "Videos were captured during reconstruction of crime scenes",
+      "quote_attribution": "Senior Howrah Police Commissionerate officer quoted by The Indian Express",
+      "counting_note": "Three subjects and multiple neighbourhoods/actions; case roster not settled as one versus multiple independent episodes"
+    }
+  ],
+  "broader_bengal_custodial_precedent": {
+    "place": "Dum Dum jail, West Bengal",
+    "event_date": "2010-08-23",
+    "publication_date": "2010-09-14",
+    "source": "https://timesofindia.indiatimes.com/city/kolkata/prisoners-in-dum-dum-thrashed-paraded-nude/articleshow/6549969.cms",
+    "actor": "Jail officials and wardens, alleged",
+    "subjects": "Nine prisoners: three convicts and six undertrials",
+    "clothing": "Allegedly naked for about an hour after beating",
+    "public_street": false,
+    "claimed_reconstruction": false,
+    "reason_recorded": "Misconduct/contraband and prison clash per officials; prisoners and MLA alleged retaliation for protests",
+    "status": "Government inquiry ordered; do not call a completed judicial finding or same mechanism as street reconstruction"
+  },
+  "current_case_coding_warning": {
+    "place": "Sarsuna/Behala, Kolkata",
+    "mob_event_date": "2026-10-25",
+    "police_event_date": "2026-10-27",
+    "mob_subjects": "Youth, father and friend reportedly stripped naked by girl's relatives/associates",
+    "police_subjects": "Men accused in that stripping incident, marched shirtless with shorts or underwear and ropes",
+    "reason": "Police described reconstruction",
+    "source": "https://indianexpress.com/article/cities/kolkata/kolkata-police-reconstruct-naked-parade-row-accused-marched-shirtless-10938737/",
+    "corroboration": "https://www.ndtv.com/india-news/after-teen-father-forced-to-walk-naked-cops-parade-accused-without-shirt-12244106?pfrom=home-ndtv_mainnavigation",
+    "warning": "Keep mob stripping and subsequent police parade separate; do not call the latter fully naked without separate evidence"
+  },
+  "exclude_from_exact_comparison": {
+    "source": "https://timesofindia.indiatimes.com/city/rajkot/gujarat-man-paraded-naked-for-45-minutes-for-his-facebook-live-rant/articleshow/79522050.cms",
+    "reason": "Article describes naked mob victim plus later police reconstruction parade of arrested perpetrators; later police parade clothing unspecified. Do not transfer naked descriptor to police action."
+  }
+}

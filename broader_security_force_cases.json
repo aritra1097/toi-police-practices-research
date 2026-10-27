@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "WB_BSF_2025_01",
+    "provisional_event_date": "2025-03-07",
+    "article_publication_date": "2025-03-08T20:23:00+05:30",
+    "place": "Khalpara, Rajganj, Jalpaiguri",
+    "person": "Mohammad Al Amin",
+    "force": "Border Security Force",
+    "command_category": "Central force, not West Bengal state police",
+    "reported_fatal": 1,
+    "reported_group_attempted_weapon_seizure": 1,
+    "deceased_individually_alleged_to_seize_weapon": "not established by article",
+    "completed_weapon_seizure_established": 0,
+    "police_custody_reconstruction": 0,
+    "evidence_status": "Press account reports a group attempt at weapon seizure during alleged border incursion/attack; independent truth not established here",
+    "classification": "Sensitivity case for broad security-force/group-attempt definition; separate from three 2026 custodial individual cases",
+    "source": "https://timesofindia.indiatimes.com/city/kolkata/bangladeshi-smuggler-shot-dead-by-bsf/articleshow/118806741.cms",
+    "date_note": "Body says early Friday, article published Saturday March8; inferred incident date March7 is provisional. It attributes attempted seizure to the group, not expressly to the deceased. Article says weapon, not an identified seized gun."
+  }
+]

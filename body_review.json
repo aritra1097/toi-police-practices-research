@@ -1,0 +1,79 @@
+[
+  {
+    "archive_date": "2002-02-07",
+    "headline": "Police kills one in Kulti.",
+    "status": "No immediate weapon-taking claim in reviewed body",
+    "reason": "Police describe armed dacoits firing first; a pipegun recovered. Allegation of fake encounter is separate from target mechanism.",
+    "url": "https://timesofindia.indiatimes.com/city/kolkata/police-kills-one-in-kulti-/articleshow/171259569.cms"
+  },
+  {
+    "archive_date": "2005-08-10",
+    "headline": "Gangster killed in encounter",
+    "status": "Outside West Bengal",
+    "reason": "Article is about Lucknow/Hazratganj, despite Kolkata category.",
+    "url": "https://timesofindia.indiatimes.com/city/kolkata/gangster-killed-in-encounter/articleshow/1196819.cms"
+  },
+  {
+    "archive_date": "2012-08-04",
+    "headline": "Behala body was of criminal shot in police encounter",
+    "status": "Unresolved full text",
+    "reason": "Headline establishes neither encounter location nor immediate gun-taking mechanism. Not coded negative.",
+    "url": ""
+  },
+  {
+    "archive_date": "2014-06-29",
+    "headline": "Man snatches cop's pistol; shoots homeguard",
+    "status": "Wrong shooting outcome",
+    "reason": "Homeguard killed by accused; accused reportedly survived and was arrested.",
+    "url": "https://timesofindia.indiatimes.com/city/kolkata/man-snatches-cops-pistol-shoots-homeguard/articleshow/37424220.cms"
+  },
+  {
+    "archive_date": "2015-05-17",
+    "headline": "Cop-goon gunfight shocks Titagarh",
+    "status": "Initial body unavailable; follow-up reviewed",
+    "reason": "May18 follow-up describes Prasanta Das dying in alleged pursuit/exchange of fire, no immediate police gun-taking claim in that body. Initial report remains unresolved.",
+    "url": "https://timesofindia.indiatimes.com/city/kolkata/cop-goon-gunfight-shocks-titagarh/articleshow/47313180.cms"
+  },
+  {
+    "archive_date": "2015-05-18",
+    "headline": "CID to probe encounter death",
+    "status": "No immediate weapon-taking claim in reviewed body",
+    "reason": "Follow-up of same Titagarh event, not another killing. Questions about firing account require separate coding.",
+    "url": "https://timesofindia.indiatimes.com/city/kolkata/cid-to-probe-encounter-death/articleshow/47322732.cms"
+  },
+  {
+    "archive_date": "2015-10-19",
+    "headline": "Howrah extortionist killed in cop encounter",
+    "status": "No immediate weapon-taking claim in reviewed body",
+    "reason": "Ganga Mahato: alleged gang gunfire, bombs, assault and theft of police van. Officer reportedly retained own revolver and fired.",
+    "url": "https://timesofindia.indiatimes.com/city/kolkata/howrah-extortionist-killed-in-cop-encounter/articleshow/49446428.cms"
+  },
+  {
+    "archive_date": "2018-10-03",
+    "headline": "Contai undertrial escapes from custody, nabbed in filmy style",
+    "status": "No reported police shooting of accused",
+    "reason": "Karno Bera reportedly seized firearm and shot officers but was rearrested. External negative control, not counted as a local corpus observation.",
+    "url": "https://www.thestatesman.com/india/west-bengal-contai-undertrial-escapes-from-custody-nabbed-in-filmy-style-1502692913.html"
+  },
+  {
+    "archive_date": "2019-07-13",
+    "headline": "West Bengal: Wanted criminal shot dead in war-zone encounter",
+    "status": "No immediate weapon-taking claim in reviewed body",
+    "reason": "Prabhu Shaw: police/witness accounts describe armed pursuit, firing and bombs, with his revolver recovered. Do not equate all self-defence accounts with snatching.",
+    "url": "https://timesofindia.indiatimes.com/city/kolkata/wanted-criminal-shot-dead-in-war-zone-encounter/articleshow/70199899.cms"
+  },
+  {
+    "archive_date": "2021-06-10",
+    "headline": "Most-wanted Punjab gangster, aide shot dead in Kolkata flat",
+    "status": "Earlier theft in another state",
+    "reason": "Jaipal Bhullar pistol theft described as occurring in Punjab May10, distinct from fatal June9 New Town police raid.",
+    "url": "https://timesofindia.indiatimes.com/city/kolkata/most-wanted-punjab-gangster-aide-shot-dead-in-kolkata-flat/articleshow/83390459.cms"
+  },
+  {
+    "archive_date": "2025-01-19",
+    "headline": "Murder accused who fled after shooting at police gunned down",
+    "status": "Different weapon origin; outside local corpus period",
+    "reason": "Sajjak Alam: TOI says pistol supplied by accomplice on court premises. Exclude from immediate police weapon-taking category.",
+    "url": "https://timesofindia.indiatimes.com/india/murder-accused-who-fled-after-shooting-at-police-gunned-down/articleshow/117362643.cms"
+  }
+]

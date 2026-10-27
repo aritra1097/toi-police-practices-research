@@ -1,0 +1,15 @@
+{
+  "actual_headline_content_items": 2592,
+  "distinct_nonempty_article_ids": 2421,
+  "items_without_article_id": 171,
+  "within_2024_to_oct27_2026_ist": 2207,
+  "after_oct27_2026_ist": 385,
+  "unknown_publication_date_or_timezone": 0,
+  "selection_frames": {
+    "selected_article_metadata": 357,
+    "recent_news_feed": 2230,
+    "recent_news_feed;selected_article_metadata": 5
+  },
+  "full_headline_backfill_complete": false,
+  "date_caution": "Cutoff calendar uses IST; Oct28IST extras can occur while collection date is Oct27 NewYork. Publication date is not incident date."
+}

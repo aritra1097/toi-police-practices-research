@@ -1,0 +1,10 @@
+{
+  "wb_place": "\\b(?:west bengal|bengal|kolkata|calcutta|howrah|hooghly|hugli|siliguri|darjeeling|jalpaiguri|cooch behar|coochbehar|alipurduar|dinajpur|raiganj|malda|maldah|murshidabad|berhampore|nadia|krishnanagar|24 parganas|barasat|basirhat|bongaon|gaighata|baruipur|canning|barrackpore|bidhannagar|new town|newtown|asansol|durgapur|burdwan|bardhaman|birbhum|bolpur|bankura|purulia|midnapore|medinipur|jhargram|lalgarh|nandigram|singur|kharagpur|tamluk|haldia|balurghat|chopra|goalpokhar)\\b",
+  "encounter": "\\b(?:encounters?|gunfights?|shootouts?|crossfire)\\b",
+  "shoot": "\\b(?:shot|shoot\\w*|gunned|firing|fire[ds]?|bullet\\w*)\\b",
+  "death": "\\b(?:kill\\w*|dead|death\\w*|dies?|died|gunned)\\b",
+  "police": "\\b(?:police\\w*|cops?|constables?|officers?|custody|custodial|stf|security forces|crpf|bsf)\\b",
+  "weapon": "\\b(?:guns?|pistols?|revolvers?|rifles?|firearms?|weapons?|arms|carbines?)\\b",
+  "snatch": "\\b(?:snatch\\w*|grab\\w*|wrest\\w*|seiz\\w*|disarm\\w*|overpower\\w*)\\b",
+  "suspect": "\\b(?:accused|suspects?|criminals?|gangsters?|undertrials?|prisoners?|convicts?|dacoits?|robbers?|rapists?|custody|custodial|escape\\w*|flee\\w*)\\b"
+}

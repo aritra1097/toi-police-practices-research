@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+scraping/output/
+scraping/sitemap_output/
+scraping/old_code_dependencies/
+scraping/original_code_check/
+scraping/*PARTIAL*.csv.gz
+scraping/actual_headlines_summary.json
+*.sqlite*
+*.html*
+*_metadata.jsonl

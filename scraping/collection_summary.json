@@ -1,0 +1,71 @@
+{
+  "status": "completed_partial_extension",
+  "fullHeadlineExtensionComplete": false,
+  "dailyArchiveHeadlineRows": 0,
+  "availableDateRange": {
+    "minimum_verified_publication_timestamp": "2024-01-02T18:12:00+05:30",
+    "maximum_verified_publication_timestamp": "2026-10-28T02:22:55+05:30",
+    "interpretation": "Selected metadata plus recent feeds only; endpoints do not imply continuous or complete headline coverage."
+  },
+  "dailyArchivePilotDates": [
+    "2024-01-01",
+    "2026-07-08",
+    "2026-10-27"
+  ],
+  "dailyArchivePilotResult": "HTTP200 archive shells with empty day headings and empty article-list columns; zero valid daily headlines. Known2015control also empty.",
+  "originalCodeComparison": {
+    "source_sha256": "34de3433837f4bd773f8f4d9705b57e00d1d4ea4830ee86bb23d2b9f17029cab",
+    "test_dates": [
+      "2015-01-01",
+      "2024-01-01",
+      "2026-07-08",
+      "2026-10-27"
+    ],
+    "rows_by_date": {
+      "2015-01-01": 0,
+      "2024-01-01": 0,
+      "2026-07-08": 0,
+      "2026-10-27": 0
+    },
+    "original_headers_and_BeautifulSoup_lxml_parser_preserved": true,
+    "source_modified": false
+  },
+  "browserCrossCheck": "Parent opened2024-01-01 archive in JavaScript-enabled browser: same empty day heading/list; only unrelated sidebar links. No browser recovery.",
+  "sitemapMonthlyPartitions": 161,
+  "sitemapTopLevelNewsFeeds": 2,
+  "sitemapNestedNewsFeedChildren": 2,
+  "httpSitemapResourcesCollected": 165,
+  "sitemapResourcesAllSuccessfullyParsed": true,
+  "distinctURLInventoryRows": 1424031,
+  "distinctInventoryArticleIDs": 1423856,
+  "actualNewsFeedHeadlineRows": 2235,
+  "actualNewsFeedDistinctArticleIDs": 2064,
+  "selectedArticleMetadataRows": 362,
+  "selectedMetadataHeadlinesRecovered": 362,
+  "selectedMetadataBodiesRecovered": 362,
+  "selectedMetadataPublicationDatesRecovered": 362,
+  "metadataIdentityChecks": {
+    "requested_article_id_matched": 362
+  },
+  "metadataIdentityChanges": {
+    "headlines": 0,
+    "publication_dates": 0
+  },
+  "originalUserFilesModified": false,
+  "sourceAsOfStartedUTC": "2026-10-27T20:56:28.367082+00:00",
+  "collectionFinishedUTC": "2026-10-27T21:09:58.193287+00:00",
+  "knownArticleIDs": {
+    "135223012": true,
+    "132252905": true,
+    "132272311": true,
+    "135238700": true,
+    "132269201": true
+  },
+  "limits": [
+    "Static sitemap URLs and URL slugs are not headlines. Lastmod is not publication date or event date.",
+    "Recent titlefeeds include source-publication dates throughOct28 IST while retrieval isOct27 NewYork; raw timestamps and an after-Oct27-IST flag are retained.",
+    "Selected historical metadata is enriched for search terms and does not provide an unbiased denominator or a complete2024-26 headline census.",
+    "The word stem fir* in the actual URL retrieval run also matches first and creates retained false positives. Claims require body review.",
+    "Full daily-archive extension remains unavailable; recovered metadata and current-feed titles form a clearly partial supplement."
+  ]
+}

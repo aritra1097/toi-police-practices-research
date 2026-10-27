@@ -1,0 +1,50 @@
+[
+  {
+    "event_id": "WB2026_01",
+    "event_date": "2026-07-08",
+    "date_precision": "provisional calendar day; approximately 00:45 IST; weekday wording conflicts",
+    "place": "Baruipur, South 24 Parganas",
+    "person": "Prabash Mondal",
+    "aliases": "Prabhas / Prabhash / Pravas / Pravash Mondal or Mondol",
+    "reported_police_shooting": 1,
+    "reported_fatal": 1,
+    "reported_immediate_police_weapon_taking": 1,
+    "reconstruction": 1,
+    "evidence_status": "Police claim reported by press; gun seizure not independently established",
+    "source": "https://timesofindia.indiatimes.com/city/kolkata/west-bengal-baruipur-rape-murder-accused-prabhas-mondal-killed-in-encounter/articleshow/132252905.cms",
+    "corroborating_source": "https://timesofindia.indiatimes.com/city/kolkata/snatched-gun-fired-at-us-cops-shoot-dead-key-baruipur-rape-murder-accused/articleshow/132272311.cms",
+    "notes": "July8 initial report supports date; July9 detailed report mixes Tuesday with early Wednesday. Repeated reports are one event."
+  },
+  {
+    "event_id": "WB2026_02",
+    "event_date": "2026-10-27",
+    "date_precision": "02:30 in later TOI combined report; 02:50 to 03:30 IST in earlier TOI/PTI; other reports say late Monday Oct26",
+    "place": "Gaighata/Bongaon, North 24 Parganas",
+    "person": "Prahlad Das",
+    "aliases": "Prahlad Das",
+    "reported_police_shooting": 1,
+    "reported_fatal": 1,
+    "reported_immediate_police_weapon_taking": 1,
+    "reconstruction": 1,
+    "evidence_status": "Police claim reported by press; gun seizure not independently established",
+    "source": "https://timesofindia.indiatimes.com/city/kolkata/bengal-class-11-rape-murder-accused-killed-in-encounter-during-crime-scene-reconstruction/articleshow/135223012.cms",
+    "corroborating_source": "https://theprint.in/india/two-accused-killed-in-separate-encounters-in-bengal/3083308/",
+    "notes": "Same-calendar-day analysis uses TOI/PTI timing. Within24h analysis accommodates midnight discrepancy. Later TOI combined report gives02:30 and14:30 for pair."
+  },
+  {
+    "event_id": "WB2026_03",
+    "event_date": "2026-10-27",
+    "date_precision": "14:30 IST in later TOI combined report, approximately12 hours after Gaighata",
+    "place": "Samserganj/Dhuliyan, Murshidabad",
+    "person": "Samayun Sheikh",
+    "aliases": "Samaun / Samaul / Samiul Sheikh",
+    "reported_police_shooting": 1,
+    "reported_fatal": 1,
+    "reported_immediate_police_weapon_taking": 1,
+    "reconstruction": 1,
+    "evidence_status": "CID officer claim reported by PTI and TOI; gun seizure not independently established",
+    "source": "https://theprint.in/india/bengal-bjp-worker-murder-accused-killed-in-encounter-with-cid/3083163/",
+    "corroborating_source": "https://timesofindia.indiatimes.com/city/kolkata/in-1-day-bengal-sees-2-crime-scene-encounter-deaths/articleshow/135245318.cms",
+    "notes": "Name variants linked by location, victim Sujit Mondal, incident date and CID context, not counted separately. TOI publication2026Oct28IST was recovered during clientdateOct27NewYork collection."
+  }
+]

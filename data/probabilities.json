@@ -1,0 +1,101 @@
+{
+  "poisson_sensitivity": [
+    {
+      "assumed_events_per_year": 1,
+      "p_two_or_more_specified_day": 3.746201505484022e-06,
+      "p_exactly_two_specified_day": 3.7427810981304564e-06,
+      "p_any_calendar_day_two_or_more_in_365_days": 0.001366431691623644,
+      "p_next_event_within_24h": 0.002735976403140715
+    },
+    {
+      "assumed_events_per_year": 3,
+      "p_two_or_more_specified_day": 3.359293149719605e-05,
+      "p_exactly_two_specified_day": 3.350095914091915e-05,
+      "p_any_calendar_day_two_or_more_in_365_days": 0.012186758525344286,
+      "p_next_event_within_24h": 0.008185492989120859
+    },
+    {
+      "assumed_events_per_year": 5,
+      "p_two_or_more_specified_day": 9.297375887984581e-05,
+      "p_exactly_two_specified_day": 9.254970624223628e-05,
+      "p_any_calendar_day_two_or_more_in_365_days": 0.03336759909228725,
+      "p_next_event_within_24h": 0.013605230870246333
+    },
+    {
+      "assumed_events_per_year": 10,
+      "p_two_or_more_specified_day": 0.0003685199658835252,
+      "p_exactly_two_specified_day": 0.0003651621844873483,
+      "p_any_calendar_day_two_or_more_in_365_days": 0.12587734741700468,
+      "p_next_event_within_24h": 0.027025359433459965
+    },
+    {
+      "assumed_events_per_year": 20,
+      "p_two_or_more_specified_day": 0.0014474912152019365,
+      "p_exactly_two_specified_day": 0.0014211741808002813,
+      "p_any_calendar_day_two_or_more_in_365_days": 0.4106393905782119,
+      "p_next_event_within_24h": 0.05332034881441222
+    },
+    {
+      "assumed_events_per_year": 50,
+      "p_two_or_more_specified_day": 0.008568216521123776,
+      "p_exactly_two_specified_day": 0.008181480305981816,
+      "p_any_calendar_day_two_or_more_in_365_days": 0.9567550222357455,
+      "p_next_event_within_24h": 0.12801782898845826
+    }
+  ],
+  "conditional_three_event_windows": [
+    {
+      "start": "2026-01-01",
+      "end": "2026-10-27",
+      "calendar_days": 300,
+      "p_any_same_calendar_day_given_exactly_3": 0.009977777777777778,
+      "p_any_pair_within_24h_given_exactly_3_continuous": 0.019866962962963086
+    },
+    {
+      "start": "2026-05-09",
+      "end": "2026-10-27",
+      "calendar_days": 172,
+      "p_any_same_calendar_day_given_exactly_3": 0.01737425635478637,
+      "p_any_pair_within_24h_given_exactly_3_continuous": 0.03447966845686545
+    },
+    {
+      "start": "2026-07-08",
+      "end": "2026-10-27",
+      "calendar_days": 112,
+      "p_any_same_calendar_day_given_exactly_3": 0.02662627551020408,
+      "p_any_pair_within_24h_given_exactly_3_continuous": 0.052620490160349975
+    }
+  ],
+  "clustered_daily_gamma_poisson": [
+    {
+      "mean_events_per_year": 10,
+      "gamma_daily_shape": 1000000,
+      "p_two_or_more_specified_day": 0.0003685203697866776
+    },
+    {
+      "mean_events_per_year": 10,
+      "gamma_daily_shape": 1,
+      "p_two_or_more_specified_day": 0.0007111111111111762
+    },
+    {
+      "mean_events_per_year": 10,
+      "gamma_daily_shape": 0.1,
+      "p_two_or_more_specified_day": 0.0029322991412093283
+    }
+  ],
+  "hypothetical_prior_window": {
+    "label": "Illustration only: assumes exactly one exhaustively observed prior event over a prespecified 111-day window",
+    "exposure_days": 111,
+    "events": 1,
+    "poisson_plugin_p_two_or_more_next_day": 4.0338212641022736e-05,
+    "jeffreys_posterior_predictive_two_or_more_next_day": 0.00014902824196583175,
+    "rate95_equal_tailed_per_year": [
+      0.3547985502600124,
+      15.370123043428347
+    ],
+    "frequentist_exact_rate95_per_year": [
+      0.08325225147987211,
+      18.321169708943223
+    ]
+  }
+}

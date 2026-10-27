@@ -1,0 +1,16 @@
+{
+  "seed": 20261027,
+  "source": "data/raw/Times_of_India_News_Headlines/india-news-headlines 3.csv",
+  "unit": "unique source-date + normalized headline within primary file",
+  "wb_proxy_unique_n": 128709,
+  "negative_frame_n": 125579,
+  "sample_n": 100,
+  "selection": "simple random reservoir sample without replacement among WB-proxy headlines outside route_a",
+  "scope": "headline-visible police shooting/encounter misses only; does not estimate fulltext recall",
+  "reviewer": "methods_audit subagent",
+  "reviewed_n": 100,
+  "headline_visible_misses": 0,
+  "ambiguous_violence_headlines": 1,
+  "binomial_upper_95_negative_frame_miss_prevalence": 0.029513049607039932,
+  "interpretation": "The 2.95% upper limit concerns headline-visible miss prevalence in this negative frame under sampling assumptions; it is not sensitivity, event prevalence, or fulltext recall."
+}

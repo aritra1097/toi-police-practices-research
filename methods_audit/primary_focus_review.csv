@@ -1,0 +1,207 @@
+line,publish_date,headline_category,headline_text,strict_target_claim_visible_in_headline,body_check_priority,review_note
+53523,20011217,city.kolkata,NLFT insurgent killed in encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+71781,20020207,city.kolkata,Police kills one in Kulti.,0,high,Police killing; victim status and immediate narrative absent.
+83954,20020310,city.kolkata,One killed; 12 injured in police-VHP clash,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+94786,20020409,city.kolkata,Shootout in used car showroom; one injured,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+106937,20020515,city.kolkata,KLO militant killed in encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+107853,20020517,city.kolkata,5 held for Lake Town shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+110431,20020525,city.kolkata,KLO militant killed in encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+114256,20020606,city.kolkata,3 killed in police vehicle mishap,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+115937,20020612,city.kolkata,1 killed in police firing in Murshidabad,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+126292,20020720,city.kolkata,Shootout at Swinhoe Street; no casualties,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+127012,20020722,city.kolkata,One killed; 7 cops injured in accident,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+129116,20020730,city.kolkata,Trinamul man killed by police at Falta,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+138315,20020901,city.kolkata,2 KLO ultras shot dead in Beltali encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+157080,20021108,city.kolkata,Malignant malaria kills another city policeman,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+164860,20021205,city.kolkata,Buddha visit puts police off killer dog trail,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+184326,20030211,city.kolkata,Police identify dead conman; killer untraced,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+188109,20030225,city.kolkata,Three killed in police firing,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+192608,20030313,city.kolkata,Spate of mishaps in city; cop killed,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+198761,20030405,city.kolkata,One cop killed in clash with militants in south Tripura,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+217676,20030606,city.kolkata,State police officers hone skills in war zone,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+217681,20030606,city.kolkata,Gangwar leads to shootout on Ripon Street,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+231291,20030727,city.kolkata,Business rivalry leads to shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+233009,20030802,city.kolkata,Three militants killed in Jalpaiguri encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+237857,20030822,city.kolkata,Close encounter with Mars,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+240748,20030904,city.kolkata,Businessman shot dead by cop,0,high,"Police shooter; headline describes businessman, status/narrative absent."
+250378,20031012,city.kolkata,Cop killed in precision hit by Naxalites,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+271652,20031230,city.kolkata,Woman killed at home; cops suspect son,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+275387,20040119,city.kolkata,BP engineer killed self: Police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+282789,20040226,city.kolkata,Eight cops killed in landmine blast,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+308561,20040629,city.kolkata,Music soiree shootout claims three lives,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+312372,20040716,city.kolkata,Bengal police catch up with Hannah killer,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+326674,20040923,city.kolkata,10 killed in helicopter crash,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+336481,20041211,city.kolkata,Killing cops is also violation of human rights: CM,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+365506,20050810,city.kolkata,Gangster killed in encounter,0,high,Gangster killed in encounter; snatch narrative could be body-only.
+386772,20051228,city.kolkata,Cop killed as shanty turns battlefield,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+406535,20060426,city.kolkata,Delhi cops nab Phoolan killer from city PCO,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+486353,20070702,city.kolkata,Gunfight over child's custody,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+489618,20070716,city.kolkata,Minibus kills police horse,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+494560,20070802,city.kolkata,2 killed in Howrah gang shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+534655,20071224,city.kolkata,Two killed as bike rams cop van,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+546509,20080205,city.kolkata,4 Forward Bloc workers killed in police firing in WB,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+560429,20080326,city.kolkata,Cop saves life; gets killed,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+562949,20080404,city.kolkata,IED blast kills 3 in Siliguri; cops clueless,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+577064,20080519,city.kolkata,Speeding cop van kills pedestrian,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+581751,20080601,city.kolkata,Police vehicle torched after accident kills 2,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+584277,20080609,city.kolkata,Bullied by cops; man kills self,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+589839,20080627,city.kolkata,Cop arrested for killing neighbour,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+602243,20080804,city.kolkata,Blast kills four; police rule out terror,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+608228,20080820,city.kolkata,iPod killer tried to destroy evidence; say police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+683331,20090201,city.kolkata,Police dog sniffed out killers' trail,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+716796,20090326,city.kolkata,Hotelier knew killer: Police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+770409,20090621,city.kolkata,Long walk to safety for villagers caught in crossfire,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+779458,20090706,city.kolkata,Arrested Maoists may have killed 2 CPM leaders: Cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+781336,20090709,city.kolkata,Elephants shot at by Nepal police again,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+786878,20090719,city.kolkata,Cops test skills at workshop,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+788576,20090722,city.kolkata,Fuel thieves try to run over cops; shot at,0,high,"Fuel thieves shot at; headline gives vehicle attack explanation, but check full body."
+793710,20090731,city.kolkata,1 killed as police fire on CPM & Trinamool,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+794374,20090801,city.kolkata,Maoists engage forces in gunfight,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+809893,20090830,city.kolkata,Student shot during mob-police clash,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+817001,20090912,city.kolkata,Gunfight between Maoists and forces,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+823114,20090923,city.kolkata,Mystery shrouds body count after Lalgarh encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+846946,20091110,city.kolkata,Four injured in Bhangar gunfight,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+871285,20100102,city.kolkata,Youth shot in Howrah near police station,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+902507,20100326,city.kolkata,Maoist top gun trapped in daylong encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+922298,20100523,city.kolkata,Train 'passenger'; jawan injured in crossfire,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+930118,20100614,city.kolkata,Teenage niece; boyfriend killed woman: Police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+962762,20100815,city.kolkata,Dabbawala among techie killers: Cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+968008,20100825,city.kolkata,Kshiti demands probe into Azad; Soren encounters,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1034733,20110102,city.kolkata,Woman shot dead at home; cop glare on brother-in-law,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1040877,20110112,city.kolkata,Bullet holes put shootout story in doubt,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1042244,20110114,city.kolkata,Maoists escape after hourlong encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1055136,20110202,city.kolkata,Trainee cop held for killing kin,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1059277,20110208,city.kolkata,Teen killed aunt in cold blood: Cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1065365,20110217,city.kolkata,Shamed police have no clue to schoolboy's killers,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1134052,20110531,city.kolkata,Traffic policemen get training in life saving skills,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1147314,20110620,city.kolkata,Killer cop had been missing since Saturday,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1148055,20110621,city.kolkata,Killer cop nabbed on border,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1148740,20110622,city.kolkata,No regrets; only wanted to kill lover; says cop,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1164221,20110715,city.kolkata,Contract killers shot techie: Cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1201457,20110909,city.kolkata,City police nab supari killers,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1209032,20110920,city.kolkata,Gunfight with Maoists in Purulia,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1217696,20111003,city.kolkata,Truck kills three; mob attacks policemen,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1242295,20111111,city.kolkata,Cops probing mass killing led Nandigram firing,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1252755,20111126,city.kolkata,Villagers caught in crossfire,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1261825,20111209,city.kolkata,Fire in Kolkataamp39s AMRI hospital 60 killed in Kolkata hospital fire says City police chief,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1274461,20111228,city.kolkata,Suspicion led to killings: Police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1311237,20120219,city.kolkata,11 robbers held after gunfight with cops,0,high,Robbers held after police gunfight; nonfatal outcome and narrative need body.
+1314807,20120224,city.kolkata,Burdwan killings: Cops don't seek custody,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1326928,20120313,city.kolkata,Minister talks tough; but cop killers still free,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1337424,20120328,city.kolkata,Girl kills 'molester'; surrenders to cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1341517,20120403,city.kolkata,Abduction; gunfight on Bangla border,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1419362,20120724,city.kolkata,Cop's wife kills self in front of daughter,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1427194,20120804,city.kolkata,Behala body was of criminal shot in police encounter,0,high,Criminal killed in police encounter; body-only narrative possible.
+1432502,20120812,city.kolkata,Dreaded contract killer; aides in police net,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1481323,20121021,city.kolkata,Officer shot dead in police station; cop arrested,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1490574,20121103,city.kolkata,Cop drinks acid to kill himself,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1497903,20121114,city.kolkata,Tom's encounters with icons who Altered his life,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1498224,20121114,city.kolkata,One killed in Nadia in police firing on Jagadharti puja permission,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1514604,20121208,city.kolkata,Honour killing in Kolkata: Man beheads sister in public view; takes severed head to police station,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1548745,20130126,city.kolkata,Gallantry awards for cops in Kishanji encounter,0,armed_conflict_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1561878,20130214,city.kolkata,Ugly politics the trigger for cop killing,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1584586,20130319,city.kolkata,Forester hurt in gunfight with poachers,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1594937,20130403,city.kolkata,A day after cop's death; wife kills self,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1607312,20130420,city.kolkata,Girl shot in CPM-TMC gunfight,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1658363,20130703,city.kolkata,Control of Trinamool Congress office triggers gunfight,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1663054,20130709,city.kolkata,Teacher killer left behind bloody fingerprint: Cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1697483,20130828,city.kolkata,One killed in gang shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1699708,20130831,city.kolkata,Woman leads cops to cat killer,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1701031,20130902,city.kolkata,Cops smell a rat in trader's 'shot at' tale,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1725645,20131007,city.kolkata,One killed in gunfight,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1735362,20131021,city.kolkata,52 cops killed in Bengal in a year,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1745365,20131105,city.kolkata,Volunteer cop killed in accident,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1770729,20131211,city.kolkata,Odisha panchayat pradhan held for Lake Town shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1791594,20140110,city.kolkata,GRSE; BESU; Kolkata police sign MoU to nurture skill,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1804200,20140128,city.kolkata,Shootout at Panihati; 2 dead,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1874802,20140509,city.kolkata,HC turns down bail plea of SI in Short Street shootout case,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1924682,20140720,city.kolkata,Man kills wife; goes to cops with bloody blade,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+1969909,20140923,city.kolkata,NVF jawan killed in shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2035689,20141226,city.kolkata,Street shootout shocks picnickers,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2128538,20150508,city.kolkata,Gangland shootout on flyover kills two,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2134738,20150517,city.kolkata,Cop-goon gunfight shocks Titagarh,0,high,"Cop-goon gunfight, likely linked to next-day encounter investigation."
+2135615,20150518,city.kolkata,CID to probe 'encounter' death,0,high,Encounter death under CID investigation; body-only narrative possible.
+2174741,20150713,city.kolkata,Former councillor's brother held for Shalimar shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2192060,20150807,city.kolkata,Two TMC men held for Haridevpur bar shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2227641,20150927,city.kolkata,Chargesheet in bar shootout names 11,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2243114,20151019,city.kolkata,Howrah extortionist killed in cop encounter,0,high,Extortionist killed by police; body-only narrative possible.
+2263333,20151117,city.kolkata,Pirates killed in Sunderbans gunfight,0,high,Pirates killed in gunfight; forces and exact geography require checking.
+2286399,20151220,city.kolkata,Shootout; body stun train passengers,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2305676,20160117,city.kolkata,TMC leader's son Sambia was driving Audi that killed IAF soldier: Cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2308403,20160121,city.kolkata,Police keep killer Audi away from public glare,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2317675,20160203,city.kolkata,Kolkata bizman Neil Fonseca has admitted to killing wife; sons: Police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2354459,20160326,city.kolkata,Boy accused of killing volleyball player surrenders to police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2385174,20160509,city.kolkata,1 killed; cops hurt in accident,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2430811,20160714,city.kolkata,City rocker Pata caught in Kashmir crossfire,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2487637,20161003,city.kolkata,I killed domestic help: 75-year-old tells cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2500336,20161021,city.kolkata,Teen killed; cops probe harass angle,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2548006,20161228,city.kolkata,Maheshwari was driving killer Merc; say cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2557935,20170112,city.kolkata,Cop shot at in political clash now in charge of most politically tricky case,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2571218,20170131,city.kolkata,Manicktala crash: Cops yet to track down killer driver,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2582573,20170216,city.kolkata,Cops hunt for youth who shot sister,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2590516,20170228,city.kolkata,Grilling didn't kill accused: Cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2613589,20170402,city.kolkata,Cop shot at as coal mafias clash,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2629986,20170425,city.kolkata,Truck crushes traffic policeman riding pillion on killer highway stretch,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2643003,20170514,city.kolkata,Police wait for reports to take the next step in Sonika Singh killing,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2651057,20170525,city.kolkata,Selfie in pond kills two; cops blame undercurrent,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2667690,20170618,city.kolkata,Darjeeling violence: GJM says 3 supporters shot; mob slits cop's throat,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2681859,20170708,city.kolkata,Darjeeling youth shot dead by police: GJM,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2689798,20170720,city.kolkata,Indian Statistical Institute student killed self out of depression: Police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2720919,20170902,city.kolkata,Cops: Son-in-law killed 68-year-old,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2750129,20171014,city.kolkata,Cop killed in gunbattle during operation to nab Bimal Gurung near Sikkim,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2758791,20171026,city.kolkata,Professional criminals killed jeweller; say cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2803347,20171229,city.kolkata,Locals lay siege outside police station demanding justice for boy killed over pigeon row,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2814885,20180115,city.kolkata,Police personnel learn soft skills to help delegates feel comfortable,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2817754,20180119,city.kolkata,10-year-old student killed in political crossfire,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2827532,20180202,city.kolkata,Cops unearth plot to kill Dalai Lama,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2878457,20180416,city.kolkata,Man caught in crossfire; in hospital,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2882607,20180422,city.kolkata,Builder chased; shot; cops suspect revenge killing by old biz partner,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2917531,20180611,city.kolkata,Two teenagers killed Tagore Park scholar during robbery; say cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2924508,20180621,city.kolkata,Dilip Ghosh booked for TMC 'encounter' threat,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+2937838,20180710,city.kolkata,Beniapukur on boil after daylight shootout,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3016612,20181031,city.kolkata,TMC leader dies; supari killers shot him; say cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3027020,20181115,city.kolkata,7 found guilty of killing cop; molesting his niece in 2012,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3061961,20190106,city.kolkata,Man walks up to cops; admits to killing dad,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3132947,20190528,city.kolkata,Kolkata: Man kills wife; surrenders to cops with her severed head,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3146984,20190625,city.kolkata,Criminals in Bengal deserve UP-style encounters: BJP,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3155958,20190713,city.kolkata,West Bengal: Wanted criminal shot dead in war-zone encounter,0,high,Wanted criminal killed in encounter; body-only narrative possible.
+3156461,20190714,city.kolkata,Kankinara encounter: Cop raids on; kin cry foul,0,high,"Follow-up to Kankinara encounter, same event as preceding headline likely."
+3161278,20190724,city.kolkata,Alerted by Facebook mail; Kolkata cops stop man from killing self,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3176343,20190823,city.kolkata,Kolkata engineer among 3 killed in helicopter crash,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3212245,20191103,city.kolkata,West Bengal: Cop killed in firing at Sandeshkhali,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3310242,20200517,city.kolkata,Cop kills Amdanga brothers over land row,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3333966,20200704,city.kolkata,Kolkata cop on duty at Writers' found dead with gunshot wound,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3352953,20200811,city.kolkata,Mom killed daughter in Anandapur: Police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3372437,20200919,city.kolkata,Paytm transaction helps cops arrest couple killer,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3418866,20201221,city.kolkata,Complaint filed with police over Bagdogra leopard killing,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3425699,20210104,city.kolkata,Kolkata: Bar crooner killed; 'murder-admission' text message sends police looking for car driver,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3443399,20210208,city.kolkata,Kolkata: For kin of cops who fell in line of Covid duty; a shot of bittersweet memories,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3463137,20210320,city.kolkata,City hospitals tie up with police to help Pronam members take Covid shot,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3466684,20210327,city.kolkata,Woman cop; 2 others killed in accidents,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3471313,20210405,city.kolkata,Birbhum BJP leader issues 'encounter' threat; stirs row,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3505055,20210612,city.kolkata,Kolkata: Shootout turns spotlight on laxity in tenant verification,0,high,Follow-up to New Town encounter; prior Punjab weapon theft must not be mistaken for immediate snatch.
+3507505,20210617,city.kolkata,Shootout: Cops shut guest house,0,high,Follow-up to New Town encounter; event identity requires full text.
+3511081,20210624,city.kolkata,Kolkata: Sub-inspector; shot in New Town gunfight; discharged,0,high,"Police injured in New Town gunfight; same event cluster, not new event."
+3518439,20210709,city.kolkata,Kolkata: Auto driver kills wife; walks to police station to surrender,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3537050,20210815,city.kolkata,Kolkata: Entally teenager killed; police suspect lynching,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3541381,20210824,city.kolkata,Cops to go back to the classroom; hone skills to 'communicate with confidence',0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3575406,20211031,city.kolkata,Kolkata: Man kills wife; injures daughter; calls cops to home,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3577783,20211105,city.kolkata,Kolkata: Killer driver ran into debts; say cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3577788,20211105,city.kolkata,Report with screenshot if app cab cancels: Kolkata Police,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3599750,20211219,city.kolkata,Honing soft skills: Bidhannagar cops undergo sensitisation training,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3630240,20220218,city.kolkata,Kolkata: Cop lens on Lee Road killer's aides,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3633257,20220224,city.kolkata,Parisian prevails in close encounter,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3650212,20220330,city.kolkata,Bogtui killings: CBI quizzes suspended cop; victim's husband,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3661135,20220421,city.kolkata,S Kol shootout: Cops reconstruct incident,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3671633,20220512,city.kolkata,Six Kolkata police dogs head to Chandigarh for skill upgrade,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3684537,20220607,city.kolkata,Kolkata: No evidence of gunshot wounds as yet; says top cop,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3685362,20220608,city.kolkata,Couple put up tough fight against known killers: Cops,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3686653,20220611,city.kolkata,Cop on duty at Bangladesh mission in Kolkata opens fire; kills woman; self,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3688369,20220614,city.kolkata,Killer cop sought psychiatric help,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3698512,20220706,city.kolkata,Manpower; skills exchange scope for state at NABC: Mitra,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3699453,20220708,city.kolkata,Man held by Kolkata cops may be Bangladeshi blogger's killer,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3714494,20220807,city.kolkata,West Bengal: Fake cops on NH 16 thrash; kill driver,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3775552,20221209,city.kolkata,Fans hope for Argentina; Brazil wins in QFs for a lip-smacking semis encounter,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3787863,20230103,city.kolkata,Drunk biker fleeing cops kills 70-yr-old in Kolkata,0,low,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
+3844842,20230428,city.kolkata,Man shot dead in Bengal; kin blame cops; BJP calls for bandh,0,high,Police blamed for death; body required to establish victim status/narrative.
+3868244,20230614,city.kolkata,ISF candidate shot at; TMC men & cops injured as Bhangar in West Bengal turns into war zone,0,political_or_protest_context,No immediate gun-taking narrative is visible in this headline. This label is not a fulltext event exclusion.
