@@ -1,0 +1,4 @@
+state,central_weight,compatible_min_weight,compatible_max_weight,raw_lp_min_weight,raw_lp_max_weight
+KL,0.4999999948333334,0.0,1.0,0.0,1.0
+TN,0.49999999483333335,0.0,1.0,-1.0333333333333333e-08,1.0
+TG,1.0333333331714193e-08,0.0,1.0333333333333333e-08,0.0,1.0333333333333333e-08

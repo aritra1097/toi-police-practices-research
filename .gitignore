@@ -12,3 +12,7 @@ scraping/actual_headlines_summary.json
 *.sqlite*
 *.html*
 *_metadata.jsonl
+*_private.jsonl
+causal_audit/collection/output/
+causal_audit/collection/symmetric_candidates.json
+causal_audit/collection/audit_negatives/*private*

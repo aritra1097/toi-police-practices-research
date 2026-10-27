@@ -1,0 +1,34 @@
+{
+  "cohort_unique_articles": 1132,
+  "ledger_sha256": "b35d695d3e229fe1278923a18498ad7fde2f3a2955f99382725d4507440820e7",
+  "cohort_sha256": "b350e908d85414adb1e5bddabfeb322732c1df2ad54e92b276066e87defeb856",
+  "outcome_fields": {
+    "gun_taking_police_shooting": "main_reported_gun_taking_then_police_shot",
+    "fatal_gun_taking_police_shooting": "main_fatal_subset",
+    "nonfatal_gun_taking_police_shooting": "main_nonfatal_subset",
+    "police_public_parade_broad": "secondary_reported_police_public_parade_broad",
+    "police_reconstruction_parade": "secondary_reported_reconstruction_public_parade",
+    "police_reconstruction_shirtless": "secondary_reported_reconstruction_shirtless_police_parade_strict"
+  },
+  "states": {
+    "West Bengal": "WB",
+    "Kerala": "KL",
+    "Tamil Nadu": "TN",
+    "Telangana": "TG"
+  },
+  "pre_end": "2026-04-30",
+  "post_start": "2026-06-01",
+  "post_end": "2026-10-27",
+  "post_days": 149,
+  "may_excluded_main": true,
+  "complete_frame_definition": "The fixed listed-URL acquisition plus lexical signal screening and AI source-context adjudication is complete. This flag does not assert complete TOI coverage, complete human review of every background body, known recall, or population event ascertainment.",
+  "observed_definition": "Counts of confirmed positives identified by the completed pipeline are known; the number of real incidents outside this measurement process remains unknown.",
+  "causal_effect_identified": false,
+  "limitations": [
+    "Same search terms can have different recall across states and periods.",
+    "News attention and political salience may alter reporting and visibility.",
+    "Source-context coding is AI, not independent human verification.",
+    "All-zero detected pretreatment WB outcome leaves synthetic weights weakly or non-identified.",
+    "Detected-case contrast is an association in this measurement process, not a causal BJP effect."
+  ]
+}

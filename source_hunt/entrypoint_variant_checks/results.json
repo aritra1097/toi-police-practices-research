@@ -1,0 +1,128 @@
+[
+  {
+    "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2003,month-1,starttime-37623.cms",
+    "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2003,month-1,starttime-37623.cms",
+    "http_status": 200,
+    "response_bytes": 313803,
+    "response_sha256": "4818bb08338157e9703b0c2b1d7d319b7d67ee375f80bfc6a47fb53d115a871e",
+    "title": "The Times of India: Archive",
+    "first_bold_text": "",
+    "archive_columns": 2,
+    "archive_headline_links": 0,
+    "sample_headlines": [],
+    "public_archive_navigation": [
+      {
+        "text": "Archives",
+        "href": "/archive.cms"
+      },
+      {
+        "text": "2003",
+        "href": "/archive/year-2003.cms"
+      },
+      {
+        "text": "January",
+        "href": "/archive/year-2003,month-1.cms"
+      },
+      {
+        "text": "Archives",
+        "href": "https://timesofindia.indiatimes.com/archive.cms"
+      }
+    ],
+    "retrieved_at_utc": "2026-10-27T21:37:08.686891+00:00"
+  },
+  {
+    "request_url": "https://timesofindia.indiatimes.com/archive.cms",
+    "response_url": "https://timesofindia.indiatimes.com/archive.cms",
+    "http_status": 200,
+    "response_bytes": 354559,
+    "response_sha256": "04a2d180aac9533fa448450c44dba9e48a9a13190eeeb14fa80cb293e69dfc88",
+    "title": "The Times of India: Archives",
+    "first_bold_text": null,
+    "archive_columns": 0,
+    "archive_headline_links": 0,
+    "sample_headlines": [],
+    "public_archive_navigation": [
+      {
+        "text": "Archives",
+        "href": "/archive.cms"
+      },
+      {
+        "text": "January",
+        "href": "/archive/year-2026,month-1.cms"
+      },
+      {
+        "text": "February",
+        "href": "/archive/year-2026,month-2.cms"
+      },
+      {
+        "text": "March",
+        "href": "/archive/year-2026,month-3.cms"
+      },
+      {
+        "text": "April",
+        "href": "/archive/year-2026,month-4.cms"
+      },
+      {
+        "text": "May",
+        "href": "/archive/year-2026,month-5.cms"
+      },
+      {
+        "text": "June",
+        "href": "/archive/year-2026,month-6.cms"
+      },
+      {
+        "text": "July",
+        "href": "/archive/year-2026,month-7.cms"
+      },
+      {
+        "text": "August",
+        "href": "/archive/year-2026,month-8.cms"
+      },
+      {
+        "text": "September",
+        "href": "/archive/year-2026,month-9.cms"
+      },
+      {
+        "text": "October",
+        "href": "/archive/year-2026,month-10.cms"
+      },
+      {
+        "text": "January",
+        "href": "/archive/year-2025,month-1.cms"
+      },
+      {
+        "text": "February",
+        "href": "/archive/year-2025,month-2.cms"
+      },
+      {
+        "text": "March",
+        "href": "/archive/year-2025,month-3.cms"
+      },
+      {
+        "text": "April",
+        "href": "/archive/year-2025,month-4.cms"
+      },
+      {
+        "text": "May",
+        "href": "/archive/year-2025,month-5.cms"
+      },
+      {
+        "text": "June",
+        "href": "/archive/year-2025,month-6.cms"
+      },
+      {
+        "text": "July",
+        "href": "/archive/year-2025,month-7.cms"
+      },
+      {
+        "text": "August",
+        "href": "/archive/year-2025,month-8.cms"
+      },
+      {
+        "text": "September",
+        "href": "/archive/year-2025,month-9.cms"
+      }
+    ],
+    "retrieved_at_utc": "2026-10-27T21:37:09.539021+00:00"
+  }
+]

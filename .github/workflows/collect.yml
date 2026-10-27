@@ -53,3 +53,6 @@ jobs:
             scraping/sitemap_output/selected_article_actual_headlines.csv.gz
             scraping/toi_actual_headlines_PARTIAL_2024_to_current.csv.gz
             scraping/actual_headlines_summary.json
+      - name: Report validated row counts
+        if: always()
+        run: python scraping/summarize_run.py >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,13 @@
+{
+  "snapshot_at_utc": "2026-10-27T21:30:05.877121+00:00",
+  "cohort_articles": 1132,
+  "cohort_distinct_ids": 1132,
+  "events_in_ledger": 44,
+  "mapped_articles": 83,
+  "reviewed_exclusion_articles": 183,
+  "unresolved_flagged_articles": 0,
+  "deterministic_no_target_signal": 866,
+  "expanded_target_signal_articles": 245,
+  "scope": "case finding snapshot, not a complete event census; unreviewed records are not negative",
+  "coder": "AI assistant one-coder source review; not human verified"
+}

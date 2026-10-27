@@ -10,6 +10,10 @@ from urllib.request import Request,urlopen
 from urllib.error import HTTPError
 from urllib.parse import urlsplit,urlunsplit
 from lxml import etree,html
+try:
+ from .clean_article_text import add_clean_text_fields
+except ImportError:
+ from clean_article_text import add_clean_text_fields
 ROOT=Path(__file__).resolve().parent;OUT=ROOT/'sitemap_output'
 NS={'s':'http://www.sitemaps.org/schemas/sitemap/0.9','n':'http://www.google.com/schemas/sitemap-news/0.9'}
 UA='TOIArchiveResearch/1.0 (public news archive research; low request rate)'
@@ -17,6 +21,8 @@ NEXT=0.;RATE=threading.Lock();WRITE=threading.Lock();STOP=threading.Event()
 NOW=dt.datetime.now(dt.timezone.utc).isoformat()
 CURRENT_IST_MONTH=dt.datetime.now(ZoneInfo('Asia/Kolkata')).strftime('%Y-%B')
 AS_OF_DATE_NY=dt.datetime.now(ZoneInfo('America/New_York')).date().isoformat()
+SOURCE_TODAY_IST=dt.datetime.now(ZoneInfo('Asia/Kolkata')).date()
+REQUEST_START=dt.date(2024,1,1);REQUEST_END=SOURCE_TODAY_IST
 ARTICLE=re.compile(r'/(?:amp_)?articleshow/(\d+)\.cms',re.I)
 WB=re.compile(r'\b(?:west bengal|bengal|kolkata|calcutta|howrah|hooghly|siliguri|darjeeling|jalpaiguri|cooch behar|alipurduar|dinajpur|raiganj|malda|murshidabad|nadia|24 parganas|barasat|basirhat|bongaon|gaighata|baruipur|canning|barrackpore|bidhannagar|new town|asansol|durgapur|burdwan|bardhaman|birbhum|bankura|purulia|midnapore|medinipur|jhargram|lalgarh|nandigram|kharagpur|haldia|chopra|goalpokhar)\b')
 POLICE=re.compile(r'\b(?:police\w*|cops?|constables?|officers?|custody|custodial|stf|bsf|crpf)\b')
@@ -26,6 +32,29 @@ TAKE=re.compile(r'\b(?:snatch\w*|grab\w*|wrest\w*|disarm\w*|overpower\w*)\b')
 ENCOUNTER=re.compile(r'\b(?:encounters?|gunfights?|gunbattles?|shootouts?)\b')
 
 def utcnow():return dt.datetime.now(dt.timezone.utc).isoformat()
+def publication_day_ist(value):
+ try:
+  stamp=dt.datetime.fromisoformat(str(value).replace('Z','+00:00'))
+  return stamp.astimezone(ZoneInfo('Asia/Kolkata')).date() if stamp.tzinfo else None
+ except (TypeError,ValueError):return None
+def publication_flags(value,start=None,end=None):
+ start=start or REQUEST_START;end=end or REQUEST_END;day=publication_day_ist(value)
+ return dict(requested_start_ist=start.isoformat(),requested_end_ist=end.isoformat(),publication_day_ist=day.isoformat() if day else '',within_requested_ist_window=int(start<=day<=end) if day else 'unknown',after_requested_ist_end=int(day>end) if day else 'unknown',before_requested_ist_start=int(day<start) if day else 'unknown')
+def partition_in_window(url,start,end):
+ match=re.search(r'/(\d{4})-([A-Za-z]+)-\d+\.xml$',url)
+ if not match:return False
+ try:partition=dt.datetime.strptime(match[1]+'-'+match[2],'%Y-%B').date()
+ except ValueError:return False
+ return start.replace(day=1)<=partition<=min(end,SOURCE_TODAY_IST).replace(day=1)
+def finalize_article_metadata(result):
+ result=add_clean_text_fields(result)
+ # Lexical flags are retrieval aids, never event labels. Crucially, these use
+ # cleaned main-article text rather than the preserved recommendation suffix.
+ text=result['articleBody_clean'].lower()
+ result['body_lexical_signals']={name:bool(rx.search(text)) for name,rx in [('police',POLICE),('outcome',OUTCOME),('weapon',WEAPON),('taking',TAKE),('encounter',ENCOUNTER)]}
+ result['body_lexical_signals_status']='no_body' if not text else ('review_retained_boilerplate_marker' if result['articleBody_cleaning_review_needed'] else 'cleaned_body_retrieval_aid')
+ result.update(publication_flags(result.get('publication_date','')))
+ return result
 def atomic(path,obj):
  tmp=path.with_suffix(path.suffix+'.tmp');tmp.write_text(json.dumps(obj,indent=2));os.replace(tmp,path)
 def throttle():
@@ -88,6 +117,7 @@ def process_sitemap(url):
    child_statuses=[]
    for child in children:
     if not child or urlsplit(child).hostname!='timesofindia.indiatimes.com':continue
+    if re.search(r'/\d{4}-[A-Za-z]+-\d+\.xml$',child) and not partition_in_window(child,REQUEST_START,REQUEST_END):continue
     child_rows,child_status=process_sitemap(child);rows.extend(child_rows);child_statuses.append(child_status)
    status.update(sitemap_kind='index',child_sitemaps=child_statuses,parsed_records=len(rows),news_title_records=sum(bool(x['news_title']) for x in rows))
    status['status']='success' if rows and all(x['status']=='success' for x in child_statuses) else 'partial_or_empty_index'
@@ -114,14 +144,14 @@ def walk_json(obj):
 def article_metadata(candidate):
  url=candidate['URL'];body,status=get(url,'selected_article')
  result=dict(candidate,metadata_status=status['status'],metadata_retrieved_at_utc=status.get('retrieved_at_utc',''),article_headline='',headline_source='',publication_date='',modified_date='',articleBody='',article_body_source='',canonical_url='',raw_file=status.get('raw_file',''))
- if status['status']!='success':return result
+ if status['status']!='success':return finalize_article_metadata(result)
  try:
   doc=html.fromstring(body);objects=[]
   can=doc.xpath('//link[@rel="canonical"]/@href');result['canonical_url']=can[0] if can else ''
   canonical_id=ARTICLE.search(result['canonical_url'])
   if canonical_id and candidate.get('article_id') and canonical_id[1]!=candidate['article_id']:
    result.update(metadata_status='canonical_article_id_mismatch',metadata_error='Returned article canonical ID differs from requested ID; excluded from headline recovery.')
-   return result
+   return finalize_article_metadata(result)
   for script in doc.xpath('//script[contains(@type,"ld+json")]/text()'):
    try:objects.extend(walk_json(json.loads(script)))
    except Exception:pass
@@ -155,30 +185,35 @@ def article_metadata(candidate):
    nodes=doc.xpath('//*[@itemprop="articleBody"]')
    if nodes:result.update(articleBody=' '.join(' '.join(n.itertext()).strip() for n in nodes),article_body_source='HTML_itemprop_articleBody')
   if not result['article_headline']:result['metadata_status']='headline_not_found'
-  return result
- except Exception as e:result.update(metadata_status='parse_failure',metadata_error=repr(e));return result
+  return finalize_article_metadata(result)
+ except Exception as e:result.update(metadata_status='parse_failure',metadata_error=repr(e));return finalize_article_metadata(result)
 
 def write_csv(path,rows,fields):
  with gzip.open(path,'wt',encoding='utf-8',newline='') as f:
   w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(rows)
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--metadata',action='store_true');p.add_argument('--metadata-limit',type=int);p.add_argument('--resume',action='store_true');args=p.parse_args()
- OUT.mkdir(exist_ok=True)
+ global OUT,REQUEST_START,REQUEST_END
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--metadata',action='store_true');p.add_argument('--metadata-limit',type=int);p.add_argument('--resume',action='store_true',help='Compatibility flag; successful immutable cached sources are reused by default');p.add_argument('--output',type=Path,default=OUT)
+ group=p.add_mutually_exclusive_group();group.add_argument('--start',help='First discovery-partition date; default 2024-01-01');group.add_argument('--start-year',type=int,help='First discovery-partition year (January 1)')
+ p.add_argument('--end',default=SOURCE_TODAY_IST.isoformat(),help='Inclusive IST discovery-partition cutoff, default source-calendar today; use 2026-10-27 for reproduction. Publication extras are retained and flagged.');args=p.parse_args()
+ REQUEST_START=dt.date(args.start_year,1,1) if args.start_year is not None else dt.date.fromisoformat(args.start or '2024-01-01');REQUEST_END=dt.date.fromisoformat(args.end)
+ if REQUEST_START>REQUEST_END or REQUEST_END>SOURCE_TODAY_IST:p.error('Require start <= end <= today in Asia/Kolkata')
+ if args.metadata_limit is not None and args.metadata_limit<1:p.error('--metadata-limit must be positive')
+ OUT=args.output;OUT.mkdir(parents=True,exist_ok=True)
  for d in ['raw','statuses']:(OUT/d).mkdir(exist_ok=True)
- atomic(OUT/'configuration.json',dict(as_of_started_at_utc=NOW,requested_start='2024-01-01',requested_calendar_end_ny=AS_OF_DATE_NY,requested_calendar_end_ist='2026-10-27',save_publication_after_ist_end_as_flagged_extras=True,refresh_index_each_run=True,refresh_current_ist_month=True,refresh_today_yesterday_and_nested_news_feeds=True,older_static_cache_has_explicit_retrieved_at=True,rate_limit_request_start_interval_seconds=.56,workers=2,selection='WB URL geographic proxy and encounter/gunfight OR WB URL geographic proxy and police+shooting/death OR any national URL with weapon+taking. URL slugs are retrieval features, never treated as headlines.'))
+ atomic(OUT/'configuration.json',dict(as_of_started_at_utc=NOW,requested_start=REQUEST_START.isoformat(),collection_calendar_today_ny=AS_OF_DATE_NY,source_calendar_today_ist=SOURCE_TODAY_IST.isoformat(),requested_calendar_end_ist=REQUEST_END.isoformat(),partition_selection_warning='Month/year discovery partitions are filtered; lastmod is not publication/event date. Live feeds can include separately flagged publication extras.',save_publication_after_ist_end_as_flagged_extras=True,refresh_index_each_run=True,refresh_current_ist_month=True,refresh_today_yesterday_and_nested_news_feeds=True,older_static_cache_has_explicit_retrieved_at=True,rate_limit_request_start_interval_seconds=.56,workers=2,selection='WB URL geographic proxy and encounter/gunfight OR WB URL geographic proxy and police+shooting/death OR any national URL with weapon+taking. URL slugs are retrieval features, never treated as headlines.'))
  index='https://timesofindia.indiatimes.com/staticsitemap/toi/news/sitemap-index.xml'
  # Dynamic index and current sources must refresh on future resume runs.
  body,index_provenance=get(index,'index',refresh=True)
+ if index_provenance.get('status')!='success':
+  atomic(OUT/'summary.json',dict(status='index_unavailable',index_provenance=index_provenance,actual_full_historical_headline_extension=False,completed_at_utc=utcnow()))
+  raise SystemExit(3 if STOP.is_set() else 2)
  doc=etree.fromstring(body);urls=[]
  for entry in doc.findall('s:sitemap',NS):
   url=entry.findtext('s:loc',namespaces=NS)
   if url:
-   m=re.search(r'/(\d{4})-([A-Za-z]+)-\d+\.xml$',url)
-   if m:
-    partition=dt.datetime.strptime(m[1]+'-'+m[2],'%Y-%B')
-    asof=dt.datetime.now(ZoneInfo('Asia/Kolkata'))
-    if (2024,1)<=(partition.year,partition.month)<=(asof.year,asof.month):urls.append(url)
+   if partition_in_window(url,REQUEST_START,REQUEST_END):urls.append(url)
  urls+=['https://timesofindia.indiatimes.com/sitemap/today','https://timesofindia.indiatimes.com/sitemap/yesterday']
  atomic(OUT/'requested_sitemap_sources.json',dict(index_provenance=index_provenance,urls=urls))
  db=sqlite3.connect(OUT/'inventory.sqlite');db.execute('PRAGMA journal_mode=WAL');db.execute('CREATE TABLE IF NOT EXISTS inventory (url TEXT PRIMARY KEY, article_id TEXT, payload TEXT)');db.execute('DELETE FROM inventory');db.commit()
@@ -194,13 +229,19 @@ def main():
  inventory=(json.loads(x[0]) for x in db.execute('SELECT payload FROM inventory ORDER BY url'))
  fields=['URL','article_id','sitemap_lastmod','news_title','news_publication_date','sitemap_source','wb_url_proxy','metadata_selection_routes','retrieved_at_utc']
  write_csv(OUT/'sitemap_url_inventory.csv.gz',inventory,fields)
- for row in feed:row['after_oct27_ist_calendar']=int(row['news_publication_date'][:10]>'2026-10-27')
- write_csv(OUT/'actual_headlines_recent_news_feeds.csv.gz',feed,fields+['after_oct27_ist_calendar'])
+ for row in feed:
+  row.update(publication_flags(row['news_publication_date']))
+  day=publication_day_ist(row['news_publication_date'])
+  # Legacy field keeps its original fixed reference meaning; generic flags
+  # above describe the actual requested window on every future run.
+  row['after_oct27_ist_calendar']=int(day>dt.date(2026,10,27)) if day else 'unknown'
+ cutoff_fields=['requested_start_ist','requested_end_ist','publication_day_ist','within_requested_ist_window','after_requested_ist_end','before_requested_ist_start']
+ write_csv(OUT/'actual_headlines_recent_news_feeds.csv.gz',feed,fields+cutoff_fields+['after_oct27_ist_calendar'])
  candidates=[json.loads(x[0]) for x in db.execute('SELECT payload FROM inventory') if json.loads(x[0])['metadata_selection_routes'] and ARTICLE.search(json.loads(x[0])['URL'])]
  # Collapse slug variants by article ID before any article requests.
  candidates=list({x['article_id']:x for x in candidates}.values());candidates.sort(key=lambda x:(x['sitemap_lastmod'],x['URL']),reverse=True)
  atomic(OUT/'selected_metadata_candidates.json',candidates)
- summary=dict(sitemaps_requested=len(urls),sitemap_successes=sum(x['status']=='success' for x in statuses),sitemap_records_before_url_dedup=total,distinct_urls=db.execute('SELECT count(*) FROM inventory').fetchone()[0],distinct_nonempty_article_ids=db.execute("SELECT count(DISTINCT article_id) FROM inventory WHERE article_id!=''").fetchone()[0],actual_news_feed_headline_rows=len(feed),actual_news_feed_distinct_article_ids=len({x['article_id'] for x in feed if x['article_id']}),selected_article_metadata_candidates=len(candidates),actual_full_historical_headline_extension=False,limitation='Static sitemap inventory provides URL and lastmod only. Real headline recovery from recent feeds and transparently selected article metadata is partial, not a complete 2024-26 headline corpus.',as_of_started_at_utc=NOW,inventory_finished_at_utc=utcnow())
+ summary=dict(sitemaps_requested=len(urls),sitemap_successes=sum(x['status']=='success' for x in statuses),sitemap_records_before_url_dedup=total,distinct_urls=db.execute('SELECT count(*) FROM inventory').fetchone()[0],distinct_nonempty_article_ids=db.execute("SELECT count(DISTINCT article_id) FROM inventory WHERE article_id!=''").fetchone()[0],actual_news_feed_headline_rows=len(feed),actual_news_feed_distinct_article_ids=len({x['article_id'] for x in feed if x['article_id']}),selected_article_metadata_candidates=len(candidates),requested_start_ist=REQUEST_START.isoformat(),requested_end_ist=REQUEST_END.isoformat(),actual_full_historical_headline_extension=False,limitation='Static sitemap inventory provides URL and lastmod only. Real headline recovery from recent feeds and transparently selected article metadata is partial, not a complete headline corpus for the requested window.',as_of_started_at_utc=NOW,inventory_finished_at_utc=utcnow())
  atomic(OUT/'summary.json',summary);print(json.dumps(summary,indent=2),flush=True)
  if args.metadata and not STOP.is_set():
   chosen=candidates[:args.metadata_limit] if args.metadata_limit else candidates;results=[]
@@ -209,9 +250,9 @@ def main():
     for i,result in enumerate(pool.map(article_metadata,chosen),1):
      results.append(result);log.write(json.dumps(result,ensure_ascii=False)+'\n');log.flush()
      if i%20==0 or result['metadata_status']!='success':print(json.dumps(dict(metadata_completed=i,total=len(chosen),status=result['metadata_status'],title=result['article_headline'][:120])),flush=True)
-  fields+=['metadata_status','metadata_retrieved_at_utc','article_headline','headline_source','publication_date','modified_date','article_body_source','canonical_url','raw_file']
+  fields+=['metadata_status','metadata_retrieved_at_utc','article_headline','headline_source','publication_date','modified_date','article_body_source','canonical_url','raw_file']+cutoff_fields+['articleBody_cleaning_applied','articleBody_cleaning_flags_json','articleBody_removed_tail_chars','articleBody_cleaner_version','articleBody_cleaning_review_needed','articleBody_cleaning_review_flags_json','body_lexical_signals_status']
   write_csv(OUT/'selected_article_actual_headlines.csv.gz',results,fields)
-  summary.update(metadata_requested=len(chosen),metadata_titles_recovered=sum(bool(x['article_headline']) for x in results),metadata_bodies_recovered=sum(bool(x['articleBody']) for x in results),metadata_status_counts=dict(__import__('collections').Counter(x['metadata_status'] for x in results)),metadata_finished_at_utc=utcnow())
+  summary.update(metadata_requested=len(chosen),metadata_titles_recovered=sum(bool(x['article_headline']) for x in results),metadata_bodies_recovered=sum(bool(x['articleBody']) for x in results),metadata_clean_bodies_recovered=sum(bool(x['articleBody_clean']) for x in results),metadata_bodies_with_recognized_tails_removed=sum(x['articleBody_cleaning_applied'] for x in results),metadata_status_counts=dict(__import__('collections').Counter(x['metadata_status'] for x in results)),metadata_finished_at_utc=utcnow())
   atomic(OUT/'summary.json',summary);print(json.dumps(summary,indent=2),flush=True)
  db.close()
  if STOP.is_set():raise SystemExit(3)

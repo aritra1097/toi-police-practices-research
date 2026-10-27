@@ -7,13 +7,15 @@ from __future__ import annotations
 import argparse, concurrent.futures, csv, datetime as dt, gzip, hashlib, io, json
 import os, re, threading, time
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 from lxml import html
 
 ROOT=Path(__file__).resolve().parent
-TODAY=dt.date(2026,10,27)
+TODAY=dt.datetime.now(ZoneInfo('Asia/Kolkata')).date()
+PILOT_DATES=(dt.date(2024,1,1),dt.date(2026,7,8),dt.date(2026,10,27))
 UA='TOIArchiveResearch/1.0 (public news archive research; low request rate)'
 FIELDS=['Text','URL','City','Date','archive_date','article_id','publication_date','event_date','retrieved_at_utc','source_archive_url','current_day_partial','headline_variants_json']
 ARTICLE=re.compile(r'/(?:amp_)?articleshow/(\d+)\.cms(?:$|[?#])',re.I)
@@ -82,7 +84,7 @@ def collect_day(day,root,max_attempts=3):
  date=day.isoformat();statusfile=root/'status'/f'{date}.json'
  if statusfile.exists():
   old=json.loads(statusfile.read_text())
-  if day<TODAY and old.get('status')=='success' and (root/'days'/f'{date}.csv.gz').exists():return old
+  if day<TODAY-dt.timedelta(days=1) and old.get('status')=='success' and not old.get('current_day_partial') and (root/'days'/f'{date}.csv.gz').exists():return old
  source=archive_url(day)
  for attempt in range(1,max_attempts+1):
   if STOP.is_set():return dict(archive_date=date,status='not_requested_after_access_stop')
@@ -126,7 +128,8 @@ def collect_day(day,root,max_attempts=3):
  return record
 
 def combine(root,days):
- combined=root/'toi_archive_2024_2026.csv.gz';count=0;distinct={};dates=[]
+ label=f'{min(days).isoformat()}_to_{max(days).isoformat()}'
+ combined=root/f'toi_archive_{label}.csv.gz';count=0;distinct={};dates=[]
  with gzip.open(combined,'wt',newline='',encoding='utf-8') as f:
   writer=csv.DictWriter(f,fieldnames=FIELDS);writer.writeheader()
   for day in days:
@@ -139,7 +142,7 @@ def combine(root,days):
      if aid not in distinct:
       distinct[aid]=dict(Text=row['Text'],URL=row['URL'],City=row['City'],article_id=aid,publication_date='',event_date='',first_archive_date=row['archive_date'],last_archive_date=row['archive_date'],archive_listing_occurrences=0)
      distinct[aid]['last_archive_date']=row['archive_date'];distinct[aid]['archive_listing_occurrences']+=1
- unique=root/'toi_unique_article_ids_2024_2026.csv.gz'
+ unique=root/f'toi_unique_article_ids_{label}.csv.gz'
  with gzip.open(unique,'wt',newline='',encoding='utf-8') as f:
   fields=['Text','URL','City','article_id','publication_date','event_date','first_archive_date','last_archive_date','archive_listing_occurrences']
   writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader();writer.writerows(distinct.values())
@@ -173,14 +176,18 @@ def diagnose(root):
  atomic_json(root/'diagnostics.json',results)
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--pilot',action='store_true');p.add_argument('--diagnose',action='store_true');p.add_argument('--output',default=str(ROOT/'output'));p.add_argument('--workers',type=int,default=2);p.add_argument('--start',default='2024-01-01');p.add_argument('--end',default=TODAY.isoformat());args=p.parse_args()
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--pilot',action='store_true',help='Fixed historical parser test dates: 2024-01-01, 2026-07-08, 2026-10-27, clipped to requested range; not a current-coverage run');p.add_argument('--diagnose',action='store_true');p.add_argument('--output',default=str(ROOT/'output'));p.add_argument('--workers',type=int,default=2)
+ group=p.add_mutually_exclusive_group();group.add_argument('--start',help='First requested archive date, default 2024-01-01');group.add_argument('--start-year',type=int,help='First requested calendar year (January 1)')
+ p.add_argument('--end',default=TODAY.isoformat(),help='Last requested date, inclusive; defaults to source-calendar today in Asia/Kolkata. Use 2026-10-27 to reproduce the original cutoff.');args=p.parse_args()
  root=Path(args.output);root.mkdir(parents=True,exist_ok=True)
  if args.diagnose:diagnose(root);return
  for sub in ['raw','days','status']:(root/sub).mkdir(exist_ok=True)
- start=dt.date.fromisoformat(args.start);end=dt.date.fromisoformat(args.end)
- days=[dt.date(2024,1,1),dt.date(2026,7,8),TODAY] if args.pilot else [start+dt.timedelta(days=i) for i in range((end-start).days+1)]
+ start=dt.date(args.start_year,1,1) if args.start_year is not None else dt.date.fromisoformat(args.start or '2024-01-01');end=dt.date.fromisoformat(args.end)
+ if start>end or end>TODAY:p.error('Require start <= end <= today in Asia/Kolkata')
+ days=[day for day in PILOT_DATES if start<=day<=end] if args.pilot else [start+dt.timedelta(days=i) for i in range((end-start).days+1)]
+ if not days:p.error('The requested range contains none of the fixed pilot dates')
  if not 1<=args.workers<=2:raise ValueError('workers must be 1 or 2')
- atomic_json(root/'run_configuration.json',dict(start=start.isoformat(),end=end.isoformat(),pilot=args.pilot,requested_days=len(days),workers=args.workers,shared_minimum_request_interval_seconds=0.56,user_agent=UA,run_started_utc=utcnow(),method='Public daily archives only; stops on 401/403/429 or challenge, three attempts for transient/empty/mismatch failures; resumes successful daily files.'))
+ atomic_json(root/'run_configuration.json',dict(start=start.isoformat(),end=end.isoformat(),source_calendar='Asia/Kolkata',source_today_ist=TODAY.isoformat(),pilot=args.pilot,pilot_fixed_dates=[d.isoformat() for d in PILOT_DATES] if args.pilot else [],requested_days=len(days),workers=args.workers,shared_minimum_request_interval_seconds=0.56,user_agent=UA,run_started_utc=utcnow(),method='Public daily archives only; stops on 401/403/429 or challenge, three attempts for transient/empty/mismatch failures; resumes older complete daily files; refreshes today, yesterday and previously partial days.'))
  completed=0
  # Keep at most two tasks in flight so an access stop does not leave a queued backlog.
  with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:

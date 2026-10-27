@@ -1,0 +1,10 @@
+{
+  "pdf": "{LOCAL_RESEARCH_ROOT}/causal_audit/report/comparative_police_practices_note.pdf",
+  "source_inputs": {
+    "event_coding/event_ledger.csv": "9b03ef8841ef7252a1afe4adeabf08559c6ef4bda1cb6a2344c467222a91ccbe",
+    "analysis/detected_case_window_counts.csv": "4160aacfff97708d75b32f23eb18aba3ba3eccbd6170c31f7dbe5bb6f8ecf4e6",
+    "analysis/scm_gun_taking_police_shooting/summary.json": "176c86a4d7a17a8dd4e99e5f26dfa437751d01138b66849537501250776c2964",
+    "analysis/scm_gun_taking_police_shooting/actual_vs_synthetic.png": "7d425f64617b5d2ee98adb66d754485bc1a87afad18f9f05ae5ba9daa65f24f4"
+  },
+  "interpretation": "Detected positive reports conditional on fixed incomplete pipeline; no causal BJP effect identified."
+}

@@ -1,0 +1,28 @@
+{
+  "seed": 20261027,
+  "full_selected_cohort": 1132,
+  "expanded_signal_articles": 245,
+  "negative_frame_unique_article_ids": 887,
+  "negative_frame_per_state": {
+    "West Bengal": 184,
+    "Kerala": 158,
+    "Tamil Nadu": 368,
+    "Telangana": 179
+  },
+  "selected_per_state": 12,
+  "selected_unique_article_ids": 48,
+  "sampling": "Stratified simple random sample of12perstate using one RNG in stated state order, frames sortednumerically byarticleID; no cross-stratum duplicates occurred.",
+  "state_order": [
+    "West Bengal",
+    "Kerala",
+    "Tamil Nadu",
+    "Telangana"
+  ],
+  "signal_frame": {
+    "firearm": "\\b(?:guns?|rifles?|pistols?|revolvers?|firearms?|weapons?|carbines?|arms)\\b",
+    "taking": "\\b(?:snatch\\w*|grab\\w*|wrest\\w*|disarm\\w*|overpower\\w*|seiz\\w*|tak\\w*|took|taken)\\b",
+    "reconstruction": "reconstruc|re.enact|recreat",
+    "parade": "body_parade_or_stripping_flag from analysis_body"
+  },
+  "review_scope": "Independent AI reading of entire cleaned article bodies for missed narrow individual gun-taking\u2192police shooting or underclothed police parade explicitly associated with reconstruction. Not human goldstandard, not fulltext recall estimate, not population incidence coverage."
+}

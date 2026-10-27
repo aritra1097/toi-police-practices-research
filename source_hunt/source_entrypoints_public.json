@@ -1,0 +1,71 @@
+{
+  "source_files_inspected": 23,
+  "source_copy_identical_count": 17,
+  "source_copy_compared_count": 17,
+  "csv_copy_identical_count": 7,
+  "csv_copy_compared_count": 7,
+  "source_entrypoints": [
+    {
+      "source": "2002 to 2023 Times of India.py",
+      "sha256": "34de3433837f4bd773f8f4d9705b57e00d1d4ea4830ee86bb23d2b9f17029cab",
+      "refs": [
+        {
+          "line": 10,
+          "part": "source",
+          "url": "https://timesofindia.indiatimes.com/{}/{}/{}/archivelist/year-{},month-{},starttime-{}.cms",
+          "context": "base_url = \"https://timesofindia.indiatimes.com/{}/{}/{}/archivelist/year-{},month-{},starttime-{}.cms\""
+        }
+      ]
+    },
+    {
+      "source": "2015 to 2023 Times of India.py",
+      "sha256": "34de3433837f4bd773f8f4d9705b57e00d1d4ea4830ee86bb23d2b9f17029cab",
+      "refs": [
+        {
+          "line": 10,
+          "part": "source",
+          "url": "https://timesofindia.indiatimes.com/{}/{}/{}/archivelist/year-{},month-{},starttime-{}.cms",
+          "context": "base_url = \"https://timesofindia.indiatimes.com/{}/{}/{}/archivelist/year-{},month-{},starttime-{}.cms\""
+        }
+      ]
+    },
+    {
+      "source": "For 2003 Times of India",
+      "sha256": "19bfc800e3f92730d310a8e25169750ad91b71cc86267804b73d85e7d563020b",
+      "refs": [
+        {
+          "line": 10,
+          "part": "source",
+          "url": "https://timesofindia.indiatimes.com/2003/{}/{}/archivelist/year-2003,month-{},starttime-{}.cms",
+          "context": "base_url = \"https://timesofindia.indiatimes.com/2003/{}/{}/archivelist/year-2003,month-{},starttime-{}.cms\""
+        }
+      ]
+    },
+    {
+      "source": "Times of India First File.py",
+      "sha256": "21900893c89ad41c324105c50da601b0d15baf699364b598ae6e2f92006353a2",
+      "refs": [
+        {
+          "line": 6,
+          "part": "source",
+          "url": "https://timesofindia.indiatimes.com/2003/1/2/archivelist/year-2003,month-1,starttime-37623.cms",
+          "context": "website = \"https://timesofindia.indiatimes.com/2003/1/2/archivelist/year-2003,month-1,starttime-37623.cms\""
+        }
+      ]
+    }
+  ],
+  "download_origin_metadata": [
+    {
+      "file": "india-news-headlines 3.csv",
+      "where_froms": null,
+      "status": "attribute_not_present_or_unavailable"
+    },
+    {
+      "file": "Times of India First File.py",
+      "where_froms": null,
+      "status": "attribute_not_present_or_unavailable"
+    }
+  ],
+  "privacy": "Personal absolute filesystem paths are retained only in source_inventory_private.json; public summary uses filenames and URLs.",
+  "inspected_at_utc": "2026-10-27T21:37:41.901528+00:00"
+}

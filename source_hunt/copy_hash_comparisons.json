@@ -1,0 +1,177 @@
+[
+  {
+    "local_name": "2002 to 2023 Times of India.py",
+    "local_sha256": "34de3433837f4bd773f8f4d9705b57e00d1d4ea4830ee86bb23d2b9f17029cab",
+    "known_folder_sha256": "34de3433837f4bd773f8f4d9705b57e00d1d4ea4830ee86bb23d2b9f17029cab",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "2015 to 2023 Times of India.py",
+    "local_sha256": "34de3433837f4bd773f8f4d9705b57e00d1d4ea4830ee86bb23d2b9f17029cab",
+    "known_folder_sha256": "34de3433837f4bd773f8f4d9705b57e00d1d4ea4830ee86bb23d2b9f17029cab",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "For 2003 Times of India",
+    "local_sha256": "19bfc800e3f92730d310a8e25169750ad91b71cc86267804b73d85e7d563020b",
+    "known_folder_sha256": "19bfc800e3f92730d310a8e25169750ad91b71cc86267804b73d85e7d563020b",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "Times of India First File.py",
+    "local_sha256": "21900893c89ad41c324105c50da601b0d15baf699364b598ae6e2f92006353a2",
+    "known_folder_sha256": "21900893c89ad41c324105c50da601b0d15baf699364b598ae6e2f92006353a2",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "Untitled-1.py",
+    "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "known_folder_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "Untitled.ipynb",
+    "local_sha256": "804ee2b3197f6d6f12b1637b533ca4896a37ee1556564bcce0a561293d81216b",
+    "known_folder_sha256": "804ee2b3197f6d6f12b1637b533ca4896a37ee1556564bcce0a561293d81216b",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "Untitled1.ipynb",
+    "local_sha256": "6f93363bf4928c2e6c7443c33ae79bf88024c0d0c61bb68fb04f23eac939f12c",
+    "known_folder_sha256": "6f93363bf4928c2e6c7443c33ae79bf88024c0d0c61bb68fb04f23eac939f12c",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "Untitled2.ipynb",
+    "local_sha256": "8596a07c4efd7cfcdd6240c8facbdfb66d4329837986810d7751089b25243110",
+    "known_folder_sha256": "8596a07c4efd7cfcdd6240c8facbdfb66d4329837986810d7751089b25243110",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "Untitled3.ipynb",
+    "local_sha256": "d2788e0f17910cb3fbfbd59cf351a870aae13e66a0436186e83d7e6d520ca771",
+    "known_folder_sha256": "d2788e0f17910cb3fbfbd59cf351a870aae13e66a0436186e83d7e6d520ca771",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "Untitled4.ipynb",
+    "local_sha256": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517",
+    "known_folder_sha256": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "Youtube_video.ipynb",
+    "local_sha256": "ad05dd024caa201ea75b87a3d854b629e686fc83c46ca4929f69eb2a502d9761",
+    "known_folder_sha256": "ad05dd024caa201ea75b87a3d854b629e686fc83c46ca4929f69eb2a502d9761",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "from selenium import webdriver.py",
+    "local_sha256": "2089c2f255dc2676c0781bf370010d6d6dfdf40d18c5a34bf15e16704acf527f",
+    "known_folder_sha256": "2089c2f255dc2676c0781bf370010d6d6dfdf40d18c5a34bf15e16704acf527f",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "import selenium.py",
+    "local_sha256": "f0bd52e952139d23b5b5f2eb2c20ef33059fee560db1eed46f0f304054461c3b",
+    "known_folder_sha256": "f0bd52e952139d23b5b5f2eb2c20ef33059fee560db1eed46f0f304054461c3b",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "main.py",
+    "local_sha256": "c3aaf1faf74dc38a3b075d009865710a1ec65748e32673462825094f6866d3ac",
+    "known_folder_sha256": "c3aaf1faf74dc38a3b075d009865710a1ec65748e32673462825094f6866d3ac",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "practicing BS",
+    "local_sha256": "603795fe250254fd160de3496bfb96c9b77cb6a3ad067db26cd9f22464b74980",
+    "known_folder_sha256": "603795fe250254fd160de3496bfb96c9b77cb6a3ad067db26cd9f22464b74980",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "states.py",
+    "local_sha256": "3bb7b9776ecbd7889f1d7f27a9b292e4d8605bd99061f1a1757aba0bccc06f6b",
+    "known_folder_sha256": "3bb7b9776ecbd7889f1d7f27a9b292e4d8605bd99061f1a1757aba0bccc06f6b",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "youtube_video.py",
+    "local_sha256": "7780ce579267cee935c4152627c7507c5fe0258d8d06eb4ea3faf707b1191322",
+    "known_folder_sha256": "7780ce579267cee935c4152627c7507c5fe0258d8d06eb4ea3faf707b1191322",
+    "identical": true,
+    "type": "source"
+  },
+  {
+    "local_name": "links_data.csv",
+    "local_sha256": "d73867b583048f9108a290cf423189267e992a7f3b37706d08f1a976247089f3",
+    "known_folder_sha256": "d73867b583048f9108a290cf423189267e992a7f3b37706d08f1a976247089f3",
+    "identical": true,
+    "type": "CSV",
+    "bytes": 21921
+  },
+  {
+    "local_name": "links_data_with_city.csv",
+    "local_sha256": "476fb724cd46fca405bc0d1d3ade3eb25f13d5660c370e1142a30581c507e4d9",
+    "known_folder_sha256": "476fb724cd46fca405bc0d1d3ade3eb25f13d5660c370e1142a30581c507e4d9",
+    "identical": true,
+    "type": "CSV",
+    "bytes": 22816
+  },
+  {
+    "local_name": "links_data_with_city_and_date.csv",
+    "local_sha256": "9dbc299057b8b43d6ad37853d1280aed50b75801a1566f02ee88038810b0c8d9",
+    "known_folder_sha256": "9dbc299057b8b43d6ad37853d1280aed50b75801a1566f02ee88038810b0c8d9",
+    "identical": true,
+    "type": "CSV",
+    "bytes": 24795
+  },
+  {
+    "local_name": "links_data_with_city_and_date_years.csv",
+    "local_sha256": "db60cb75550bdb4617ff9c1ce77dbed23d135685bbd994fefe670564cd8a4294",
+    "known_folder_sha256": "db60cb75550bdb4617ff9c1ce77dbed23d135685bbd994fefe670564cd8a4294",
+    "identical": true,
+    "type": "CSV",
+    "bytes": 19
+  },
+  {
+    "local_name": "links_data_with_city_and_date_years_2002_2003.csv",
+    "local_sha256": "a70dc5dbb3619d1e7ded2c02a3c4d7b32de806ff6723bcf3c5ce3f00821f4a81",
+    "known_folder_sha256": "a70dc5dbb3619d1e7ded2c02a3c4d7b32de806ff6723bcf3c5ce3f00821f4a81",
+    "identical": true,
+    "type": "CSV",
+    "bytes": 8698515
+  },
+  {
+    "local_name": "links_data_with_city_and_date_years_2005_2014.csv",
+    "local_sha256": "e2c43c101be2486fb2ee74e2f00d9f020af0709c13b792adad44da3125f44e57",
+    "known_folder_sha256": "e2c43c101be2486fb2ee74e2f00d9f020af0709c13b792adad44da3125f44e57",
+    "identical": true,
+    "type": "CSV",
+    "bytes": 201707957
+  },
+  {
+    "local_name": "links_data_with_city_and_date_years_2015_2023.csv",
+    "local_sha256": "809d0e7789f39d11f5035a81b55e0f130e4cc5c4038fa4c99fc9c64056c1064a",
+    "known_folder_sha256": "809d0e7789f39d11f5035a81b55e0f130e4cc5c4038fa4c99fc9c64056c1064a",
+    "identical": true,
+    "type": "CSV",
+    "bytes": 331121070
+  }
+]

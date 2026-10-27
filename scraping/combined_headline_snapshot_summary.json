@@ -1,0 +1,36 @@
+{
+  "actual_headline_content_items": 3493,
+  "distinct_nonempty_article_ids": 3322,
+  "items_without_article_id": 171,
+  "requested_start_ist": "2024-01-01",
+  "requested_end_ist": "2026-10-27",
+  "within_requested_ist_window": 3108,
+  "after_requested_ist_end": 385,
+  "before_requested_ist_start": 0,
+  "within_2024_to_oct27_2026_ist": 3108,
+  "after_oct27_2026_ist": 385,
+  "legacy_reference_window_ist": [
+    "2024-01-01",
+    "2026-10-27"
+  ],
+  "unknown_publication_date_or_timezone": 0,
+  "selection_frames": {
+    "selected_additional_article_metadata": 901,
+    "selected_article_metadata;selected_additional_article_metadata": 221,
+    "selected_article_metadata": 136,
+    "recent_news_feed": 2224,
+    "recent_news_feed;selected_additional_article_metadata": 6,
+    "recent_news_feed;selected_article_metadata;selected_additional_article_metadata": 4,
+    "recent_news_feed;selected_article_metadata": 1
+  },
+  "inputs_present": [
+    "actual_headlines_recent_news_feeds.csv.gz",
+    "selected_article_actual_headlines.csv.gz",
+    "symmetric_article_metadata.csv.gz"
+  ],
+  "inputs_missing": [],
+  "full_headline_backfill_complete": false,
+  "output": "local generated partial-headline CSV (not republished)",
+  "combined_at_utc": "2026-10-27T21:38:17.377420+00:00",
+  "date_caution": "Requested cutoff uses IST. Publication extras are retained and flagged. Naive/unparseable dates remain unknown; publication date is not incident date. Legacy cutoff-named fields always refer to the original 2024-01-01 through 2026-10-27 snapshot."
+}

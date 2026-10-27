@@ -1,0 +1,25 @@
+{
+  "source_file": "Times of India First File.py",
+  "source_location": "home/Text scraping",
+  "source_sha256": "21900893c89ad41c324105c50da601b0d15baf699364b598ae6e2f92006353a2",
+  "execution": "Source executed unchanged; working directory isolated, stdout captured, timeout added to requests.get only.",
+  "retrieved_at_utc": "2026-10-27T21:34:40.505043+00:00",
+  "execution_status": "success",
+  "request_url": "https://timesofindia.indiatimes.com/2003/1/2/archivelist/year-2003,month-1,starttime-37623.cms",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "response_url": "https://timesofindia.indiatimes.com/2003/1/2/archivelist/year-2003,month-1,starttime-37623.cms",
+  "http_status": 200,
+  "response_bytes": 313803,
+  "response_sha256": "4818bb08338157e9703b0c2b1d7d319b7d67ee375f80bfc6a47fb53d115a871e",
+  "parsed_date": null,
+  "parsed_headlines": 0,
+  "archive_column_count": 2,
+  "archive_links_per_column": [
+    0,
+    0
+  ],
+  "sample_headlines": [],
+  "first_bold_text": ""
+}

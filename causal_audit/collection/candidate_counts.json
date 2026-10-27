@@ -1,0 +1,46 @@
+{
+  "source_inventory": "{LOCAL_RESEARCH_ROOT}/scraping/sitemap_output/sitemap_url_inventory.csv.gz",
+  "source_inventory_rows": 1424031,
+  "article_url_rows": 1423860,
+  "national_core_candidate_url_rows": 9885,
+  "distinct_selected_article_ids": 1132,
+  "multi_state_candidate_article_ids": 2,
+  "cached_selected_article_ids": 225,
+  "new_http_requests_required": 907,
+  "state_counts": {
+    "West Bengal": {
+      "distinct_candidate_article_ids": 270,
+      "core_candidate_article_ids": 233,
+      "weapon_taking_candidate_article_ids": 2,
+      "parade_candidate_article_ids": 34,
+      "stripping_police_reconstruction_candidate_article_ids": 4,
+      "cached_metadata": 222
+    },
+    "Kerala": {
+      "distinct_candidate_article_ids": 199,
+      "core_candidate_article_ids": 170,
+      "weapon_taking_candidate_article_ids": 0,
+      "parade_candidate_article_ids": 30,
+      "stripping_police_reconstruction_candidate_article_ids": 0,
+      "cached_metadata": 0
+    },
+    "Tamil Nadu": {
+      "distinct_candidate_article_ids": 441,
+      "core_candidate_article_ids": 411,
+      "weapon_taking_candidate_article_ids": 1,
+      "parade_candidate_article_ids": 27,
+      "stripping_police_reconstruction_candidate_article_ids": 2,
+      "cached_metadata": 1
+    },
+    "Telangana": {
+      "distinct_candidate_article_ids": 224,
+      "core_candidate_article_ids": 208,
+      "weapon_taking_candidate_article_ids": 2,
+      "parade_candidate_article_ids": 12,
+      "stripping_police_reconstruction_candidate_article_ids": 3,
+      "cached_metadata": 3
+    }
+  },
+  "created_at_utc": "2026-10-27T21:17:09.176377+00:00",
+  "scope": "Predeclared feasibility subset KL/TN/TG plus WB, not exhaustive never-BJP states. Symmetric URL-selected article review cohort only; not full state news or event coverage. Party-history comparator eligibility must be separately verified. Parade route includes ceremonial/mob false positives requiring body exclusions."
+}

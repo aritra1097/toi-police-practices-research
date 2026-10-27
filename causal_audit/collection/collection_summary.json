@@ -1,0 +1,120 @@
+{
+  "candidate_counts": {
+    "source_inventory": "{LOCAL_RESEARCH_ROOT}/scraping/sitemap_output/sitemap_url_inventory.csv.gz",
+    "source_inventory_rows": 1424031,
+    "article_url_rows": 1423860,
+    "national_core_candidate_url_rows": 9885,
+    "distinct_selected_article_ids": 1132,
+    "multi_state_candidate_article_ids": 2,
+    "cached_selected_article_ids": 225,
+    "new_http_requests_required": 907,
+    "state_counts": {
+      "West Bengal": {
+        "distinct_candidate_article_ids": 270,
+        "core_candidate_article_ids": 233,
+        "weapon_taking_candidate_article_ids": 2,
+        "parade_candidate_article_ids": 34,
+        "stripping_police_reconstruction_candidate_article_ids": 4,
+        "cached_metadata": 222
+      },
+      "Kerala": {
+        "distinct_candidate_article_ids": 199,
+        "core_candidate_article_ids": 170,
+        "weapon_taking_candidate_article_ids": 0,
+        "parade_candidate_article_ids": 30,
+        "stripping_police_reconstruction_candidate_article_ids": 0,
+        "cached_metadata": 0
+      },
+      "Tamil Nadu": {
+        "distinct_candidate_article_ids": 441,
+        "core_candidate_article_ids": 411,
+        "weapon_taking_candidate_article_ids": 1,
+        "parade_candidate_article_ids": 27,
+        "stripping_police_reconstruction_candidate_article_ids": 2,
+        "cached_metadata": 1
+      },
+      "Telangana": {
+        "distinct_candidate_article_ids": 224,
+        "core_candidate_article_ids": 208,
+        "weapon_taking_candidate_article_ids": 2,
+        "parade_candidate_article_ids": 12,
+        "stripping_police_reconstruction_candidate_article_ids": 3,
+        "cached_metadata": 3
+      }
+    },
+    "created_at_utc": "2026-10-27T21:17:09.176377+00:00",
+    "scope": "Predeclared feasibility subset KL/TN/TG plus WB, not exhaustive never-BJP states. Symmetric URL-selected article review cohort only; not full state news or event coverage. Party-history comparator eligibility must be separately verified. Parade route includes ceremonial/mob false positives requiring body exclusions."
+  },
+  "total_selected_article_ids": 1132,
+  "processed_records": 1132,
+  "cached_records": 225,
+  "new_http_article_records": 907,
+  "metadata_status_counts": {
+    "success": 1132
+  },
+  "headlines_recovered": 1132,
+  "publication_dates_recovered": 1132,
+  "bodies_recovered": 1132,
+  "weapon_taking_context_candidate_articles": 33,
+  "parade_context_candidate_articles": 111,
+  "state_counts": {
+    "West Bengal": {
+      "selected_articles": 270,
+      "headlines_recovered": 270,
+      "bodies_recovered": 270,
+      "body_weapon_taking_context_candidates": 17,
+      "body_parade_context_candidates": 35
+    },
+    "Kerala": {
+      "selected_articles": 199,
+      "headlines_recovered": 199,
+      "bodies_recovered": 199,
+      "body_weapon_taking_context_candidates": 1,
+      "body_parade_context_candidates": 30
+    },
+    "Tamil Nadu": {
+      "selected_articles": 441,
+      "headlines_recovered": 441,
+      "bodies_recovered": 441,
+      "body_weapon_taking_context_candidates": 3,
+      "body_parade_context_candidates": 31
+    },
+    "Telangana": {
+      "selected_articles": 224,
+      "headlines_recovered": 224,
+      "bodies_recovered": 224,
+      "body_weapon_taking_context_candidates": 12,
+      "body_parade_context_candidates": 15
+    }
+  },
+  "full_state_incidence_census": false,
+  "all_selected_article_bodies_recovered": true,
+  "finished_at_utc": "2026-10-27T21:26:03.840205+00:00",
+  "inference_warning": "Symmetric selected-report ascertainment permits review-cohort comparisons only. URL listing coverage, reporting selection, event geography, coding and event dedup must be validated before any event-rate comparison. No causal effect is identified solely by these counts.",
+  "body_cleaning_audit": {
+    "records": 1132,
+    "raw_bodies_preserved": true,
+    "cleaned_body_field": "analysis_body",
+    "cleaning_rule": "Truncate only at explicit We also published [the] following articles recently marker, including concatenated TNNWe and recentlyTitle forms; generic inline recommendations remain for manual review.",
+    "recommendation_tails_removed": 139,
+    "recommendation_markers_remaining_in_analysis_body": 0,
+    "raw_characters": 2192819,
+    "analysis_characters": 2066689,
+    "weapon_context_flags_before": 33,
+    "weapon_context_flags_after": 33,
+    "parade_flags_before": 115,
+    "parade_flags_after": 111,
+    "changed_flag_article_ids": [
+      "112388625",
+      "111199083",
+      "109208551",
+      "108720615"
+    ],
+    "tails_removed_by_state": {
+      "West Bengal": 33,
+      "Kerala": 15,
+      "Tamil Nadu": 62,
+      "Telangana": 29
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "unique_article_ids": 1132,
+  "records": 1132,
+  "actual_headlines_nonempty": 1132,
+  "publication_dates_timezone_aware": 1132,
+  "raw_articleBodies_nonempty": 1132,
+  "analysis_bodies_nonempty": 1132,
+  "metadata_statuses": {
+    "success": 1132
+  },
+  "JSONLD_requested_ID_matches": 1132,
+  "canonical_URL_ID_matches": 1132,
+  "referenced_raw_files_available": 1132,
+  "raw_bodies_preserved": true,
+  "full_article_body_completeness_not_asserted": true,
+  "metadata_csv_rows": 1132,
+  "cleaning_audit": {
+    "records": 1132,
+    "raw_bodies_preserved": true,
+    "cleaned_body_field": "analysis_body",
+    "cleaning_rule": "Truncate only at explicit We also published [the] following articles recently marker, including concatenated TNNWe and recentlyTitle forms; generic inline recommendations remain for manual review.",
+    "recommendation_tails_removed": 139,
+    "recommendation_markers_remaining_in_analysis_body": 0,
+    "raw_characters": 2192819,
+    "analysis_characters": 2066689,
+    "weapon_context_flags_before": 33,
+    "weapon_context_flags_after": 33,
+    "parade_flags_before": 115,
+    "parade_flags_after": 111,
+    "changed_flag_article_ids": [
+      "112388625",
+      "111199083",
+      "109208551",
+      "108720615"
+    ],
+    "tails_removed_by_state": {
+      "West Bengal": 33,
+      "Kerala": 15,
+      "Tamil Nadu": 62,
+      "Telangana": 29
+    }
+  },
+  "negative_audit_summary": "audit_negatives/review_summary.json",
+  "finished_utc": "2026-10-27T21:31:33.823251+00:00"
+}
