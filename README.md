@@ -4,6 +4,8 @@
 
 This is a public **work in progress**, dated 27 October 2026 (New York time). It studies reported police accounts and practices. It does not establish that an alleged gun seizure occurred, that an accused person was guilty, or that a shooting was unlawful.
 
+The [extension plan](EXTENSION_PLAN.md) sets out the proposed JSON pilot, resumable metadata backfill, bounded Common Crawl recovery, coverage validation and research updates. No new bulk crawl or recurring automation has been started under that plan.
+
 ## Questions
 
 1. Do reports from West Bengal describe an accused person taking or attempting to take an officer's gun immediately before police shoot that person?
