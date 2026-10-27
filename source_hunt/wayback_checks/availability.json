@@ -1,0 +1,57 @@
+[
+  {
+    "original_url": "https://timesofindia.indiatimes.com/2003/1/2/archivelist/year-2003,month-1,starttime-37623.cms",
+    "api_url": "https://archive.org/wayback/available?url=https%3A%2F%2Ftimesofindia.indiatimes.com%2F2003%2F1%2F2%2Farchivelist%2Fyear-2003%2Cmonth-1%2Cstarttime-37623.cms&timestamp=20261027",
+    "checked_at_utc": "2026-10-27T21:48:11.858644+00:00",
+    "http_status": 200,
+    "result": {
+      "url": "https://timesofindia.indiatimes.com/2003/1/2/archivelist/year-2003,month-1,starttime-37623.cms",
+      "archived_snapshots": {},
+      "timestamp": "20261027"
+    }
+  },
+  {
+    "original_url": "https://timesofindia.indiatimes.com/archivelist/year-2003,month-1,starttime-37623.cms",
+    "api_url": "https://archive.org/wayback/available?url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Farchivelist%2Fyear-2003%2Cmonth-1%2Cstarttime-37623.cms&timestamp=20261027",
+    "checked_at_utc": "2026-10-27T21:48:13.174266+00:00",
+    "http_status": 200,
+    "result": {
+      "url": "https://timesofindia.indiatimes.com/archivelist/year-2003,month-1,starttime-37623.cms",
+      "archived_snapshots": {},
+      "timestamp": "20261027"
+    }
+  },
+  {
+    "original_url": "https://timesofindia.indiatimes.com/2024/1/1/archivelist/year-2024,month-1,starttime-45292.cms",
+    "api_url": "https://archive.org/wayback/available?url=https%3A%2F%2Ftimesofindia.indiatimes.com%2F2024%2F1%2F1%2Farchivelist%2Fyear-2024%2Cmonth-1%2Cstarttime-45292.cms&timestamp=20261027",
+    "checked_at_utc": "2026-10-27T21:48:16.105108+00:00",
+    "http_status": 200,
+    "result": {
+      "url": "https://timesofindia.indiatimes.com/2024/1/1/archivelist/year-2024,month-1,starttime-45292.cms",
+      "archived_snapshots": {},
+      "timestamp": "20261027"
+    }
+  },
+  {
+    "original_url": "https://timesofindia.indiatimes.com/archivelist/year-2024,month-1,starttime-45292.cms",
+    "api_url": "https://archive.org/wayback/available?url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Farchivelist%2Fyear-2024%2Cmonth-1%2Cstarttime-45292.cms&timestamp=20261027",
+    "checked_at_utc": "2026-10-27T21:48:17.881074+00:00",
+    "http_status": 200,
+    "result": {
+      "url": "https://timesofindia.indiatimes.com/archivelist/year-2024,month-1,starttime-45292.cms",
+      "archived_snapshots": {},
+      "timestamp": "20261027"
+    }
+  },
+  {
+    "original_url": "https://timesofindia.indiatimes.com/2026/7/8/archivelist/year-2026,month-7,starttime-46211.cms",
+    "api_url": "https://archive.org/wayback/available?url=https%3A%2F%2Ftimesofindia.indiatimes.com%2F2026%2F7%2F8%2Farchivelist%2Fyear-2026%2Cmonth-7%2Cstarttime-46211.cms&timestamp=20261027",
+    "checked_at_utc": "2026-10-27T21:48:19.545194+00:00",
+    "http_status": 200,
+    "result": {
+      "url": "https://timesofindia.indiatimes.com/2026/7/8/archivelist/year-2026,month-7,starttime-46211.cms",
+      "archived_snapshots": {},
+      "timestamp": "20261027"
+    }
+  }
+]

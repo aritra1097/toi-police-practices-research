@@ -1,0 +1,4 @@
+{
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=timesofindia.indiatimes.com%2Farchivelist%2F&matchType=prefix&output=json&filter=statuscode%3A200&collapse=urlkey&limit=10&fl=timestamp%2Coriginal%2Cstatuscode",
+  "error": "The read operation timed out"
+}

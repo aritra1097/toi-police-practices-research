@@ -1,0 +1,23 @@
+[
+  {
+    "check": "http_variant",
+    "url": "https://archive.org/wayback/available?url=http%3A%2F%2Ftimesofindia.indiatimes.com%2Farchivelist%2Fyear-2003%2Cmonth-1%2Cstarttime-37623.cms&timestamp=20231001",
+    "checked_at_utc": "2026-10-27T21:48:25.842089+00:00",
+    "status": 200,
+    "response": "{\"url\": \"http://timesofindia.indiatimes.com/archivelist/year-2003,month-1,starttime-37623.cms\", \"archived_snapshots\": {}, \"timestamp\": \"20231001\"}"
+  },
+  {
+    "check": "cdx_short",
+    "url": "https://web.archive.org/cdx/search/cdx?url=timesofindia.indiatimes.com%2Farchivelist%2Fyear-2003%2Cmonth-1%2Cstarttime-37623.cms&output=json&filter=statuscode%3A200&collapse=digest&limit=8",
+    "checked_at_utc": "2026-10-27T21:48:27.527280+00:00",
+    "status": 200,
+    "response": "[]\n"
+  },
+  {
+    "check": "cdx_dated",
+    "url": "https://web.archive.org/cdx/search/cdx?url=timesofindia.indiatimes.com%2F2003%2F1%2F2%2Farchivelist%2Fyear-2003%2Cmonth-1%2Cstarttime-37623.cms&output=json&filter=statuscode%3A200&collapse=digest&limit=8",
+    "checked_at_utc": "2026-10-27T21:48:29.702450+00:00",
+    "status": 200,
+    "response": "[]\n"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "original_url": "https://timesofindia.indiatimes.com/",
+    "status": 200,
+    "response": {
+      "url": "https://timesofindia.indiatimes.com/",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20231004073148/https://timesofindia.indiatimes.com/",
+          "timestamp": "20231004073148"
+        }
+      },
+      "timestamp": "20231001"
+    }
+  },
+  {
+    "original_url": "https://timesofindia.indiatimes.com/archive.cms",
+    "status": 200,
+    "response": {
+      "url": "https://timesofindia.indiatimes.com/archive.cms",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20231002035801/https://timesofindia.indiatimes.com/archive.cms",
+          "timestamp": "20231002035801"
+        }
+      },
+      "timestamp": "20231001"
+    }
+  },
+  {
+    "original_url": "https://timesofindia.indiatimes.com/archive/year-2003,month-1.cms",
+    "status": 200,
+    "response": {
+      "url": "https://timesofindia.indiatimes.com/archive/year-2003,month-1.cms",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20231004143301/https://timesofindia.indiatimes.com/archive/year-2003,month-1.cms",
+          "timestamp": "20231004143301"
+        }
+      },
+      "timestamp": "20231001"
+    }
+  }
+]
