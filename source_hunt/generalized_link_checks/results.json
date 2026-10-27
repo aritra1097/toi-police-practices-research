@@ -1,0 +1,395 @@
+{
+  "date_serial_rule": "Days since1899-12-30; all year/month/day components and starttime changed together.",
+  "dates": [
+    "2003-01-02",
+    "2015-01-01",
+    "2023-06-30",
+    "2024-01-01",
+    "2025-01-01",
+    "2026-07-08",
+    "2026-10-26",
+    "2026-10-27"
+  ],
+  "requests": 18,
+  "dated_requests": 16,
+  "dated_requests_with_archive_headlines": 0,
+  "results": [
+    {
+      "label": "2003-01-02-dated",
+      "kind": "dated",
+      "requested_date": "2003-01-02",
+      "request_url": "https://timesofindia.indiatimes.com/2003/1/2/archivelist/year-2003,month-1,starttime-37623.cms",
+      "retrieved_at_utc": "2026-10-27T21:43:59.986856+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/2003/1/2/archivelist/year-2003,month-1,starttime-37623.cms",
+      "response_bytes": 313803,
+      "sha256": "4818bb08338157e9703b0c2b1d7d319b7d67ee375f80bfc6a47fb53d115a871e",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2003-01-02-unprefixed",
+      "kind": "unprefixed",
+      "requested_date": "2003-01-02",
+      "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2003,month-1,starttime-37623.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:00.928286+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2003,month-1,starttime-37623.cms",
+      "response_bytes": 313803,
+      "sha256": "4818bb08338157e9703b0c2b1d7d319b7d67ee375f80bfc6a47fb53d115a871e",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2015-01-01-dated",
+      "kind": "dated",
+      "requested_date": "2015-01-01",
+      "request_url": "https://timesofindia.indiatimes.com/2015/1/1/archivelist/year-2015,month-1,starttime-42005.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:01.766984+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/2015/1/1/archivelist/year-2015,month-1,starttime-42005.cms",
+      "response_bytes": 314134,
+      "sha256": "c3bcf61373543643d7e162dfc23b2f8d2c6bec968f1c27465ac5ec42168e01f8",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2015-01-01-unprefixed",
+      "kind": "unprefixed",
+      "requested_date": "2015-01-01",
+      "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2015,month-1,starttime-42005.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:02.592522+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2015,month-1,starttime-42005.cms",
+      "response_bytes": 314134,
+      "sha256": "c3bcf61373543643d7e162dfc23b2f8d2c6bec968f1c27465ac5ec42168e01f8",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2023-06-30-dated",
+      "kind": "dated",
+      "requested_date": "2023-06-30",
+      "request_url": "https://timesofindia.indiatimes.com/2023/6/30/archivelist/year-2023,month-6,starttime-45107.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:03.702781+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/2023/6/30/archivelist/year-2023,month-6,starttime-45107.cms",
+      "response_bytes": 313800,
+      "sha256": "5a7b220b2b8565939daef6cd844016c761f97f087f3fa1cb93d8cda35d07c0f1",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2023-06-30-unprefixed",
+      "kind": "unprefixed",
+      "requested_date": "2023-06-30",
+      "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2023,month-6,starttime-45107.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:05.738130+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2023,month-6,starttime-45107.cms",
+      "response_bytes": 313800,
+      "sha256": "5a7b220b2b8565939daef6cd844016c761f97f087f3fa1cb93d8cda35d07c0f1",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2024-01-01-dated",
+      "kind": "dated",
+      "requested_date": "2024-01-01",
+      "request_url": "https://timesofindia.indiatimes.com/2024/1/1/archivelist/year-2024,month-1,starttime-45292.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:06.965444+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/2024/1/1/archivelist/year-2024,month-1,starttime-45292.cms",
+      "response_bytes": 313510,
+      "sha256": "19c67ce41fce60fb6f5a1e74a845588435ae506c5629d7fb765164c84cf2edcc",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2024-01-01-unprefixed",
+      "kind": "unprefixed",
+      "requested_date": "2024-01-01",
+      "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2024,month-1,starttime-45292.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:07.979713+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2024,month-1,starttime-45292.cms",
+      "response_bytes": 313510,
+      "sha256": "19c67ce41fce60fb6f5a1e74a845588435ae506c5629d7fb765164c84cf2edcc",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2025-01-01-dated",
+      "kind": "dated",
+      "requested_date": "2025-01-01",
+      "request_url": "https://timesofindia.indiatimes.com/2025/1/1/archivelist/year-2025,month-1,starttime-45658.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:09.213375+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/2025/1/1/archivelist/year-2025,month-1,starttime-45658.cms",
+      "response_bytes": 314067,
+      "sha256": "b2f66e273d658b052784e25a8f18ec770be91e25f9ec08811d97e5a0055555fd",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2025-01-01-unprefixed",
+      "kind": "unprefixed",
+      "requested_date": "2025-01-01",
+      "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2025,month-1,starttime-45658.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:10.798062+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2025,month-1,starttime-45658.cms",
+      "response_bytes": 314067,
+      "sha256": "b2f66e273d658b052784e25a8f18ec770be91e25f9ec08811d97e5a0055555fd",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2026-07-08-dated",
+      "kind": "dated",
+      "requested_date": "2026-07-08",
+      "request_url": "https://timesofindia.indiatimes.com/2026/7/8/archivelist/year-2026,month-7,starttime-46211.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:12.158658+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/2026/7/8/archivelist/year-2026,month-7,starttime-46211.cms",
+      "response_bytes": 313443,
+      "sha256": "a80dad01f87a9712139890c382e770b094eab5b08baa78226f36ff962c9daac5",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2026-07-08-unprefixed",
+      "kind": "unprefixed",
+      "requested_date": "2026-07-08",
+      "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2026,month-7,starttime-46211.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:13.026003+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2026,month-7,starttime-46211.cms",
+      "response_bytes": 313443,
+      "sha256": "a80dad01f87a9712139890c382e770b094eab5b08baa78226f36ff962c9daac5",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2026-10-26-dated",
+      "kind": "dated",
+      "requested_date": "2026-10-26",
+      "request_url": "https://timesofindia.indiatimes.com/2026/10/26/archivelist/year-2026,month-10,starttime-46321.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:14.217452+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/2026/10/26/archivelist/year-2026,month-10,starttime-46321.cms",
+      "response_bytes": 313710,
+      "sha256": "67cca1be374974db38505e82098feccd7379d3c1477df4fbe8dad2090493f8e1",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2026-10-26-unprefixed",
+      "kind": "unprefixed",
+      "requested_date": "2026-10-26",
+      "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2026,month-10,starttime-46321.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:15.437643+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2026,month-10,starttime-46321.cms",
+      "response_bytes": 313710,
+      "sha256": "67cca1be374974db38505e82098feccd7379d3c1477df4fbe8dad2090493f8e1",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2026-10-27-dated",
+      "kind": "dated",
+      "requested_date": "2026-10-27",
+      "request_url": "https://timesofindia.indiatimes.com/2026/10/27/archivelist/year-2026,month-10,starttime-46322.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:16.552680+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/2026/10/27/archivelist/year-2026,month-10,starttime-46322.cms",
+      "response_bytes": 313754,
+      "sha256": "0a539caacbefea1f0d7207fbe0406f88bab3c2a0d15bf0b1861d743aaf9bbf90",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2026-10-27-unprefixed",
+      "kind": "unprefixed",
+      "requested_date": "2026-10-27",
+      "request_url": "https://timesofindia.indiatimes.com/archivelist/year-2026,month-10,starttime-46322.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:17.392936+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archivelist/year-2026,month-10,starttime-46322.cms",
+      "response_bytes": 313754,
+      "sha256": "0a539caacbefea1f0d7207fbe0406f88bab3c2a0d15bf0b1861d743aaf9bbf90",
+      "title": "The Times of India: Archive",
+      "archive_column_count": 2,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "",
+        "Previews:",
+        "More from Entertainment"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines"
+    },
+    {
+      "label": "2003-01-calendar",
+      "kind": "calendar",
+      "requested_date": "",
+      "request_url": "https://timesofindia.indiatimes.com/archive/year-2003,month-1.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:18.667961+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archive/year-2003,month-1.cms",
+      "response_bytes": 331134,
+      "sha256": "031372a8d1ab1d8633beb73d381cde537caffa9777b474fbea3620ec88f3bc7c",
+      "title": "The Times of India: Archives | January 2003",
+      "archive_column_count": 0,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "January"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines",
+      "calendar_day_links": []
+    },
+    {
+      "label": "2026-10-calendar",
+      "kind": "calendar",
+      "requested_date": "",
+      "request_url": "https://timesofindia.indiatimes.com/archive/year-2026,month-10.cms",
+      "retrieved_at_utc": "2026-10-27T21:44:19.851355+00:00",
+      "http_status": 200,
+      "response_url": "https://timesofindia.indiatimes.com/archive/year-2026,month-10.cms",
+      "response_bytes": 331000,
+      "sha256": "1aed94107e9c875d1e5d7e60f6923a4145f1f84918cb12aad7a11abcbd891de3",
+      "title": "The Times of India: Archives | October 2026",
+      "archive_column_count": 0,
+      "archive_article_links": 0,
+      "bold_headings": [
+        "October"
+      ],
+      "sample_archive_headlines": [],
+      "result": "no_archive_headlines",
+      "calendar_day_links": []
+    }
+  ],
+  "interpretation": "HTTP200 alone does not establish a working headline listing. Sidebar/footer headlines are excluded from archive counts. No missing archive is treated as a zero-news day."
+}

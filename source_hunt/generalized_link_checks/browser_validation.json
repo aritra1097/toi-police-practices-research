@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-27T21:45:18.755643+00:00",
+  "method": "JavaScript-enabled in-app browser; read rendered archive and calendar DOM",
+  "daily_url_tested": "https://timesofindia.indiatimes.com/2026/10/27/archivelist/year-2026,month-10,starttime-46322.cms",
+  "daily_visible_result": "Archive year/month breadcrumb present; day heading and main headline listing absent. Sidebar and footer links are unrelated to requested archive date.",
+  "calendar_url": "https://timesofindia.indiatimes.com/archive/year-2026,month-10.cms",
+  "calendar_rendered_link_hrefs": {
+    "1": "/2026/10/1/archivelist/year-2026,month-10,starttime-46296.cms",
+    "26": "/2026/10/26/archivelist/year-2026,month-10,starttime-46321.cms"
+  },
+  "date_formula_matches_calendar": true
+}

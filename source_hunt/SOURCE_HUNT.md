@@ -11,3 +11,5 @@ The source-script SHA-256 is `21900893c89ad41c324105c50da601b0d15baf699364b598ae
 The bounded search covered relevant home-folder filenames, Documents/Desktop/Downloads, CloudStorage filenames, and Spotlight filename matches, excluding caches, installed environments and this research's outputs. It found no additional archive-named saved HTML or separate TOI scraper. Browser history was not accessed; this was not an exhaustive content search of every file.
 
 Audit evidence: [exact script test](exact_first_file_check/result.json), [route checks](entrypoint_variant_checks/results.json), [copy hashes](copy_hash_comparisons.json), and [source references](source_entrypoints_public.json). Personal absolute paths remain in separate private inventory files and should not be published.
+
+A follow-up [generalized-link test](generalized_link_checks/README.md) changed every date component and serial day value across eight dates, using both daily URL forms. All 16 daily requests returned empty listings. Rendered calendar links matched the date formula, and a JavaScript-enabled browser also showed an empty October 27 daily listing.
