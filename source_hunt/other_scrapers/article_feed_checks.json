@@ -1,0 +1,186 @@
+{
+  "check": "Two exact article-feed URLs documented in jabhishek87/toi-scraper, without executing repository code.",
+  "results": [
+    {
+      "article_id": "118806741",
+      "request_url": "https://toifeeds.indiatimes.com/treact/feeds/toi/web/show/news?path=/articleshow/118806741.cms",
+      "retrieved_at_utc": "2026-10-27T22:33:20.680288+00:00",
+      "http_status": 200,
+      "response_url": "https://toifeeds.indiatimes.com/treact/feeds/toi/web/show/news?path=/articleshow/118806741.cms",
+      "content_type": "application/json; charset=utf-8",
+      "response_bytes": 39743,
+      "response_sha256": "459032dcd403f6c776c86c5776b49c5fcf44e3909481ea0eb1990a8b87eae9df",
+      "json_type": "dict",
+      "top_level_keys": [
+        "ads",
+        "skipAds",
+        "seo",
+        "schema",
+        "story",
+        "id",
+        "hl",
+        "dm",
+        "tn",
+        "wu",
+        "su",
+        "upd",
+        "dl",
+        "kws",
+        "lpt",
+        "des",
+        "secname",
+        "imageid",
+        "imagesize",
+        "dlStr",
+        "updStr",
+        "maxAge",
+        "nextLinks",
+        "metaInfo",
+        "twtHandle",
+        "widgets",
+        "via",
+        "moreInToi",
+        "visualStories",
+        "electionVideosWidget",
+        "trendingBottomWidgetLinks",
+        "navsubsecs",
+        "fgt",
+        "newsKws",
+        "floatingAmzNudge",
+        "adstargetkeyVals",
+        "perpetualCollapsedMode",
+        "removeAffiliateWidget",
+        "getAuthorWidgetDetails",
+        "guestName",
+        "articleEmbedTopPicks",
+        "calculatorData",
+        "bc",
+        "images",
+        "articleShowSchemaUrl",
+        "oldStoryText",
+        "appdll",
+        "latestMobileWidget"
+      ],
+      "response_article_id": "118806741",
+      "response_id_matches_request": true,
+      "headline_fields": {
+        "hl": "Bangladeshi smuggler shot dead by BSF"
+      },
+      "headline_present": true,
+      "story_present": true,
+      "story_item_count": 10,
+      "date_fields": [
+        {
+          "path": "seo.dateModified",
+          "value": "2025-03-08T20:23:00+05:30"
+        },
+        {
+          "path": "seo.datePublished",
+          "value": "2025-03-08T20:23:00+05:30"
+        },
+        {
+          "path": "dl",
+          "value": "1741445580000"
+        },
+        {
+          "path": "metaInfo.LastPublishMilliTime",
+          "value": "1741445615852"
+        },
+        {
+          "path": "metaInfo.EPAPERDATE",
+          "value": "2025-03-09 20:23:33.491"
+        }
+      ],
+      "error_fields": {}
+    },
+    {
+      "article_id": "135245318",
+      "request_url": "https://toifeeds.indiatimes.com/treact/feeds/toi/web/show/news?path=/articleshow/135245318.cms",
+      "retrieved_at_utc": "2026-10-27T22:33:21.557441+00:00",
+      "http_status": 200,
+      "response_url": "https://toifeeds.indiatimes.com/treact/feeds/toi/web/show/news?path=/articleshow/135245318.cms",
+      "content_type": "application/json; charset=utf-8",
+      "response_bytes": 52895,
+      "response_sha256": "15906dde3a152c2da54509c90f66875a03ed162bd4d185fe93a5bf3fac99f483",
+      "json_type": "dict",
+      "top_level_keys": [
+        "ads",
+        "skipAds",
+        "seo",
+        "schema",
+        "story",
+        "id",
+        "hl",
+        "dm",
+        "tn",
+        "wu",
+        "su",
+        "upd",
+        "dl",
+        "kws",
+        "lpt",
+        "des",
+        "secname",
+        "imageid",
+        "imagesize",
+        "dlStr",
+        "updStr",
+        "maxAge",
+        "authors",
+        "nextLinks",
+        "metaInfo",
+        "twtHandle",
+        "widgets",
+        "via",
+        "moreInToi",
+        "visualStories",
+        "electionVideosWidget",
+        "trendingBottomWidgetLinks",
+        "navsubsecs",
+        "fgt",
+        "newsKws",
+        "floatingAmzNudge",
+        "adstargetkeyVals",
+        "perpetualCollapsedMode",
+        "removeAffiliateWidget",
+        "getAuthorWidgetDetails",
+        "articleEmbedTopPicks",
+        "calculatorData",
+        "bc",
+        "images",
+        "articleShowSchemaUrl",
+        "appdll",
+        "latestMobileWidget"
+      ],
+      "response_article_id": "135245318",
+      "response_id_matches_request": true,
+      "headline_fields": {
+        "hl": "In 1 day, Bengal sees 2 ‘crime scene encounter’ deaths"
+      },
+      "headline_present": true,
+      "story_present": true,
+      "story_item_count": 48,
+      "date_fields": [
+        {
+          "path": "seo.dateModified",
+          "value": "2026-10-28T01:24:00+05:30"
+        },
+        {
+          "path": "seo.datePublished",
+          "value": "2026-10-28T01:24:00+05:30"
+        },
+        {
+          "path": "dl",
+          "value": "1793130840000"
+        },
+        {
+          "path": "metaInfo.LastPublishMilliTime",
+          "value": "1793130884617"
+        }
+      ],
+      "error_fields": {}
+    }
+  ],
+  "raw_article_bodies_saved": false,
+  "limits": "Individual-article metadata availability does not establish historical article discovery or complete archive coverage."
+}

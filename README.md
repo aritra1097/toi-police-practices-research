@@ -41,6 +41,8 @@ The combined title count comprises 3,322 items with article IDs and 171 other fe
 
 **URLs are not headlines. Sitemap `lastmod` is not publication date or event date.** Historical metadata was selected for research relevance, so it is not an unbiased denominator or a complete 2024–2026 headline census. Empty archive pages are missing data, not zero-news days.
 
+The [alternative-scraper audit](source_hunt/other_scrapers/README.md) reviews public code and bounded endpoint tests. It identifies a working first-party JSON feed for known article IDs, working RSS feeds, and Fundus/Common Crawl as a potential historical-capture route. No tested alternative has yet recovered a complete daily headline backfill.
+
 ## Timing calculation
 
 If exactly three independent event times are uniformly distributed over a fixed interval of `T` days, then:

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "topstories_rss",
+    "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+    "checked_at_utc": "2026-10-27T22:30:37.982564+00:00",
+    "method": "Locally written read-only HTTP and lxml checks; no third-party repository code executed",
+    "status": 200,
+    "bytes": 45644,
+    "resolved_url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+    "items": 44,
+    "item_dates": [
+      "Wed, 28 Oct 2026 03:41:06 +0530",
+      "Wed, 28 Oct 2026 03:29:35 +0530",
+      "Wed, 28 Oct 2026 01:51:35 +0530"
+    ]
+  },
+  {
+    "name": "recent_rss",
+    "url": "https://timesofindia.indiatimes.com/rssfeedmostrecent.cms",
+    "checked_at_utc": "2026-10-27T22:30:38.945734+00:00",
+    "method": "Locally written read-only HTTP and lxml checks; no third-party repository code executed",
+    "status": 200,
+    "bytes": 45555,
+    "resolved_url": "https://timesofindia.indiatimes.com/rssfeedmostrecent.cms",
+    "items": 50,
+    "item_dates": [
+      "2026-10-26T12:06:18+05:30",
+      "2026-10-28T03:41:08+05:30",
+      "2026-10-28T03:34:26+05:30"
+    ]
+  },
+  {
+    "name": "current_headlines",
+    "url": "https://timesofindia.indiatimes.com/home/headlines",
+    "checked_at_utc": "2026-10-27T22:30:39.766679+00:00",
+    "method": "Locally written read-only HTTP and lxml checks; no third-party repository code executed",
+    "status": 200,
+    "bytes": 489589,
+    "resolved_url": "https://timesofindia.indiatimes.com/news",
+    "title": [
+      "Latest News, Breaking News, Top News Headlines and Current Affairs | The Times of India"
+    ],
+    "all_page_unique_article_links": 131,
+    "old_Das_scraper_selector_matches": 0,
+    "caution": "Whole-page links include recommendations/footer; counts are not validated headline or event counts."
+  },
+  {
+    "name": "topic_page_two",
+    "url": "https://timesofindia.indiatimes.com/topic/police-encounter/news/2",
+    "checked_at_utc": "2026-10-27T22:30:41.746554+00:00",
+    "method": "Locally written read-only HTTP and lxml checks; no third-party repository code executed",
+    "status": 200,
+    "bytes": 322943,
+    "resolved_url": "https://timesofindia.indiatimes.com/topic/police-encounter/news",
+    "title": [
+      "Police Encounter News | Latest News on Police Encounter - Times of India"
+    ],
+    "all_page_unique_article_links": 51,
+    "old_Das_scraper_selector_matches": 0,
+    "caution": "Whole-page links include recommendations/footer; counts are not validated headline or event counts."
+  }
+]

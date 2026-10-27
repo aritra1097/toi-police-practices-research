@@ -1,0 +1,221 @@
+{
+  "reviewed_at": "2026-10-27",
+  "method": "Primary GitHub repository metadata and source files fetched read-only through connected GitHub tools. No repository code executed.",
+  "repositories": [
+    {
+      "repository": "deedy/times-of-india-scraper",
+      "default_branch": "master",
+      "repository_pushed_at": "2015-10-29T16:50:29Z",
+      "repository_updated_at": "2024-06-06T07:29:50Z",
+      "latest_default_branch_commit": {
+        "sha": "76c8712e1c76aa0fe16faa2de6ea969e77e246fd",
+        "date": "2015-10-29T16:50:24Z",
+        "url": "https://github.com/deedy/times-of-india-scraper/commit/76c8712e1c76aa0fe16faa2de6ea969e77e246fd"
+      },
+      "files": [
+        {
+          "path": "src/toi_scraper.py",
+          "blob_sha": "0a1b06e89965dabc4eeeb9cd0d098a3d4cf36a40",
+          "url": "https://github.com/deedy/times-of-india-scraper/blob/master/src/toi_scraper.py",
+          "endpoint_evidence": [
+            {
+              "line": 100,
+              "text": "return \"http://timesofindia.indiatimes.com/{year}/{month}/{day}/archivelist/year-{year},month-{month},starttime-{daycount}.cms\".format("
+            },
+            {
+              "line": 144,
+              "text": "URL_CORRECT = 'http://timesofindia.indiatimes.com/'"
+            },
+            {
+              "line": 145,
+              "text": "URL_STANDARD = 'http://'"
+            }
+          ]
+        },
+        {
+          "path": "src/toi_scraper_daemon.py",
+          "blob_sha": "a1e2f1ea132768429e56bd7f163b1566ea8e32b4",
+          "url": "https://github.com/deedy/times-of-india-scraper/blob/master/src/toi_scraper_daemon.py",
+          "endpoint_evidence": [
+            {
+              "line": 101,
+              "text": "return \"http://timesofindia.indiatimes.com/{year}/{month}/{day}/archivelist/year-{year},month-{month},starttime-{daycount}.cms\".format("
+            },
+            {
+              "line": 145,
+              "text": "URL_CORRECT = 'http://timesofindia.indiatimes.com/'"
+            },
+            {
+              "line": 146,
+              "text": "URL_STANDARD = 'http://'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "jabhishek87/toi-scraper",
+      "default_branch": "main",
+      "repository_pushed_at": "2024-07-01T17:10:08Z",
+      "repository_updated_at": "2023-03-04T10:55:17Z",
+      "latest_default_branch_commit": {
+        "sha": "a53068746e0a5d4b2477b250da0cc15162097603",
+        "date": "2022-09-03T08:59:51Z",
+        "url": "https://github.com/jabhishek87/toi-scraper/commit/a53068746e0a5d4b2477b250da0cc15162097603"
+      },
+      "files": [
+        {
+          "path": "toi_scrapper.py",
+          "blob_sha": "f78b1d2a0da7907bd8b79c3fa0c1f5dfd5e44206",
+          "url": "https://github.com/jabhishek87/toi-scraper/blob/main/toi_scrapper.py",
+          "endpoint_evidence": [
+            {
+              "line": 16,
+              "text": "self.base_url = \"https://timesofindia.indiatimes.com\""
+            },
+            {
+              "line": 52,
+              "text": "# https://timesofindia.indiatimes.com/2022/8/28/archivelist/"
+            },
+            {
+              "line": 54,
+              "text": "# https://timesofindia.indiatimes.com/archivelist/starttime-44801.cms"
+            },
+            {
+              "line": 55,
+              "text": "# return f\"{self.base_url}/archivelist/starttime-{cms_id}.cms\""
+            },
+            {
+              "line": 56,
+              "text": "return f\"{self.base_url}/{date_obj.year}/{date_obj.month}/{date_obj.day}/archivelist/year-{date_obj.year},month-{date_obj.month},starttime-{cms_id}.cms\""
+            },
+            {
+              "line": 62,
+              "text": "feed_url = f\"https://toifeeds.indiatimes.com/treact/feeds/toi/web/show/news?path=/articleshow/{cms_id}.cms\""
+            },
+            {
+              "line": 63,
+              "text": "resp = requests.get(feed_url)"
+            }
+          ]
+        },
+        {
+          "path": "main.py",
+          "blob_sha": "e8fc3dbae354ab2c231c7597181e97ee416686f7",
+          "url": "https://github.com/jabhishek87/toi-scraper/blob/main/main.py",
+          "endpoint_evidence": []
+        }
+      ]
+    },
+    {
+      "repository": "shyamsundar2007/TOI-scraper",
+      "default_branch": "master",
+      "repository_pushed_at": "2018-03-01T05:26:29Z",
+      "repository_updated_at": "2017-09-07T07:25:02Z",
+      "latest_default_branch_commit": {
+        "sha": "8f7e78c9ba364d453bae6e313854d58fcc426e21",
+        "date": "2018-03-01T05:25:48Z",
+        "url": "https://github.com/shyamsundar2007/TOI-scraper/commit/8f7e78c9ba364d453bae6e313854d58fcc426e21"
+      },
+      "files": [
+        {
+          "path": "toiScraper.py",
+          "blob_sha": "3a8cf8d76e0b1750923261602669c3229858da5a",
+          "url": "https://github.com/shyamsundar2007/TOI-scraper/blob/master/toiScraper.py",
+          "endpoint_evidence": [
+            {
+              "line": 18,
+              "text": "toiLink = \"https://timesofindia.indiatimes.com/entertainment/\""
+            },
+            {
+              "line": 19,
+              "text": "toiBaseUrl = \"https://timesofindia.indiatimes.com\""
+            },
+            {
+              "line": 104,
+              "text": "fullLink = toiLink + language + \"/movie-reviews/\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "VigneshKarthikN/TOI_scraper",
+      "default_branch": "master",
+      "repository_pushed_at": "2019-04-14T06:21:01Z",
+      "repository_updated_at": "2019-04-14T06:21:02Z",
+      "latest_default_branch_commit": {
+        "sha": "23152af10a31870da3e9f8b25609734e14247da2",
+        "date": "2019-04-14T06:21:00Z",
+        "url": "https://github.com/VigneshKarthikN/TOI_scraper/commit/23152af10a31870da3e9f8b25609734e14247da2"
+      },
+      "files": [
+        {
+          "path": "TOI_scraper.ipynb",
+          "blob_sha": "b2ab972d5bd7035125c1aa02ecb5917d6bec3057",
+          "url": "https://github.com/VigneshKarthikN/TOI_scraper/blob/master/TOI_scraper.ipynb",
+          "endpoint_evidence": [
+            {
+              "cell": 3,
+              "text": "Url = 'https://timesofindia.indiatimes.com/topic/Alcoholics-Anonymous-India/'"
+            },
+            {
+              "cell": 3,
+              "text": "url = Url + str(pages) # retrived all 9 pages"
+            },
+            {
+              "cell": 3,
+              "text": "new_url = \"https://timesofindia.indiatimes.com\" + new_urls.find('a')['href']"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "shyamsundar2007/toi-scraper-go",
+      "default_branch": "main",
+      "repository_pushed_at": "2023-04-28T01:44:46Z",
+      "repository_updated_at": "2023-04-22T16:45:23Z",
+      "latest_default_branch_commit": {
+        "sha": "759851b1ede3a4d776760509878c14f73b37d811",
+        "date": "2023-04-28T01:44:43Z",
+        "url": "https://github.com/shyamsundar2007/toi-scraper-go/commit/759851b1ede3a4d776760509878c14f73b37d811"
+      },
+      "files": [
+        {
+          "path": "toi_api/toi_api.go",
+          "blob_sha": "9c7bb9479a652a0f787fd876ac7267ff4ebca16e",
+          "url": "https://github.com/shyamsundar2007/toi-scraper-go/blob/main/toi_api/toi_api.go",
+          "endpoint_evidence": [
+            {
+              "line": 37,
+              "text": "var baseToiUri = \"https://timesofindia.indiatimes.com\""
+            },
+            {
+              "line": 40,
+              "text": "Tamil:     baseToiUri + \"/entertainment/tamil/movie-reviews\","
+            },
+            {
+              "line": 41,
+              "text": "Telugu:    baseToiUri + \"/entertainment/telugu/movie-reviews\","
+            },
+            {
+              "line": 42,
+              "text": "Malayalam: baseToiUri + \"/entertainment/malayalam/movie-reviews\","
+            },
+            {
+              "line": 43,
+              "text": "Hindi:     baseToiUri + \"/entertainment/hindi/movie-reviews\","
+            }
+          ]
+        },
+        {
+          "path": "main.go",
+          "blob_sha": "70e6ed693a58db240553b49923b5a5eca008e206",
+          "url": "https://github.com/shyamsundar2007/toi-scraper-go/blob/main/main.go",
+          "endpoint_evidence": []
+        }
+      ]
+    }
+  ]
+}
