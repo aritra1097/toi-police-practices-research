@@ -1,0 +1,121 @@
+{
+  "pattern_version": "historical-supplement-v1-2026-10-27",
+  "started_at_utc": "2026-10-28T00:13:05.846899+00:00",
+  "finished_at_utc": "2026-10-28T00:13:58.451795+00:00",
+  "baseline_candidates": 7356,
+  "expanded_pattern_unique_date_headlines": 3372,
+  "expanded_matches_already_in_baseline": 995,
+  "new_supplemental_candidates": 2377,
+  "combined_candidates": 9733,
+  "supplemental_with_article_id": 1843,
+  "unique_article_ids_in_supplement": 1880,
+  "raw_route_matches": {
+    "national_firearm_taking_expanded": 2991,
+    "national_police_or_suspect_parade": 2117,
+    "national_underclothing_or_stripping": 1169
+  },
+  "raw_flag_matches": {
+    "police": 2166,
+    "suspect": 2914,
+    "weapon": 2998,
+    "taking_expanded": 3335,
+    "parade": 2117,
+    "underclothing": 738,
+    "stripping": 450,
+    "weapon_escape": 95,
+    "ceremonial_or_identification_hint": 257,
+    "public_humiliation": 305,
+    "reconstruction": 10
+  },
+  "unique_route_matches": {
+    "national_firearm_taking_expanded": 1669,
+    "national_police_or_suspect_parade": 1189,
+    "national_underclothing_or_stripping": 669
+  },
+  "supplemental_route_matches": {
+    "national_firearm_taking_expanded": 689,
+    "national_police_or_suspect_parade": 1189,
+    "national_underclothing_or_stripping": 654
+  },
+  "sources": [
+    {
+      "file": "india-news-headlines 3.csv",
+      "sha256": "ef63c116918b5e7c19b84345ca347d38bf324091ae314ad5f95e9c08baac1dab",
+      "date_type": "dataset_publish_date",
+      "rows": 3876557,
+      "valid_dated_headline_rows": 3876557,
+      "matched_rows": 3321
+    },
+    {
+      "file": "links_data_with_city_and_date_years_2002_2003.csv",
+      "sha256": "a70dc5dbb3619d1e7ded2c02a3c4d7b32de806ff6723bcf3c5ce3f00821f4a81",
+      "date_type": "archive_listing_date",
+      "rows": 52324,
+      "valid_dated_headline_rows": 51969,
+      "empty_headline": 173,
+      "matched_rows": 22,
+      "missing_date": 182
+    },
+    {
+      "file": "links_data_2005_2014.csv",
+      "sha256": "e2c43c101be2486fb2ee74e2f00d9f020af0709c13b792adad44da3125f44e57",
+      "date_type": "archive_listing_date",
+      "rows": 1118803,
+      "valid_dated_headline_rows": 1113752,
+      "matched_rows": 980,
+      "missing_date": 1127,
+      "empty_headline": 3924
+    },
+    {
+      "file": "links_data_2015_2023.csv",
+      "sha256": "809d0e7789f39d11f5035a81b55e0f130e4cc5c4038fa4c99fc9c64056c1064a",
+      "date_type": "archive_listing_date",
+      "rows": 1614529,
+      "valid_dated_headline_rows": 1614217,
+      "matched_rows": 1688,
+      "empty_headline": 312
+    },
+    {
+      "file": "links_data_with_city_and_date.csv",
+      "sha256": "9dbc299057b8b43d6ad37853d1280aed50b75801a1566f02ee88038810b0c8d9",
+      "date_type": "archive_listing_date",
+      "rows": 141,
+      "valid_dated_headline_rows": 141
+    }
+  ],
+  "excluded_sources": [
+    {
+      "file": "links_data_with_city_and_date_years_2005_2014.csv",
+      "reason": "byte-identical manifest alias",
+      "alias_of": "links_data_2005_2014.csv"
+    },
+    {
+      "file": "links_data_with_city_and_date_years_2015_2023.csv",
+      "reason": "byte-identical manifest alias",
+      "alias_of": "links_data_2015_2023.csv"
+    },
+    {
+      "file": "links_data_with_city_and_date_years.csv",
+      "reason": "no valid dated rows in audited manifest"
+    },
+    {
+      "file": "links_data.csv",
+      "reason": "no valid dated rows in audited manifest"
+    },
+    {
+      "file": "links_data_with_city.csv",
+      "reason": "no valid dated rows in audited manifest"
+    }
+  ],
+  "date_semantics": {
+    "dataset_publish_date": "Date supplied by main headline dataset; not independently verified against article metadata.",
+    "archive_listing_date": "Historical archive listing date; not actual publication or event date."
+  },
+  "limitations": [
+    "Retrieval flags are review prompts, not validated events or police mechanism claims.",
+    "Coverage remains that of the saved headline files; no headline-only search establishes body-level recall.",
+    "Date-headline duplicates are collapsed; reports on different dates and multiple articles about one incident remain separate.",
+    "Unmapped city desks and headline wording can conceal event geography.",
+    "No article bodies were fetched."
+  ]
+}

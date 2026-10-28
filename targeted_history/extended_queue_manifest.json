@@ -1,0 +1,18 @@
+{
+  "baseline_unique_ids": 564,
+  "extended_unique_ids": 915,
+  "additional_unique_ids": 351,
+  "supplement_routes": {
+    "supplement_officer_weapon_with_taking_or_shooting": 66,
+    "supplement_specific_clothing_parade_or_police": 212,
+    "supplement_literal_nonceremonial_actor_parade": 146
+  },
+  "supplement_selected_missing_url_rows": 97,
+  "source_supplement_sha256": "8bf59de489176eee02cf2839a86a776efe0381be210cb2d922b6cb2adbc2472b",
+  "source_web_files_present": [
+    "independent_web_leads.json",
+    "national_gun_leads.json",
+    "missing_url_resolution.json"
+  ],
+  "selection_interpretation": "Declared purposive retrieval; all other candidate rows remain unreviewed, not negative incidents."
+}

@@ -1,0 +1,11 @@
+# National historical lead search
+
+`national_gun_leads.json` is the provisional source-linked ledger; `national_gun_leads.md` is a readable table. `national_gun_article_queue.csv` deduplicates 16 TOI content IDs for raw-source/metadata recovery, including a Disha liveblog plus its ordinary article counterpart. Liveblogs may need a different parser from ordinary NewsArticle JSON-LD. The queue is not evidence that local recovery has already succeeded.
+
+The finite purposive search identified twelve event leads from 2001 through 2023. Ten are in the ordinary-crime custody/arrest/investigation comparison scope. Alair's five terror-suspect undertrials and NIMHANS's psychiatric-hospital armed standoff are separate sensitivity contexts. The JSON explicitly tags group and special contexts. Nothing in the sources reviewed describes the ordinary-crime groups as Maoists.
+
+Two core cases are nonfatal at reporting time: Alok Paswan (Gorakhpur, April 2022) and Afruddin Islam (Kokrajhar, May 2022). A completed allegation differs from an attempted taking, and group attribution does not establish which individual seized a gun. The event unit differs from the number of persons killed. A separate Agra/Mukesh Thakur 2021 lead involves delayed pursuit after escape and an internally inconsistent subject name; it is not silently pooled with immediate scene responses.
+
+Sources were checked in TOI page text or publisher-indexed text returned by web tools. Article JSON-LD, canonical identity and raw private acquisition remain a distinct next verification step. Event dates, publication date banners and displayed update timestamps are separate fields. Subsequent legal and medical outcomes were not comprehensively researched. The Ranbir row explicitly describes dated reporting that the trial court rejected the police account, not a claim about every later appeal.
+
+This search supplies historical existence examples, not coverage, prevalence or a causal party comparison. It found no additional individually verified historical West Bengal example; that finite-search result is not evidence of absence. Do not add these purposive examples only to one side of the frozen 2024-2026 comparison. AI/subagent coding is provisional and still needs human verification. No full copyrighted article bodies are included in these files.

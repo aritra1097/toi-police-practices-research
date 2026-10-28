@@ -16,3 +16,5 @@ scraping/actual_headlines_summary.json
 causal_audit/collection/output/
 causal_audit/collection/symmetric_candidates.json
 causal_audit/collection/audit_negatives/*private*
+targeted_history/collection/
+targeted_history/national_cached_review_candidates.json

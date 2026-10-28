@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "compiled_date": "2026-10-27",
+  "scope": "Purposive national historical case finding before 2026-05-09, prioritizing events before 2024. This is not an incidence census or a probability sample.",
+  "verification": "TOI article text or publisher-indexed text returned by the web tool was checked for an officer-firearm-taking claim linked to subsequent police shooting. This subtask did not download raw HTML or validate article JSON-LD identity. Publication dates use TOI story-date banners; update timestamps remain separate. Police claims are not independently established facts. Final legal outcomes were not comprehensively researched.",
+  "units": "One row per event, not per newspaper report, death, suspect, or weapon. A group claim is not an individual attribution to every person shot.",
+  "cases": [
+    {
+      "event_id": "KA-2001-12-14-Pampanagar-Deepika-case-pair",
+      "event_date": "2001-12-14",
+      "event_date_quality": "same-day Friday report",
+      "state_at_event": "Karnataka",
+      "place": "Pampanagar, Yeshwanthapur, Bengaluru/Bangalore",
+      "subjects": [
+        "Muniraju",
+        "Nataraj"
+      ],
+      "custodial_status": "Arrested suspects; report says both handcuffed",
+      "context": "custody_evidence_recovery",
+      "force": "Peenya police, Karnataka state police",
+      "claim_stage": "completed_claimed",
+      "claim_actor_attribution": "One of the two allegedly took the rifle; article does not assign that act by name. The other reportedly used a boulder.",
+      "weapon": "Police rifle with bayonet",
+      "police_outcome": "Both shot dead",
+      "reported_deaths": 2,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "During escorted recovery of previously pledged stolen jewellery; alleged attack followed by police firing",
+      "uncertainty": "Group-level firearm attribution; handcuff and self-defence accounts are police claims. Not two independent snatching events.",
+      "sources": [
+        {
+          "article_id": "1164422883",
+          "url": "https://timesofindia.indiatimes.com/city/bengaluru/deepikas-killers-try-to-flee-shot-dead/articleshow/1164422883.cms",
+          "title": "Deepika's killers try to flee, shot dead",
+          "publication_date": "2001-12-14",
+          "displayed_timestamp_ist": "2001-12-14 22:43",
+          "evidence": "Report describes one handcuffed suspect taking an escorting policeman's rifle before two officers shot the pair during a stolen-jewellery recovery visit."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "UK-2009-07-03-Dehradun-Ranbir-Singh",
+      "event_date": "2009-07-03",
+      "event_date_quality": "explicit historical event date in 2014 court reporting",
+      "state_at_event": "Uttarakhand",
+      "place": "Dehradun",
+      "subjects": [
+        "Ranbir Singh"
+      ],
+      "custodial_status": "Police claimed roadside checking confrontation; subsequent seizure/custody account disputed",
+      "context": "checking_then_pursuit_disputed",
+      "force": "Uttarakhand police",
+      "claim_stage": "completed_claimed_but_disputed",
+      "claim_actor_attribution": "Named individual Ranbir in the police account",
+      "weapon": "Policeman's revolver",
+      "police_outcome": "Shot dead",
+      "reported_deaths": 1,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Police claimed a revolver was seized at a check and the suspect was pursued and shot",
+      "uncertainty": "The 2014 report says the trial court rejected the police account and convicted officers. This is a dated report, not an assertion about the final outcome of all appeals.",
+      "sources": [
+        {
+          "article_id": "36168749",
+          "url": "https://timesofindia.indiatimes.com/city/delhi/18-uttarakhand-cops-held-guilty-in-2009-encounter/articleshow/36168749.cms",
+          "title": "18 Uttarakhand cops held guilty in 2009 encounter",
+          "publication_date": "2014-06-07",
+          "displayed_timestamp_ist": "2014-06-07 03:27 updated",
+          "evidence": "Court reporting explicitly records the earlier police allegation of revolver-taking and the subsequent killing, while describing the trial court's rejection of that account."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "UP-2015-03-16-Bareilly-Mehran-escort-escape",
+      "event_date": "2015-03-16",
+      "event_date_quality": "Monday evening derived from Tuesday March 17 report",
+      "state_at_event": "Uttar Pradesh",
+      "place": "Near Navadiya Singhai, Bhojipura police area, Bareilly",
+      "subjects": [
+        "Mehran",
+        "Pathan Khan and other escorted undertrials"
+      ],
+      "custodial_status": "Five undertrials returning from a Rudrapur court appearance",
+      "context": "custody_court_return_transport",
+      "force": "Uttar Pradesh police escort",
+      "claim_stage": "attempted_claimed",
+      "claim_actor_attribution": "Attempt attributed to the group; not specifically established for Mehran, the person killed",
+      "weapon": "Escort policeman's rifle",
+      "police_outcome": "Mehran shot dead while fleeing; two others escaped and two were recaptured",
+      "reported_deaths": 1,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Alleged group weapon-taking attempt during escape immediately preceded pursuit and shooting",
+      "uncertainty": "Include as a group-attempt sensitivity case, not a confirmed individual gun-taking by the deceased. Report does not establish the rifle was successfully taken.",
+      "sources": [
+        {
+          "article_id": "46600052",
+          "url": "https://timesofindia.indiatimes.com/city/bareilly/2-gangsters-flee-from-police-custody-another-killed/articleshow/46600052.cms",
+          "title": "2 gangsters flee from police custody, another killed",
+          "publication_date": "2015-03-17",
+          "displayed_timestamp_ist": "2015-03-17 21:57 updated",
+          "evidence": "SP described an attempted rifle seizure by escorted gang members; report then identifies Mehran as the fugitive shot by a pursuing constable."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "special_comparability_note": "Ordinary alleged criminal gang, not Maoists, but attempted firearm-taking is only group-attributed, not established for the deceased.",
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "TG-2015-04-07-Alair-five-undertrials",
+      "event_date": "2015-04-07",
+      "event_date_quality": "explicit event date in contemporaneous follow-up",
+      "state_at_event": "Telangana",
+      "place": "Alair, then Nalgonda district",
+      "subjects": [
+        "Viqaruddin/Viqar Ahmed",
+        "Amjad Ali",
+        "Mohammed Hanif",
+        "Zakir Ali",
+        "Izhar Khan"
+      ],
+      "custodial_status": "Five undertrials escorted from Warangal prison to a Hyderabad court",
+      "context": "custody_court_transport",
+      "force": "Telangana police escort",
+      "claim_stage": "attempted_claimed",
+      "claim_actor_attribution": "Group allegation; do not assume an independently documented gun-taking act by each of five people",
+      "weapon": "Escorting officers' assault rifles",
+      "police_outcome": "Five shot dead",
+      "reported_deaths": 5,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Police alleged an attempt to overpower escorts and seize rifles during van transport",
+      "uncertainty": "The contemporaneous report quotes an Amnesty statement relaying the police account and questioning it using handcuff footage. Later TOI reporting also records the police weapon-taking allegation. No final inquiry conclusion inferred here.",
+      "sources": [
+        {
+          "article_id": "46863217",
+          "url": "https://timesofindia.indiatimes.com/city/hyderabad/amnesty-international-demands-independent-probe-on-telangana-encounters/articleshow/46863217.cms",
+          "title": "Amnesty International demands independent probe on Telangana encounters",
+          "publication_date": "2015-04-09",
+          "displayed_timestamp_ist": "2015-04-09 16:00 updated",
+          "evidence": "Report relays the police explanation that five transported undertrials tried to overpower escorts and snatch assault rifles before they were killed."
+        },
+        {
+          "article_id": "55932565",
+          "url": "https://timesofindia.indiatimes.com/city/hyderabad/Alair-encounter-Probe-hits-wall-key-suspects-out/articleshow/55932565.cms",
+          "title": "Alair encounter: Probe hits wall, key suspects out",
+          "publication_date": "2016-12-12",
+          "displayed_timestamp_ist": "2016-12-12 07:38 updated",
+          "evidence": "Retrospective report says police alleged an escape and attempted seizure of their weapons; this is the same April 7, 2015 event."
+        }
+      ],
+      "political_or_insurgency_context": "terror_suspect_transport_not_described_as_Maoist",
+      "case_domain": "terror_suspect_undertrials",
+      "ordinary_crime_comparison_scope": false,
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "KA-2015-08-16-NIMHANS-Vishwanath",
+      "event_date": "2015-08-16",
+      "event_date_quality": "Sunday event in August 16 story banner, updated August 17",
+      "state_at_event": "Karnataka",
+      "place": "NIMHANS hospital, Bengaluru",
+      "subjects": [
+        "Vishwanath"
+      ],
+      "custodial_status": "Undertrial undergoing psychiatric treatment; escorted bathroom visit",
+      "context": "hospital_custody_then_armed_standoff",
+      "force": "Karnataka police escort and Internal Security Division Garuda commandos",
+      "claim_stage": "completed_claimed",
+      "claim_actor_attribution": "Named individual; police commissioner described taking an escort constable's rifle",
+      "weapon": ".303 Lee-Enfield rifle; additional rifles were reportedly inside the guardroom",
+      "police_outcome": "Shot by commandos and died of injuries",
+      "reported_deaths": 1,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Alleged seizure at about 15:45 followed by a roughly three-hour guardroom standoff and police firing about 18:45",
+      "uncertainty": "A hospital armed-standoff context, not crime reconstruction or instantaneous retaliatory firing. Initial weapon descriptions varied; use the article's detailed .303 account.",
+      "sources": [
+        {
+          "article_id": "48502942",
+          "url": "https://timesofindia.indiatimes.com/city/bengaluru/undertrial-fires-23-rounds-at-nimhans-gunned-down/articleshow/48502942.cms",
+          "title": "Undertrial fires 23 rounds at Nimhans, gunned down",
+          "publication_date": "2015-08-16",
+          "displayed_timestamp_ist": "2015-08-17 03:31 updated",
+          "evidence": "Report describes rifle-taking from an escort and firing from a guardroom, followed hours later by Garuda commando fire and death."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_case_undertrial_in_psychiatric_treatment",
+      "ordinary_crime_comparison_scope": false,
+      "special_comparability_note": "Medical custody and prolonged armed standoff: retain separately from ordinary criminal reconstruction or instant escape-response events.",
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "TG-2019-12-06-Chattanpally-Disha-four",
+      "event_date": "2019-12-06",
+      "event_date_quality": "same-day live coverage and police briefing",
+      "state_at_event": "Telangana",
+      "place": "Chattanpally/Shadnagar area, near Hyderabad",
+      "subjects": [
+        "Mohammed Arif",
+        "Jollu Shiva",
+        "Jollu Naveen",
+        "Chintakunta Chennakeshavulu"
+      ],
+      "custodial_status": "Four arrested suspects taken to the crime location",
+      "context": "custody_crime_scene_investigation_recovery",
+      "force": "Cyberabad/Telangana police",
+      "claim_stage": "completed_claimed_for_two_of_four",
+      "claim_actor_attribution": "Police said two suspects took firearms; do not assign gun-taking to every person killed",
+      "weapon": "Two police firearms, type not fixed from this source",
+      "police_outcome": "Four shot dead",
+      "reported_deaths": 4,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Police briefing linked alleged weapon seizure and firing to officers' fatal response at the crime location",
+      "uncertainty": "One group encounter, not four snatching events. Police account subsequently disputed; this ledger does not determine the final legal findings.",
+      "sources": [
+        {
+          "article_id": "72400183",
+          "url": "https://timesofindia.indiatimes.com/city/hyderabad/police-resorted-to-retaliatory-firing-sajjanar-on-hyderabad-encounter/articleshow/72400183.cms",
+          "title": "Police resorted to retaliatory firing: Sajjanar on Hyderabad encounter",
+          "publication_date": "2019-12-06",
+          "displayed_timestamp_ist": "2019-12-06 17:05 updated",
+          "evidence": "Contemporaneous PTI report quotes the commissioner: officers took the suspects to recover a cellphone and other objects; two allegedly took officer weapons and fired before four were killed."
+        },
+        {
+          "article_id": "72393239",
+          "content_type": "liveblog",
+          "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-encounter-live-updates-all-four-accused-gunned-down-people-hail-police-action/liveblog/72393239.cms",
+          "title": "Hyderabad encounter live updates",
+          "publication_date": "2019-12-06",
+          "displayed_timestamp_ist": "2019-12-06 21:45:54 liveblog update",
+          "evidence": "Contemporaneous coverage records commissioner Sajjanar's statement that two accused took weapons and fired, and that police responded fatally. It also records a crime-location investigation visit."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "UP-2020-07-09-Panki-Prabhat-Mishra",
+      "event_date": "2020-07-09",
+      "event_date_quality": "same-day Thursday report",
+      "state_at_event": "Uttar Pradesh",
+      "place": "Panki/Bhaunti area, Kanpur",
+      "subjects": [
+        "Prabhat Mishra"
+      ],
+      "custodial_status": "Arrested suspect on transit remand from Faridabad to Kanpur",
+      "context": "custody_transit_transport_vehicle_puncture",
+      "force": "Uttar Pradesh police/STF",
+      "claim_stage": "completed_claimed",
+      "claim_actor_attribution": "Named individual",
+      "weapon": "Police firearm, described as a pistol",
+      "police_outcome": "Shot dead",
+      "reported_deaths": 1,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Police alleged seizure and firing after a tyre puncture during transit, followed by fatal police firing",
+      "uncertainty": "The same article also reports Bauwa Dubey's separate death, without an immediate officer-gun-taking mechanism. Bauwa is not another positive here. Prabhat's family later disputed his age and the account.",
+      "sources": [
+        {
+          "article_id": "76867811",
+          "url": "https://timesofindia.indiatimes.com/city/kanpur/gangster-vikas-dubeys-two-more-close-aides-shot-dead-in-separate-encounters/articleshow/76867811.cms",
+          "title": "Kanpur gangster Vikas Dubey's two more close aides shot dead in separate encounters",
+          "publication_date": "2020-07-09",
+          "displayed_timestamp_ist": "2020-07-09 10:58",
+          "evidence": "ADG's account explicitly links Prabhat's alleged seizure of an escort's firearm during a tyre stop with firing at police and a fatal police response."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false,
+      "aliases": [
+        "Kartikey",
+        "Kartikeya"
+      ]
+    },
+    {
+      "event_id": "UP-2020-07-10-Sachendi-Vikas-Dubey",
+      "event_date": "2020-07-10",
+      "event_date_quality": "explicit Friday event in next-day report",
+      "state_at_event": "Uttar Pradesh",
+      "place": "Sachendi/Kanpur",
+      "subjects": [
+        "Vikas Dubey"
+      ],
+      "custodial_status": "Arrested suspect transported from Ujjain to Kanpur",
+      "context": "custody_transit_transport_vehicle_overturn",
+      "force": "Uttar Pradesh police/STF",
+      "claim_stage": "completed_claimed",
+      "claim_actor_attribution": "Named individual",
+      "weapon": "Police service firearm; early reports differ between pistol/revolver and rifle",
+      "police_outcome": "Shot dead",
+      "reported_deaths": 1,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Police alleged gun seizure after an escort vehicle overturned, followed by firing, attempted flight and fatal response",
+      "uncertainty": "Weapon type and injuries differ across early reports. Treat source as a report of the police explanation, not independent proof. Inquiry and appeal histories are outside this ledger's verification scope.",
+      "sources": [
+        {
+          "article_id": "76901667",
+          "url": "https://timesofindia.indiatimes.com/india/vikas-dubey-caught-alive-brought-dead/articleshow/76901667.cms",
+          "title": "Vikas Dubey: Caught alive, brought dead",
+          "publication_date": "2020-07-11",
+          "displayed_timestamp_ist": "2020-07-11 08:57",
+          "evidence": "Report describes an alleged gun seizure from an STF commando after a transport accident, alleged firing and the fatal police response."
+        },
+        {
+          "article_id": "76884715",
+          "url": "https://timesofindia.indiatimes.com/city/kanpur/gangster-vikas-dubey-killed-what-we-know-so-far/articleshow/76884715.cms",
+          "title": "Gangster Vikas Dubey killed in encounter: What we know so far",
+          "publication_date": "2020-07-10",
+          "displayed_timestamp_ist": "2020-07-10 09:49 updated",
+          "evidence": "Same event; early account calls the seized weapon a rifle rather than the pistol/revolver description found elsewhere."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "OD-2021-07-24-Simulia-Sheikh-Hyder",
+      "event_date": "2021-07-24",
+      "event_date_quality": "Saturday derived from Sunday July 25 report",
+      "state_at_event": "Odisha",
+      "place": "Simulia, Balasore district",
+      "subjects": [
+        "Sheikh Hyder"
+      ],
+      "custodial_status": "Convicted prisoner being moved from Choudwar jail to Baripada jail",
+      "context": "custody_interprison_transfer",
+      "force": "Odisha commissionerate police escort",
+      "claim_stage": "attempted_claimed",
+      "claim_actor_attribution": "Named individual",
+      "weapon": "Escorting policeman's firearm, type unspecified here",
+      "police_outcome": "Shot dead",
+      "reported_deaths": 1,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Commissioner's account links an alleged firearm-taking attempt during transfer with police shooting",
+      "uncertainty": "Convict rather than an untried accused. Retired officers and lawyers questioned the explanation in this report; no adjudicated conclusion inferred.",
+      "sources": [
+        {
+          "article_id": "84737879",
+          "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/many-raise-questions-over-odisha-gangster-hyder-encounter/articleshow/84737879.cms",
+          "title": "Many raise questions over Odisha gangster Hyder encounter",
+          "publication_date": "2021-07-25",
+          "displayed_timestamp_ist": "2021-07-25 22:41",
+          "evidence": "Report attributes to the police commissioner an attempted taking of an escort's firearm immediately preceding police fire during a prison transfer."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "UP-2022-04-26-Gorakhpur-Alok-Paswan",
+      "event_date": "2022-04-26",
+      "event_date_quality": "Tuesday derived from Wednesday April 27 report",
+      "state_at_event": "Uttar Pradesh",
+      "place": "Gorakhpur",
+      "subjects": [
+        "Alok Paswan"
+      ],
+      "custodial_status": "Arrested suspect escorted to recover the alleged crime weapon",
+      "context": "custody_evidence_recovery",
+      "force": "Gorakhpur/Uttar Pradesh police",
+      "claim_stage": "completed_claimed",
+      "claim_actor_attribution": "Named individual",
+      "weapon": "Policeman's pistol",
+      "police_outcome": "Shot in right leg and treated at BRD Medical College; alive in this report",
+      "reported_deaths": 0,
+      "reported_nonfatal_shooting_survivors": 1,
+      "temporal_link": "Police alleged seizure and firing during recovery; officers then shot the suspect",
+      "uncertainty": "Nonfatal at the reporting time; later medical outcome not independently checked. Police explanation is not independently established.",
+      "sources": [
+        {
+          "article_id": "91113178",
+          "url": "https://timesofindia.indiatimes.com/city/lucknow/uttar-pradesh-triple-murder-accused-hurt-in-police-firing/articleshow/91113178.cms",
+          "title": "Gorakhpur: Triple murder accused hurt in police firing",
+          "publication_date": "2022-04-27",
+          "displayed_timestamp_ist": "2022-04-27 10:45 updated",
+          "evidence": "SSP's account identifies Alok as taking an officer's pistol and firing while escorted to recover evidence, followed by police shooting his leg."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "AS-2022-05-25-Kokrajhar-Afruddin-Islam",
+      "event_date": "2022-05-25",
+      "event_date_quality": "Wednesday night derived from Friday May 27 report",
+      "state_at_event": "Assam",
+      "place": "Near Dholmara Ranipur tea garden, Kokrajhar",
+      "subjects": [
+        "Afruddin Islam"
+      ],
+      "custodial_status": "Arrested suspect escorted to recover a phone allegedly used to film the crime",
+      "context": "custody_evidence_recovery",
+      "force": "Kokrajhar/Assam police",
+      "claim_stage": "completed_claimed",
+      "claim_actor_attribution": "Named individual",
+      "weapon": "Police officer's service pistol",
+      "police_outcome": "Shot in right leg and hospitalized; alive in this report",
+      "reported_deaths": 0,
+      "reported_nonfatal_shooting_survivors": 1,
+      "temporal_link": "Additional SP alleged a pistol seizure and attempted firing, followed immediately by another officer shooting him",
+      "uncertainty": "Nonfatal at the reporting time, not an established long-term medical outcome. This is not the separate 2021 Kokrajhar case involving a machete.",
+      "sources": [
+        {
+          "article_id": "91822429",
+          "url": "https://timesofindia.indiatimes.com/city/guwahati/cops-shoot-at-gang-rape-accused-as-he-tries-to-flee-from-custody-in-kokrajhar/articleshow/91822429.cms",
+          "title": "Cops shoot at gang-rape accused as he tries to flee from custody in Kokrajhar",
+          "publication_date": "2022-05-27",
+          "displayed_timestamp_ist": "2022-05-27 03:38",
+          "evidence": "Police official's account names Afruddin, says he took a service pistol near the tea garden while being escorted for phone recovery, and describes another officer shooting his leg."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false
+    },
+    {
+      "event_id": "BR-2023-10-16-Vaishali-Bittu-Satya-Prakash",
+      "event_date": "2023-10-16",
+      "event_date_quality": "Monday derived from Tuesday October 17 report",
+      "state_at_event": "Bihar",
+      "place": "Sarai police area, Vaishali",
+      "subjects": [
+        "Bittu Kumar",
+        "Satya Prakash"
+      ],
+      "custodial_status": "Two arrested suspects placed in a police vehicle after a checking confrontation",
+      "context": "arrest_then_short_custody_transport",
+      "force": "Bihar police",
+      "claim_stage": "completed_claimed_group_attribution",
+      "claim_actor_attribution": "Police statement attributes service-rifle taking to the pair collectively; individual taker unspecified",
+      "weapon": "Policeman's service rifle",
+      "police_outcome": "Both shot dead",
+      "reported_deaths": 2,
+      "reported_nonfatal_shooting_survivors": 0,
+      "temporal_link": "Police described a fresh weapon-taking escape attempt after arrest, followed by fatal fire; earlier constable killing is a separate preceding episode",
+      "uncertainty": "One group escape/response event with two deaths, not two independently observed snatching events. Do not assign the rifle-taking act to both individuals as established fact.",
+      "sources": [
+        {
+          "article_id": "104479465",
+          "url": "https://timesofindia.indiatimes.com/india/constable-shot-dead-in-bihar-attackers-killed-3-hours-later/articleshow/104479465.cms",
+          "title": "Constable shot dead in Bihar, attackers killed 3 hours later",
+          "publication_date": "2023-10-17",
+          "displayed_timestamp_ist": "2023-10-17 10:54 updated",
+          "evidence": "SDPO said the arrested pair pushed a policeman, took his rifle and tried to flee before police shot them; the same article distinguishes the earlier fatal shooting of a constable."
+        }
+      ],
+      "political_or_insurgency_context": "not_described_in_reviewed_source",
+      "case_domain": "ordinary_crime_case_or_police_allegation",
+      "ordinary_crime_comparison_scope": true,
+      "maoist_context_reported": false
+    }
+  ],
+  "additional_sensitivity_leads": [
+    {
+      "event_id": "UP-2021-08-30-Agra-Mukesh-Thakur-delayed-pursuit",
+      "event_date": "2021-08-30",
+      "state_at_event": "Uttar Pradesh",
+      "subjects": [
+        "Mukesh Thakur"
+      ],
+      "context": "custody_weapon_recovery_escape_then_later_pursuit",
+      "claim_stage": "completed_claimed",
+      "police_outcome": "Fatal",
+      "uncertainty": "Report describes officer-revolver seizure in custody, escape and a later same-morning gunfight after teams were formed. Not an instantaneous response at the taking scene. Main subject is Mukesh Thakur, but one paragraph calls him Rahul; retain that internal inconsistency rather than silently creating another person/event.",
+      "sources": [
+        {
+          "article_id": "85772934",
+          "url": "https://timesofindia.indiatimes.com/city/agra/uttar-pradesh-wanted-criminal-shot-dead-in-encounter-by-agra-police/articleshow/85772934.cms",
+          "title": "Uttar Pradesh: Wanted criminal shot dead in encounter by Agra police",
+          "publication_date": "2021-08-30",
+          "displayed_timestamp_ist": "2021-08-30 21:51",
+          "evidence": "Police described an escape with a service revolver around 03:30 followed by a separate pursuit and fatal gunfight."
+        }
+      ]
+    }
+  ],
+  "excluded_or_not_promoted": [
+    {
+      "lead": "Bauwa Dubey's July 9, 2020 death",
+      "reason": "Shares a report with Prabhat, but no immediate taking of an officer firearm is described for Bauwa; possession/recovery of guns is insufficient."
+    },
+    {
+      "lead": "Bubu Konwar, Assam, June 23, 2021",
+      "reason": "Retrieved reports described a checkpoint gunfight with an existing firearm, not an immediate police-firearm seizure. Not promoted merely because the event is called an encounter."
+    },
+    {
+      "lead": "Kokrajhar Farizul Rahman, 2021",
+      "reason": "Retrieved follow-up describes a machete attack, not officer-firearm-taking. Distinct from Afruddin Islam in May 2022."
+    },
+    {
+      "lead": "Generic West Bengal Naxal-era retrospective",
+      "reason": "General recollection that police often invoked escape or gun-taking does not establish an individually dated and attributed gun-taking event. No new verified pre-2026 WB event added by this national search."
+    }
+  ],
+  "analysis_caution": "Twelve selected historical leads do not supply a denominator, prevalence, trend, p-value or probability that any police account is true. Context, custody status, individual versus group attribution, and timing differ. Keep them separate from the frozen four-state 2024-2026 detected-case panel unless the comparison frame is extended consistently.",
+  "ai_attribution": "Discovered and provisionally coded by an OpenAI Codex subagent; independent human verification remains outstanding.",
+  "context_stratification": "Ten core ordinary-crime custody/arrest/investigation leads; one psychiatric-hospital armed-standoff sensitivity; one terror-suspect court-transport sensitivity. Group claims are flagged separately and are not presumed Maoist."
+}

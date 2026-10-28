@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-28T00:28:40.833211+00:00",
+  "queue_jobs": 915,
+  "record_files": 915,
+  "attempts_hash_checked": 921,
+  "counts": {
+    "status:success": 909,
+    "source:first_party_article_json_story_text_nodes": 909,
+    "status:unresolved_body_or_identity": 6,
+    "source:article_html_jsonld": 5,
+    "source:": 1
+  },
+  "findings": {
+    "queue_without_record": [],
+    "record_outside_queue": []
+  },
+  "network_requests": 0
+}

@@ -1,0 +1,43 @@
+"""Render independent source-context decisions; no network or source mutation."""
+from pathlib import Path
+import collections,csv,datetime,hashlib,json,re
+ROOT=Path(__file__).resolve().parent
+RECORDS=ROOT/'collection/records'
+TAKING=re.compile(r'\b(?:snatch\w*|grab\w*|wrest\w*|disarm\w*|overpower\w*)\b',re.I)
+WEAPON_OR_OFFICER=re.compile(r'\b(?:guns?|pistols?|rifles?|revolvers?|weapons?|firearms?|officers?|cops?|police\w*)\b',re.I)
+def target(d):
+ t=d.get('analysis_body','')
+ near=any(WEAPON_OR_OFFICER.search(t[max(0,m.start()-180):m.end()+180]) for m in TAKING.finditer(t))
+ return 'WB_any_encounter' in d.get('retrieval_routes',[]) or bool(d.get('wb_headline_proxy') and near)
+def main():
+ decisions=json.loads((ROOT/'wb_review_decisions.json').read_text());records={}
+ for f in RECORDS.glob('*.json'):
+  try:records[f.stem]=json.loads(f.read_text())
+  except json.JSONDecodeError:continue
+ rows=[]
+ for aid,x in decisions.items():
+  d=records.get(aid,{})
+  body=d.get('analysis_body','');currenthash=hashlib.sha256(body.encode()).hexdigest()
+  reviewedhash=x.get('reviewed_body_sha256',currenthash)
+  if x.get('body_review_status')=='unavailable_error_token':reviewedhash=hashlib.sha256(b'ERR-RTF').hexdigest()
+  stale=currenthash!=reviewedhash
+  r={k:d.get(k,'') for k in ['article_id','article_headline','source_headline','source_date','source_date_type','publication_date','url','metadata_status','body_characters','source_provenance']}
+  r.update(retrieval_routes=';'.join(d.get('retrieval_routes',[])),wb_headline_proxy=int(bool(d.get('wb_headline_proxy'))),review_method='independent AI review of entire available analysis_body; not human gold standard',body_review_status=x.get('body_review_status','entire_available_body_read'),reviewed_body_sha256=reviewedhash,current_body_sha256=currenthash,body_changed_after_review=int(stale),**{k:v for k,v in x.items() if k not in ['body_review_status','reviewed_body_sha256']})
+  if stale:r.update(body_review_status='changed_body_requires_rereview',strict_individual_gun_claim_then_police_shot='uncertain')
+  strict=r['strict_individual_gun_claim_then_police_shot']
+  r['strict_scope_note']=strict if strict not in {'yes','no','uncertain'} else ''
+  r['strict_individual_gun_claim_then_police_shot']='no' if strict.startswith('no') else strict
+  r.setdefault('security_force_individual_gun_claim_then_shot','uncertain_unavailable_body' if r['body_review_status']!='entire_available_body_read' else 'no_in_available_narrative')
+  rows.append(r)
+ rows.sort(key=lambda r:(r['source_date'],r['article_id']))
+ fields=list(dict.fromkeys(k for r in rows for k in r))
+ with (ROOT/'wb_historical_body_review.csv').open('w',newline='',encoding='utf-8') as f:
+  w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
+ pending=[a for a,d in records.items() if target(d) and (a not in decisions or next((r['body_changed_after_review'] for r in rows if r['article_id']==a),0))]
+ summary=dict(recorded_at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),collection_record_files=len(records),available_target_records=sum(target(d) for d in records.values()),available_WB_any_encounter_records=sum('WB_any_encounter' in d.get('retrieval_routes',[]) for d in records.values()),reviewed_WB_any_encounter_records=sum('WB_any_encounter' in records.get(a,{}).get('retrieval_routes',[]) for a in decisions),review_rows=len(rows),pending_available_target_ids=pending,body_unresolved_ids=[r['article_id'] for r in rows if r['body_review_status']!='entire_available_body_read'],strict_decisions=dict(collections.Counter(r['strict_individual_gun_claim_then_police_shot'] for r in rows)),settings=dict(collections.Counter(r['setting'] for r in rows)),selection='All available records routed WB_any_encounter OR WB-headline-proxy records with strong taking token within 180 characters of firearm/officer/police token; police seizure alone not a selection condition.',selection_patterns={'strong_taking':TAKING.pattern,'weapon_or_officer':WEAPON_OR_OFFICER.pattern,'window_characters_each_side':180},limitations=['Article-level AI source-context audit, not independent verification of police claims or human-coded gold standard.','Available body may omit content even when metadata succeeds. Unavailable/error bodies remain unresolved.','This selected retrieval frame cannot establish no historical incidents or estimate population prevalence.','Policing of crowds and collective gun-taking claims are retained separately from strict individual accused mechanism.'])
+ (ROOT/'wb_historical_body_review_summary.json').write_text(json.dumps(summary,indent=2))
+ text=['# Historical West Bengal source-context body review','',f"Current snapshot: {len(rows)} article records reviewed; {len(pending)} available selected records still require review. Collection is arriving incrementally; see the timestamp and pending IDs in `wb_historical_body_review_summary.json`.",'','This is an independent analytic pass by an AI reviewer reading each entire available `analysis_body`, not a human-coded gold standard or verification of what happened. Article IDs identify reports, not unique incidents. Publication dates and local source dates remain separate from interpreted event dates. Ambiguous midnight dates and internal contradictions remain explicit.','','The strict target requires an identified individual accused allegedly attempting/completing taking an officer firearm in the immediate episode, followed by police shooting that individual, fatally or nonfatally. A crowd firearm-taking claim, taking a civilian firearm, taking a police vehicle, officers disarming a colleague, and a suspect killing a policeman do not automatically meet that definition.','','Selection: all available `WB_any_encounter` reports, plus West Bengal headline-proxy reports with snatch/grab/wrest/disarm/overpower within 180 characters of firearm/officer/police language. Full-body review can reject false geography and nonliteral matches; it cannot discover uncollected articles. Missing/error text remains unresolved.','','## Important sensitivity cases','','- [2010 Nabagram/Palsanda roadblock](https://timesofindia.indiatimes.com/articleshow/7002855.cms): police alleged a mob took a rifle and suggested the fatal bullet might have come from that mob. Congress disputed the claim. The killed student was not individually identified as the alleged gun-taker.','- [2011 Nadia/Bagula clash](https://timesofindia.indiatimes.com/articleshow/10287827.cms): a woman died; officials described fear or attempted rifle-snatching, with competing defensive/accidental accounts. This is a collective-attempt context, not an identified gun-taking accused shot by police.','- [2008 Liluah bank robbery](https://timesofindia.indiatimes.com/articleshow/2768656.cms) and [2012 Canning confrontation](https://timesofindia.indiatimes.com/articleshow/11785387.cms): group taking of a police weapon is reported without an accused-police-shooting outcome.','- [2014 Haridevpur](https://timesofindia.indiatimes.com/articleshow/37424220.cms): suspect allegedly took a constable revolver and killed a homeguard; suspect was captured alive. Direction of fatality matters.','- [2015 Howrah Ganga Mahato encounter](https://timesofindia.indiatimes.com/articleshow/49446428.cms): group allegedly overpowered officers and an associate stole the police van; the account does not say anyone took an officer firearm.','', 'Insurgency cases are classified from the full article narrative rather than assumed from a group reference. They include camp raids, exchanges with already-armed squads, and a Maoist group taking a civilian farmer gun. Their settings and reported outcomes are preserved in the CSV. No zero-history or historical-absence conclusion follows from these selected records.']
+ text+=['', 'Additional border sensitivity: [2020 Jalangi, Kasem](https://timesofindia.indiatimes.com/articleshow/77580989.cms) explicitly attributes an attempted weapon snatch to the deceased in a BSF official account. It is an individual-attempt-to-fatal-security-force-shooting narrative, involving a central force rather than state police, and must not be erased by the narrow definition. [2019 Malda, Md Dulal](https://timesofindia.indiatimes.com/articleshow/70135489.cms) instead attributes attempted taking to a group, without identifying the deceased as its gun-taker. The [2017 BSF annual statistics article](https://timesofindia.indiatimes.com/articleshow/57419944.cms) describes a generic firing policy and ammunition totals; it does not provide disaggregated incidents.']
+ (ROOT/'wb_historical_body_review.md').write_text('\n'.join(text)+'\n')
+ print(json.dumps(summary,indent=2))
+if __name__=='__main__':main()

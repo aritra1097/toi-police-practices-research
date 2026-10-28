@@ -4,7 +4,7 @@
 
 This is a public **work in progress**, dated 27 October 2026 (New York time). It studies reported police accounts and practices. It does not establish that an alleged gun seizure occurred, that an accused person was guilty, or that a shooting was unlawful.
 
-The [extension plan](EXTENSION_PLAN.md) sets out the proposed JSON pilot, resumable metadata backfill, bounded Common Crawl recovery, coverage validation and research updates. No new bulk crawl or recurring automation has been started under that plan.
+The [extension plan](EXTENSION_PLAN.md) sets out a proposed full-corpus backfill. The general backfill remains unstarted; the [targeted historical search](targeted_history/FINDINGS.md) has now been completed as a separate discovery pass. No recurring automation has started.
 
 ## Questions
 
@@ -15,6 +15,8 @@ The [extension plan](EXTENSION_PLAN.md) sets out the proposed JSON pilot, resuma
 
 ## Current findings
 
+- The new [targeted historical catalogue](targeted_history/FINDINGS.md) contains **9,733 candidate date-headlines** and a **41-row source-linked evidence/context table**. A selected 915-ID fetch recovered usable text for 909 records; six remain unresolved. AI reviewers read 219 distinct available bodies in the cached review streams, with web-source reviews documented separately.
+- Historical national reporting establishes earlier firearm-taking-to-police-shooting accounts: **16 reported event examples, including 14 ordinary-crime examples** (eight fatal and six nonfatal in the reports). Group attribution, attempted taking and special contexts remain explicit. These are existence examples, not a population rate or causal comparison. Earlier Bengal border-force and crowd accounts are separately recorded; insurgency encounters are excluded from the ordinary-crime comparison.
 - Three distinct 2026 custodial reconstruction cases are documented in reporting: Baruipur in July, and Gaighata and Samserganj on October 27. Repeated articles are not additional incidents.
 - A separate March 2025 Jalpaiguri report describes a fatal **BSF** shooting following an alleged **group** attempt to seize a weapon. It does not expressly assign the attempt to the man killed. This is a broader border-force sensitivity case, not a fourth individual custodial reconstruction case.
 - There are earlier underwear-parade precedents with an explicit reconstruction explanation: Behror, Rajasthan, in September 2019, and Howrah in May 2026. An older Dum Dum jail allegation is a different category of custodial humiliation.

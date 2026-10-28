@@ -1,0 +1,16 @@
+{
+  "snapshot_utc": "2026-10-28T00:35:18.738222+00:00",
+  "selected_supplemental_articles": 267,
+  "retrieved_records": 267,
+  "full_available_bodies_read": 105,
+  "manual_decisions": 106,
+  "stage_counts": {
+    "reviewed_full_available_body": 105,
+    "lexical_triage_no_joint_target_signal_not_case_reviewed": 160,
+    "body_unavailable_requires_source_followup": 1,
+    "retrieved_body_unavailable_not_negative": 1
+  },
+  "case_rows": 8,
+  "exact_reconstruction_underclothing_rows": 1,
+  "interpretation": "Staged independent source review; unread and lexical no-signal rows are not verified negatives."
+}

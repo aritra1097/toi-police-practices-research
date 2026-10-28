@@ -1,0 +1,197 @@
+{
+  "recorded_at_utc": "2026-10-28T00:16:09.613217+00:00",
+  "task": "Resolve eight historical headline records missing URLs, using bounded web search and primary TOI evidence.",
+  "search_scope": "20 finite queries in five batched web-tool calls; not an exhaustive search of TOI, other publishers or web archives.",
+  "exact_resolutions": 3,
+  "related_report_only": 1,
+  "unresolved_without_related_exact_record": 4,
+  "article_bodies_independently_fetched": false,
+  "queries": [
+    "site:timesofindia.indiatimes.com \"Behala body\" \"criminal\"",
+    "site:timesofindia.indiatimes.com \"Bullet holes put shootout story in doubt\"",
+    "site:timesofindia.indiatimes.com \"NLFT insurgent killed in encounter\"",
+    "site:timesofindia.indiatimes.com \"KLO militant killed in encounter\"",
+    "site:timesofindia.indiatimes.com \"Behala body was of criminal shot in police encounter\"",
+    "site:timesofindia.indiatimes.com \"Three militants killed in Jalpaiguri encounter\"",
+    "site:timesofindia.indiatimes.com \"8 Maoists killed\" \"June 16, 2010\"",
+    "site:timesofindia.indiatimes.com \"6 Maoist killed in West Bengal encounter\"",
+    "site:timesofindia.indiatimes.com Behala body criminal police encounter August 4 2012",
+    "site:timesofindia.indiatimes.com Jalpaiguri encounter \"August 2, 2003\"",
+    "site:timesofindia.indiatimes.com \"Maoist\" \"July 26, 2010\" \"encounter\"",
+    "site:timesofindia.indiatimes.com \"NLFT\" \"December 17, 2001\"",
+    "\"Behala body\" encounter",
+    "\"Three militants killed\" \"Jalpaiguri\" \"2003\"",
+    "\"6 Maoist killed\" \"West Bengal\"",
+    "\"NLFT insurgent killed\" \"2001\"",
+    "site:timesofindia.indiatimes.com/city/kolkata/ behala \"encounter\" \"2012\"",
+    "site:timesofindia.indiatimes.com \"Jalpaiguri encounter\" \"Three\"",
+    "site:timesofindia.indiatimes.com \"6 Maoists\" \"Jul 26, 2010\"",
+    "site:timesofindia.indiatimes.com \"NLFT\" \"Dec 17, 2001\""
+  ],
+  "records": [
+    {
+      "baseline_id": "10af55300d55929d561f0c06890b2cbd",
+      "source_headline": "Behala body was of criminal shot in police encounter",
+      "source_date": "2012-08-04",
+      "source_date_type": "dataset_publish_date",
+      "source_category": "city.kolkata",
+      "source_provenance": "india-news-headlines 3.csv:1427194",
+      "status": "unresolved_no_exact_primary_match_found",
+      "resolved_url": "",
+      "resolved_article_id": "",
+      "matches": [],
+      "review_note": "No exact TOI headline-and-date match recovered in this bounded search. This is retrieval failure, not evidence the event or article did not exist."
+    },
+    {
+      "baseline_id": "127c3caa1b35e58ae2dcf8d14357bd6f",
+      "source_headline": "Bullet holes put shootout story in doubt",
+      "source_date": "2011-01-12",
+      "source_date_type": "dataset_publish_date",
+      "source_category": "city.kolkata",
+      "source_provenance": "india-news-headlines 3.csv:1040877",
+      "status": "resolved_exact_headline_and_date",
+      "resolved_url": "https://timesofindia.indiatimes.com/city/kolkata/bullet-holes-put-shootout-story-in-doubt/articleshow/7263469.cms",
+      "resolved_article_id": "7263469",
+      "matches": [
+        {
+          "article_id": "7263469",
+          "url": "https://timesofindia.indiatimes.com/city/kolkata/bullet-holes-put-shootout-story-in-doubt/articleshow/7263469.cms",
+          "headline": "Bullet holes put shootout story in doubt",
+          "source_publication_date": "2011-01-12",
+          "source_display_time_IST": "08:21",
+          "match_type": "exact_headline_and_date",
+          "primary_source_observation": "Article concerns Netai villagers and disputed claims of a CPM-Maoist shootout. It describes CID doubts about rival groups exchanging fire; this is not an accused-police gun-taking episode.",
+          "evidence": "TOI primary article content returned by web-search tool; no independent HTTP body request"
+        }
+      ],
+      "review_note": "Primary headline and displayed date match the local record. Incident date and actor/outcome still require separate event coding."
+    },
+    {
+      "baseline_id": "8519e8b2ea5481a19f0febf2c7e93f68",
+      "source_headline": "NLFT insurgent killed in encounter",
+      "source_date": "2001-12-17",
+      "source_date_type": "dataset_publish_date",
+      "source_category": "city.kolkata",
+      "source_provenance": "india-news-headlines 3.csv:53523",
+      "status": "unresolved_no_exact_primary_match_found",
+      "resolved_url": "",
+      "resolved_article_id": "",
+      "matches": [],
+      "review_note": "No exact TOI headline-and-date match recovered in this bounded search. This is retrieval failure, not evidence the event or article did not exist.",
+      "rejected_title_match": {
+        "article_id": "251850",
+        "url": "https://timesofindia.indiatimes.com/india/nlft-insurgent-killed-in-encounter/articleshow/251850.cms",
+        "headline": "NLFT insurgent killed in encounter",
+        "source_publication_date": "2003-10-26",
+        "source_display_time_IST": "12:20",
+        "match_type": "rejected_different_date_and_distinct_local_record",
+        "primary_source_observation": "This Tripura/Dhalai report matches the title but is dated October 2003, not December 2001. The baseline independently contains this October 2003 headline; it cannot resolve the December 2001 record. A Kolkata desk label alone does not establish a West Bengal event.",
+        "evidence": "TOI primary article content returned by web-search tool; no independent HTTP body request"
+      }
+    },
+    {
+      "baseline_id": "4f6964f5dafed186e83279191f5c488e",
+      "source_headline": "KLO militant killed in encounter",
+      "source_date": "2002-05-15",
+      "source_date_type": "dataset_publish_date",
+      "source_category": "city.kolkata",
+      "source_provenance": "india-news-headlines 3.csv:106937",
+      "status": "resolved_exact_headline_and_date",
+      "resolved_url": "https://timesofindia.indiatimes.com/city/kolkata/klo-militant-killed-in-encounter/articleshow/9915881.cms",
+      "resolved_article_id": "9915881",
+      "matches": [
+        {
+          "article_id": "9915881",
+          "url": "https://timesofindia.indiatimes.com/city/kolkata/klo-militant-killed-in-encounter/articleshow/9915881.cms",
+          "headline": "KLO militant killed in encounter",
+          "source_publication_date": "2002-05-15",
+          "source_display_time_IST": "03:45",
+          "match_type": "exact_headline_and_date",
+          "primary_source_observation": "Army intelligence personnel pursued a militant vehicle near Siliguri. The report describes a militant attempting to fire and soldiers responding; it explicitly identifies an Army operation rather than police participation. No immediate taking of an officer firearm appears in the visible article narrative.",
+          "evidence": "TOI primary article content returned by web-search tool; no independent HTTP body request"
+        }
+      ],
+      "review_note": "Primary headline and displayed date match the local record. Incident date and actor/outcome still require separate event coding."
+    },
+    {
+      "baseline_id": "87cf5e5a5d2989bf1ee882ceae710191",
+      "source_headline": "KLO militant killed in encounter",
+      "source_date": "2002-05-25",
+      "source_date_type": "dataset_publish_date",
+      "source_category": "city.kolkata",
+      "source_provenance": "india-news-headlines 3.csv:110431",
+      "status": "resolved_exact_headline_and_date",
+      "resolved_url": "https://timesofindia.indiatimes.com/city/kolkata/klo-militant-killed-in-encounter/articleshow/13909061.cms",
+      "resolved_article_id": "13909061",
+      "matches": [
+        {
+          "article_id": "13909061",
+          "url": "https://timesofindia.indiatimes.com/city/kolkata/klo-militant-killed-in-encounter/articleshow/13909061.cms",
+          "headline": "KLO militant killed in encounter",
+          "source_publication_date": "2002-05-25",
+          "source_display_time_IST": "02:05",
+          "match_type": "exact_headline_and_date",
+          "primary_source_observation": "Despite the singular headline, the body reports two suspected militants killed near Kumargram. State armed police reportedly challenged a group crossing a forest corridor; militants allegedly fired first. A pistol and ammunition were recovered. No immediate taking of a police firearm appears in the visible narrative.",
+          "evidence": "TOI primary article content returned by web-search tool; no independent HTTP body request"
+        }
+      ],
+      "review_note": "Primary headline and displayed date match the local record. Incident date and actor/outcome still require separate event coding."
+    },
+    {
+      "baseline_id": "1b87f652399595e6f69853f0bbd435ae",
+      "source_headline": "Three militants killed in Jalpaiguri encounter",
+      "source_date": "2003-08-02",
+      "source_date_type": "dataset_publish_date",
+      "source_category": "city.kolkata",
+      "source_provenance": "india-news-headlines 3.csv:233009",
+      "status": "unresolved_no_exact_primary_match_found",
+      "resolved_url": "",
+      "resolved_article_id": "",
+      "matches": [],
+      "review_note": "No exact TOI headline-and-date match recovered in this bounded search. This is retrieval failure, not evidence the event or article did not exist."
+    },
+    {
+      "baseline_id": "6b24940e93ed69411b21691428404296",
+      "source_headline": "8 Maoists killed in police encounter in West Bengal",
+      "source_date": "2010-06-16",
+      "source_date_type": "dataset_publish_date",
+      "source_category": "unknown",
+      "source_provenance": "india-news-headlines 3.csv:930900",
+      "status": "related_primary_report_found_exact_record_unresolved",
+      "resolved_url": "",
+      "resolved_article_id": "",
+      "matches": [
+        {
+          "article_id": "6053152",
+          "url": "https://timesofindia.indiatimes.com/india/8-maoists-killed-in-police-encounter-in-bengal/articleshow/6053152.cms",
+          "headline": "8 Maoists killed in police encounter in Bengal",
+          "source_publication_date": "2010-06-17",
+          "source_display_time_IST": "05:24",
+          "match_type": "likely_same_incident_related_report_not_exact_headline_date",
+          "primary_source_observation": "Reports eight deaths in a prolonged Ranjya/Salboni forest operation on Wednesday, consistent with an incident on 16 June. Police describe surrounding an armed rebel camp and exchanging fire. The displayed headline differs and publication is one day later than the local record.",
+          "evidence": "TOI primary article content returned by web-search tool; no independent HTTP body request"
+        }
+      ],
+      "review_note": "Likely same incident, but do not overwrite the original headline/date, assign this article ID as an exact match, or count a second incident without event review."
+    },
+    {
+      "baseline_id": "30f09e67e489dc44149d4d625c1b0262",
+      "source_headline": "6 Maoist killed in West Bengal encounter",
+      "source_date": "2010-07-26",
+      "source_date_type": "dataset_publish_date",
+      "source_category": "unknown",
+      "source_provenance": "india-news-headlines 3.csv:950982",
+      "status": "unresolved_no_exact_primary_match_found",
+      "resolved_url": "",
+      "resolved_article_id": "",
+      "matches": [],
+      "review_note": "No exact TOI headline-and-date match recovered in this bounded search. This is retrieval failure, not evidence the event or article did not exist."
+    }
+  ],
+  "limitations": [
+    "Search indexes omit or de-rank old articles; unresolved is not a negative event code.",
+    "A related report is not an exact bibliographic match.",
+    "Original dataset date fields and headline text remain unchanged.",
+    "Article narratives are reported accounts, not independent verification of police claims."
+  ]
+}

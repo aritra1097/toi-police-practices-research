@@ -1,0 +1,12 @@
+{
+  "records": 915,
+  "statuses": {
+    "success": 909,
+    "unresolved_body_or_identity": 6
+  },
+  "body_weapon_taking_signals": 332,
+  "body_parade_signals": 274,
+  "body_reconstruction_signals": 13,
+  "selection": "Declared targeted historical cohort; not complete news or incidence coverage",
+  "finished_at_utc": "2026-10-28T00:28:31.624690+00:00"
+}

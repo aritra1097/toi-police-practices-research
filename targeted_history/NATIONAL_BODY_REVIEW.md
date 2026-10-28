@@ -1,0 +1,9 @@
+# Finite cached-body historical screen
+
+This is a targeted discovery exercise, not a representative event census or rate denominator. It uses only the first 564-job local queue, restricts to its `national_weapon_taking_police_or_suspect` route, and screens body spans around snatch/grab/wrest/disarm/overpower/steal verbs for firearm and police/guard words. The saved screen returned 57 article candidates. The decisions file explicitly distinguishes full-body review from context-only screening; unreviewed background is not certified negative. No network requests were made for this review.
+
+Four additional ordinary custody cases meet the reported officer-gun-taking followed by police shooting-injury criterion. All four report leg injuries, not deaths; later medical outcomes were not ascertained. They are distinct from the prior twelve web-discovered events. Publication dates are retained separately, while incident dates are reconstructed from explicit weekday chronology. Kamal/Kallu includes a roughly 30-minute chase. The Noida report contains an inconsistent opening chronology, retained as uncertainty.
+
+The same-schema `national_body_events_simple.csv` contains the four positive event rows; `national_body_review.csv` records all 57 screened article IDs, depth and decisions. Near cases remain in the decisions, including a private guard’s rifle, delayed Kasganj recapture, accidental-discharge jail riot, and election/crowd incidents. The three Chattanpally articles are deduplicated to the existing 2019 event, including one report with a demonstrably inconsistent 2021 date.
+
+Every positive is a report of a police allegation. These records do not establish the allegation’s truth, self-defence, legality, incidence, or party effect. AI source-context review remains subject to human verification.

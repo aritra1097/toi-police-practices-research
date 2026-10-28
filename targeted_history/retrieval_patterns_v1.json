@@ -1,0 +1,24 @@
+{
+  "version": "historical-supplement-v1-2026-10-27",
+  "patterns": {
+    "police": "\\b(?:police\\w*|cops?|constables?|officers?|inspectors?|custod\\w*|stf|ats|crpf|bsf|security forces|home ?guards?)\\b",
+    "suspect": "\\b(?:accused|suspects?|criminals?|gangsters?|undertrials?|prisoners?|convicts?|dacoits?|robbers?|rapists?|offenders?|miscreants?|thieves|thief|arrest\\w*|detain\\w*|culprits?|rowd\\w*|goons?|molesters?|eve teasers?|eve teasing|peddlers?|chain snatchers?|smugglers?|burglars?|murderers?|extortionists?|fraudsters?|bookies|bootleggers?|cheats?|history sheeters?|steal\\w*|stolen|theft|loot\\w*|rob\\w*|rape\\w*|murder\\w*|harass\\w*|molest\\w*|assault\\w*)\\b",
+    "weapon": "\\b(?:guns?|pistols?|revolvers?|rifles?|fire ?arms?|weapons?|arms|carbines?|insas|ak ?47|service (?:gun|pistol|rifle|revolver|weapon))\\b",
+    "taking_expanded": "\\b(?:snatch\\w*|grab\\w*|wrest\\w*|seiz\\w*|disarm\\w*|overpower\\w*|steal\\w*|stole|stolen|theft|loot\\w*|rob\\w*|tak\\w*|took|taken|pull\\w*|decamp\\w*)\\b",
+    "weapon_escape": "\\b(?:flee\\w*|fled|escap\\w*|run\\w* away|ran away|make\\w* off|made off|walk\\w* away)\\b",
+    "parade": "\\b(?:parad\\w*|march\\w*|perp walk\\w*|procession\\w*)\\b",
+    "underclothing": "\\b(?:naked|nude|nudity|semi ?nude|semi ?naked|half ?naked|undress\\w*|uncloth\\w*|underwear|underpants?|under ?garments?|innerwear|loincloth\\w*|boxers?|briefs?|chadd\\w*|kachch?ha\\w*|panties|bras?|bare bod\\w*|bare chest\\w*)\\b",
+    "stripping": "\\b(?:strip\\w*|disrob\\w*|denud\\w*)\\b",
+    "reconstruction": "\\b(?:reconstruct\\w*|re enact\\w*|reenact\\w*|recreat\\w*|crime scene|scene of crime)\\b",
+    "public_humiliation": "\\b(?:humiliat\\w*|sham\\w*|barefoot|tonsured?|shaved?|thrash\\w*|beaten|beat\\w* up|public\\w*)\\b",
+    "ceremonial_or_identification_hint": "\\b(?:republic day|independence day|passing out|ceremon\\w*|military|army day|flag march|march past|rehears\\w*|recruit\\w*|identification|identify\\w*|identifi\\w*|test identification|tip|gandhi jayanti|sports|beauty|fashion)\\b"
+  },
+  "routes": {
+    "national_firearm_taking_expanded": "weapon AND (taking_expanded OR (weapon_escape AND police))",
+    "national_police_or_suspect_parade": "parade AND (police OR suspect OR underclothing OR stripping OR reconstruction OR public_humiliation)",
+    "national_underclothing_or_stripping": "(underclothing OR stripping) AND (police OR suspect OR parade OR reconstruction)"
+  },
+  "ceremonial_policy": "Retained and flagged; no automatic ceremonial/identification exclusion.",
+  "deduplication": "BLAKE2b-128 of ISO source date + | + NFKC lowercase punctuation-to-space whitespace-collapsed headline; compatible with baseline analyze.py.",
+  "provenance": "CSV record number including header, not physical line number when quoted cells contain newlines."
+}

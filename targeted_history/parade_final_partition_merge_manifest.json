@@ -1,0 +1,36 @@
+{
+  "merged_at_utc": "2026-10-28T00:35:18.567147+00:00",
+  "initial_manual_decisions": 27,
+  "additional_nonoverlapping_fullbody_reviews": 79,
+  "final_manual_decisions": 106,
+  "partitions": [
+    {
+      "partition": 1,
+      "assigned_count": 27,
+      "decision_count": 27,
+      "full_body_read_count": 27,
+      "decisions_file": "parade_final_decisions_1.json",
+      "sha256": "f85fc34b1aeef6a99ee2930b3dd7ca58065a6b1fc46eb13476cf5eb7d07c44bb",
+      "assigned_file": "parade_final_partition_1.json"
+    },
+    {
+      "partition": 2,
+      "assigned_count": 26,
+      "decision_count": 26,
+      "full_body_read_count": 26,
+      "decisions_file": "parade_final_decisions_2.json",
+      "sha256": "f864183ed8688789086390523f8667c83107ee36b84d191f5ec8ef650e6018ec",
+      "assigned_file": "parade_final_partition_2.json"
+    },
+    {
+      "partition": 3,
+      "assigned_count": 26,
+      "decision_count": 26,
+      "full_body_read_count": 26,
+      "decisions_file": "parade_final_decisions_3.json",
+      "sha256": "e9ad1950f7f60a3d7ef2395f91ddb4b5cbc3a32e09d0648e84a8aaa44aa5ded4",
+      "assigned_file": "parade_final_partition_3.json"
+    }
+  ],
+  "interpretation": "Three parallel AI full-available-body source reviews,not independent human verification. Low-signal/unavailable records retain unknown/nonvalidated status."
+}

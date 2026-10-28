@@ -1,0 +1,1973 @@
+[
+  {
+    "source_headline": "Custodial death in Asansol",
+    "source_date": "2001-08-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:14401"
+  },
+  {
+    "source_headline": "Custodial death reported in Asansol",
+    "source_date": "2001-08-13",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:14835"
+  },
+  {
+    "source_headline": "CBI indicts two for custody death",
+    "source_date": "2001-09-05",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:24064"
+  },
+  {
+    "source_headline": "Belgaum cops seize 5 pistols",
+    "source_date": "2001-10-22",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:39233"
+  },
+  {
+    "source_headline": "Fast Forward: BSF shoots down one along border",
+    "source_date": "2001-10-22",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:39172"
+  },
+  {
+    "source_headline": "Police open fire in Santipur; 2 dead",
+    "source_date": "2001-10-29",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:40450"
+  },
+  {
+    "source_headline": "Police arrest four criminals; seize weapons",
+    "source_date": "2001-11-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:42167"
+  },
+  {
+    "source_headline": "Security beefed up after BSF firing in Dinajpore",
+    "source_date": "2001-11-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:43974"
+  },
+  {
+    "source_headline": "Trinamul to probe BSF firing",
+    "source_date": "2001-11-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:44082"
+  },
+  {
+    "source_headline": "It can only be baptism by fire for police",
+    "source_date": "2001-12-14",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:52813"
+  },
+  {
+    "source_headline": "NLFT insurgent killed in encounter",
+    "source_date": "2001-12-17",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:53523"
+  },
+  {
+    "source_headline": "Three Bangladeshis killed in BSF firing",
+    "source_date": "2001-12-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:55850"
+  },
+  {
+    "source_headline": "Hawala operator involved in Kolkata shootout held",
+    "source_date": "2002-02-14",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:74771"
+  },
+  {
+    "source_headline": "Exchange of fire among N-E cops leaves 4 dead",
+    "source_date": "2002-03-24",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:89033"
+  },
+  {
+    "source_headline": "KPP leader dies in custody",
+    "source_date": "2002-03-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:89892"
+  },
+  {
+    "source_headline": "BSF may use fire power on border",
+    "source_date": "2002-04-07",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:94101"
+  },
+  {
+    "source_headline": "Shootout in used car showroom; one injured",
+    "source_date": "2002-04-09",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:94786"
+  },
+  {
+    "source_headline": "Murder accused shoots at police",
+    "source_date": "2002-04-30",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:101949"
+  },
+  {
+    "source_headline": "KLO militant killed in encounter",
+    "source_date": "2002-05-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:106937"
+  },
+  {
+    "source_headline": "5 held for Lake Town shootout",
+    "source_date": "2002-05-17",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:107853"
+  },
+  {
+    "source_headline": "KLO militant killed in encounter",
+    "source_date": "2002-05-25",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:110431"
+  },
+  {
+    "source_headline": "Angry cop opens fire inside Lalbazar",
+    "source_date": "2002-06-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:113486"
+  },
+  {
+    "source_headline": "Police seize pistol from 'maulvi'",
+    "source_date": "2002-06-07",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:114376"
+  },
+  {
+    "source_headline": "1 killed in police firing in Murshidabad",
+    "source_date": "2002-06-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:115937"
+  },
+  {
+    "source_headline": "BSF jawans fire after altercation over cattle; 1 dead",
+    "source_date": "2002-06-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:115927"
+  },
+  {
+    "source_headline": "Fake currency notes; firearms seized near city",
+    "source_date": "2002-06-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_weapon_taking"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:116752"
+  },
+  {
+    "source_headline": "Police fire on evictees; bandh called",
+    "source_date": "2002-06-27",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:119918"
+  },
+  {
+    "source_headline": "Probe ordered into police firing",
+    "source_date": "2002-06-27",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:120018"
+  },
+  {
+    "source_headline": "Shootout at Swinhoe Street; no casualties",
+    "source_date": "2002-07-20",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:126292"
+  },
+  {
+    "source_headline": "Bangladesh Rifles fire on BSF at Bongaon",
+    "source_date": "2002-07-24",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:127473"
+  },
+  {
+    "source_headline": "Cops seize more arms in rath yatra conspiracy case",
+    "source_date": "2002-07-25",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:127832"
+  },
+  {
+    "source_headline": "BSF protests unprovoked firing by Bangladesh Rifles",
+    "source_date": "2002-07-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:128050"
+  },
+  {
+    "source_headline": "2 KLO ultras shot dead in Beltali encounter",
+    "source_date": "2002-09-01",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:138315"
+  },
+  {
+    "source_headline": "Power theft accused dies in custody",
+    "source_date": "2002-09-05",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:139569"
+  },
+  {
+    "source_headline": "Police blamed for accused's death in jail",
+    "source_date": "2002-09-06",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:139947"
+  },
+  {
+    "source_headline": "BSF fires at Bangladeshi infiltrators",
+    "source_date": "2002-09-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:140566"
+  },
+  {
+    "source_headline": "Cops fired to scare rescuers away from accident site",
+    "source_date": "2002-09-13",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:141753"
+  },
+  {
+    "source_headline": "SC asks state govt to explain custody deaths",
+    "source_date": "2002-09-22",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:143923"
+  },
+  {
+    "source_headline": "Congress seeks probe into Malda custody death",
+    "source_date": "2002-11-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:156226"
+  },
+  {
+    "source_headline": "BSF and BDR exchange fire in N-24 Parganas",
+    "source_date": "2002-11-16",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:159734"
+  },
+  {
+    "source_headline": "Magistrate suspended in custody death case",
+    "source_date": "2002-11-16",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:159675"
+  },
+  {
+    "source_headline": "Gangsters held in Dwarka; arms seized",
+    "source_date": "2003-01-09",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:174498"
+  },
+  {
+    "source_headline": "Rly police seize 8 firearms; 14 kg hashish",
+    "source_date": "2003-01-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:176371"
+  },
+  {
+    "source_headline": "Student killed in BSF firing at Murshidabad",
+    "source_date": "2003-01-19",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:177293"
+  },
+  {
+    "source_headline": "RSP outraged at death in custody",
+    "source_date": "2003-02-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:184534"
+  },
+  {
+    "source_headline": "BSF 'firing' goes up at border area",
+    "source_date": "2003-02-19",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:186579"
+  },
+  {
+    "source_headline": "BSF 'firing' goes up at border area",
+    "source_date": "2003-02-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:187005"
+  },
+  {
+    "source_headline": "City to get fire safety officers",
+    "source_date": "2003-02-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:187007"
+  },
+  {
+    "source_headline": "Three killed in police firing",
+    "source_date": "2003-02-25",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:188109"
+  },
+  {
+    "source_headline": "BSF jawan's rifle snatched at border",
+    "source_date": "2003-03-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_weapon_taking",
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:193205"
+  },
+  {
+    "source_headline": "BSF pledges caution on border fire",
+    "source_date": "2003-03-17",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:193736"
+  },
+  {
+    "source_headline": "Gangwar leads to shootout on Ripon Street",
+    "source_date": "2003-06-06",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:217681"
+  },
+  {
+    "source_headline": "Police suspect relatives' hand in housewife death",
+    "source_date": "2003-07-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:228632"
+  },
+  {
+    "source_headline": "4 Adivasi students dead; 8 hurt in police firing",
+    "source_date": "2003-07-25",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:230925"
+  },
+  {
+    "source_headline": "Business rivalry leads to shootout",
+    "source_date": "2003-07-27",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:231291"
+  },
+  {
+    "source_headline": "Robbers held; gun seized",
+    "source_date": "2003-07-31",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:232526"
+  },
+  {
+    "source_headline": "Three militants killed in Jalpaiguri encounter",
+    "source_date": "2003-08-02",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:233009"
+  },
+  {
+    "source_headline": "Cop commits suicide after shooting wife; daughter",
+    "source_date": "2003-08-17",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:236698"
+  },
+  {
+    "source_headline": "Close encounter with Mars",
+    "source_date": "2003-08-22",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:237857"
+  },
+  {
+    "source_headline": "Businessman shot dead by cop",
+    "source_date": "2003-09-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:240748"
+  },
+  {
+    "source_headline": "Cop shoots trader; cash missing",
+    "source_date": "2003-09-05",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:240930"
+  },
+  {
+    "source_headline": "Stealthy truck deal sent cops on bullet trail",
+    "source_date": "2003-09-06",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:241165"
+  },
+  {
+    "source_headline": "Anger erupts at custody death",
+    "source_date": "2003-09-19",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:244183"
+  },
+  {
+    "source_headline": "Criminal held; illegal arms seized",
+    "source_date": "2003-09-20",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:244414"
+  },
+  {
+    "source_headline": "Robbers held; arms seized",
+    "source_date": "2003-10-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:247828"
+  },
+  {
+    "source_headline": "Cops 'shoot' drug trade at Sealdah",
+    "source_date": "2003-11-10",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:259059"
+  },
+  {
+    "source_headline": "Jawan shoots cop during routine search",
+    "source_date": "2003-11-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:260638"
+  },
+  {
+    "source_headline": "Cold winter; hot encounters",
+    "source_date": "2003-12-18",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:268838"
+  },
+  {
+    "source_headline": "Woman killed at home; cops suspect son",
+    "source_date": "2003-12-30",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:271652"
+  },
+  {
+    "source_headline": "BSF; BDR exchange fire along Bengal-Bangladesh border",
+    "source_date": "2007-10-09",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:513238"
+  },
+  {
+    "source_headline": "Bank robbers held; weapons seized",
+    "source_date": "2008-02-16",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:549441"
+  },
+  {
+    "source_headline": "Police was forced to open fire at Dinhata: Bhattacharjee",
+    "source_date": "2008-03-13",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:557099"
+  },
+  {
+    "source_headline": "Ahmedabad blasts: Cops seize guns; Osama CDs from bombers' houses",
+    "source_date": "2008-08-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:608543"
+  },
+  {
+    "source_headline": "Cops seize Gurgaon school student's air-pistol",
+    "source_date": "2008-08-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:608674"
+  },
+  {
+    "source_headline": "Assam cops seize Ulfa arms worth Rs 55 lakh",
+    "source_date": "2009-01-18",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:674605"
+  },
+  {
+    "source_headline": "Seize weapons of Maoists; book criminals : CPN UML leader",
+    "source_date": "2009-01-22",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:677678"
+  },
+  {
+    "source_headline": "Depressed cop shoots himself",
+    "source_date": "2009-03-30",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:719242"
+  },
+  {
+    "source_headline": "3 elephants injured in firing by Nepal cops",
+    "source_date": "2009-06-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:764942"
+  },
+  {
+    "source_headline": "More arms seized from resort",
+    "source_date": "2009-08-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_weapon_taking"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:807609"
+  },
+  {
+    "source_headline": "8 Maoists killed in police encounter in West Bengal",
+    "source_date": "2010-06-16",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:930900"
+  },
+  {
+    "source_headline": "Eight Maoists killed in police encounter in Bengal",
+    "source_date": "2010-06-16",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:930937"
+  },
+  {
+    "source_headline": "8 Maoists killed in police encounter in Bengal",
+    "source_date": "2010-06-17",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:931063"
+  },
+  {
+    "source_headline": "Security forces combing encounter area in West Midnapore",
+    "source_date": "2010-06-17",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:931345"
+  },
+  {
+    "source_headline": "6 Maoist killed in West Bengal encounter",
+    "source_date": "2010-07-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:950982"
+  },
+  {
+    "source_headline": "6 Maoist killed in encounter in West Bengal",
+    "source_date": "2010-07-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:950951"
+  },
+  {
+    "source_headline": "Maoists shoot 5 CPM supporters in Bengal; Naxals kill 2 cops in Chhattisgarh",
+    "source_date": "2010-09-13",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:977925"
+  },
+  {
+    "source_headline": "Bullet holes put shootout story in doubt",
+    "source_date": "2011-01-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1040877"
+  },
+  {
+    "source_headline": "Maoists escape after hourlong encounter",
+    "source_date": "2011-01-14",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1042244"
+  },
+  {
+    "source_headline": "More arms seized in Midnapore",
+    "source_date": "2011-06-11",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_weapon_taking"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1141265"
+  },
+  {
+    "source_headline": "CPM leader arrested; pistol; magazines seized",
+    "source_date": "2011-06-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_weapon_taking"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1141933"
+  },
+  {
+    "source_headline": "Kolkata trader braves bullets; drives to police staion but dies on way to hospital",
+    "source_date": "2011-06-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1148113"
+  },
+  {
+    "source_headline": "Contract killers shot techie: Cops",
+    "source_date": "2011-07-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1164221"
+  },
+  {
+    "source_headline": "Constable hurt in shooting accident",
+    "source_date": "2011-08-19",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1187293"
+  },
+  {
+    "source_headline": "Cops nab three criminals; seize firearms",
+    "source_date": "2011-09-02",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1197148"
+  },
+  {
+    "source_headline": "PLFI commander in Gumla cops net; arms seized",
+    "source_date": "2011-10-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1221110"
+  },
+  {
+    "source_headline": "ampnbspThree criminals arrested country made pistol seizedampnbsp",
+    "source_date": "2011-12-02",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1256610"
+  },
+  {
+    "source_headline": "Fire in Kolkataamp39s AMRI hospital 60 killed in Kolkata hospital fire says City police chief",
+    "source_date": "2011-12-09",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1261825"
+  },
+  {
+    "source_headline": "Cops arrest 14 miscreants; seize Rs 10L; revolver; bikes",
+    "source_date": "2011-12-18",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1267872"
+  },
+  {
+    "source_headline": "Appoint fire safety officers; government tells hospitals",
+    "source_date": "2011-12-29",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1275220"
+  },
+  {
+    "source_headline": "Gun; cartridges seized from don in Alipore jail raid",
+    "source_date": "2012-01-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_weapon_taking"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1279096"
+  },
+  {
+    "source_headline": "Police will seize arms in cases of misuse",
+    "source_date": "2012-02-22",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1312988"
+  },
+  {
+    "source_headline": "Burdwan killings: Cops don't seek custody",
+    "source_date": "2012-02-24",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1314807"
+  },
+  {
+    "source_headline": "Nandigram firing: CBI seeks Bengal govt permission to prosecute cops",
+    "source_date": "2012-06-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1387283"
+  },
+  {
+    "source_headline": "Behala body was of criminal shot in police encounter",
+    "source_date": "2012-08-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter",
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1427194"
+  },
+  {
+    "source_headline": "Man who snatched police rifle during riot arrested",
+    "source_date": "2012-08-17",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1436047"
+  },
+  {
+    "source_headline": "JD(U) MLA's husband snatched police carbine at Khagaria",
+    "source_date": "2012-09-29",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1466275"
+  },
+  {
+    "source_headline": "Two CRPF jawans shot at by Maoists in Midnapore",
+    "source_date": "2012-10-01",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1467685"
+  },
+  {
+    "source_headline": "Police arrest two youths; seize two firearms; 18 live cartridges worth Rs 1.21 lakh",
+    "source_date": "2012-10-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1472697"
+  },
+  {
+    "source_headline": "Cops ambushed in Aligarh; arms seized from Noida",
+    "source_date": "2012-10-16",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1478040"
+  },
+  {
+    "source_headline": "Four PLFI 'suspects' detained; arms seized",
+    "source_date": "2012-10-16",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1478298"
+  },
+  {
+    "source_headline": "Cop firing mars Mamata's Kali Puja-bhai phonta celebrations",
+    "source_date": "2012-11-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1498914"
+  },
+  {
+    "source_headline": "Cop in Tehatta firing now accused of thrashing junior",
+    "source_date": "2012-11-29",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1508673"
+  },
+  {
+    "source_headline": "State cops seek details of seized 'Sikh Regiment arms' from Army",
+    "source_date": "2012-12-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1512115"
+  },
+  {
+    "source_headline": "Police seize huge cache of arms from Maoist camp in Malkangiri",
+    "source_date": "2013-01-03",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1533029"
+  },
+  {
+    "source_headline": "Buddha ordered 1993 police firing: Madan",
+    "source_date": "2013-02-05",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1555830"
+  },
+  {
+    "source_headline": "Cops yet to arrest shooters",
+    "source_date": "2013-02-11",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1559918"
+  },
+  {
+    "source_headline": "Two firearms seized; two criminals held",
+    "source_date": "2013-02-14",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1562021"
+  },
+  {
+    "source_headline": "CID fings gun used to shoot police officer",
+    "source_date": "2013-02-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1566940"
+  },
+  {
+    "source_headline": "Custody death: Govt admits scuffle",
+    "source_date": "2013-02-22",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1567255"
+  },
+  {
+    "source_headline": "Custody death: HC asks for report",
+    "source_date": "2013-02-28",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1571923"
+  },
+  {
+    "source_headline": "Police file separate report on market fire",
+    "source_date": "2013-03-01",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1572100"
+  },
+  {
+    "source_headline": "Six dacoits arrested; arms seized",
+    "source_date": "2013-04-03",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1595378"
+  },
+  {
+    "source_headline": "Police nab gangster; recover revolver snatched from assistant sub-inspector",
+    "source_date": "2013-04-09",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1599550"
+  },
+  {
+    "source_headline": "CID to probe custody death 'conspiracy'",
+    "source_date": "2013-04-18",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1605718"
+  },
+  {
+    "source_headline": "Cop hurt as 4 pistols seized",
+    "source_date": "2013-04-18",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1605382"
+  },
+  {
+    "source_headline": "Girl shot in CPM-TMC gunfight",
+    "source_date": "2013-04-20",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1607312"
+  },
+  {
+    "source_headline": "NHRC awards compensation to porter who died in police custody",
+    "source_date": "2013-05-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1617074"
+  },
+  {
+    "source_headline": "HC raps CID for custody death probe",
+    "source_date": "2013-05-09",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1619972"
+  },
+  {
+    "source_headline": "Cops seize illegal arms from double murder accused",
+    "source_date": "2013-05-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1622397"
+  },
+  {
+    "source_headline": "62-year-old found dead in flat; cops suspect suicide",
+    "source_date": "2013-06-11",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1643383"
+  },
+  {
+    "source_headline": "Custodial death: SC dismisses West Bengal govt's plea against CBI probe",
+    "source_date": "2013-06-24",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1652505"
+  },
+  {
+    "source_headline": "99 pistols meant for criminals seized by Delhi Police; two arrested",
+    "source_date": "2013-07-17",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1668723"
+  },
+  {
+    "source_headline": "Arms seized after Malda clash",
+    "source_date": "2013-08-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_weapon_taking"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1695993"
+  },
+  {
+    "source_headline": "Kolkata ragging case: Cops under fire for 'inactive role'",
+    "source_date": "2013-09-19",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1712646"
+  },
+  {
+    "source_headline": "Local cops kept out; detectives take over school firing probe",
+    "source_date": "2013-11-13",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1751460"
+  },
+  {
+    "source_headline": "July 21 firing: Ex-cops told to appear before probe panel",
+    "source_date": "2014-08-20",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:1946160"
+  },
+  {
+    "source_headline": "Undertrial prisoner 'beaten to death by police' in Murshidabad",
+    "source_date": "2014-11-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2007367"
+  },
+  {
+    "source_headline": "Bhind villagers beat cops on hunt for buffalo theives; snatch weapons",
+    "source_date": "2015-01-07",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2044409"
+  },
+  {
+    "source_headline": "Bihar sounds high alert as police seizes Maoist arms",
+    "source_date": "2015-04-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2112932"
+  },
+  {
+    "source_headline": "Bihar arms meant for Ranchi criminals seized",
+    "source_date": "2015-11-24",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2268615"
+  },
+  {
+    "source_headline": "Firearm seized from criminal",
+    "source_date": "2016-01-10",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2301494"
+  },
+  {
+    "source_headline": "Norway to disarm its police force after officers ordered to carry guns for just one year",
+    "source_date": "2016-02-01",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2316692"
+  },
+  {
+    "source_headline": "Kolkata shootout: Bangla native held in Barabanki",
+    "source_date": "2016-02-24",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2332756"
+  },
+  {
+    "source_headline": "Abortive bid made to snatch policeman's rifle",
+    "source_date": "2016-02-25",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2333408"
+  },
+  {
+    "source_headline": "RPF head constable shoots self with colleague's carbine; inquiry ordered",
+    "source_date": "2016-03-05",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2339766"
+  },
+  {
+    "source_headline": "Boy accused of killing volleyball player surrenders to police",
+    "source_date": "2016-03-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2354459"
+  },
+  {
+    "source_headline": "Cops nab 3; seize six illegal firearms",
+    "source_date": "2016-09-14",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2474743"
+  },
+  {
+    "source_headline": "Custody death allegation against police",
+    "source_date": "2016-11-20",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2521746"
+  },
+  {
+    "source_headline": "Two criminals arrested for robbing commuters at E-way; stolen rifle; revolver seized",
+    "source_date": "2016-11-27",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2526634"
+  },
+  {
+    "source_headline": "Shooting case of bank boss: Cops arrest 3; seize weapon",
+    "source_date": "2016-12-26",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2546814"
+  },
+  {
+    "source_headline": "Criminal injured in police encounter; arms seized",
+    "source_date": "2017-04-15",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2622667"
+  },
+  {
+    "source_headline": "Terrorists snatch 5 rifles from policemen in Shopian",
+    "source_date": "2017-05-03",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2635795"
+  },
+  {
+    "source_headline": "Darjeeling youth shot dead by police: GJM",
+    "source_date": "2017-07-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2681859"
+  },
+  {
+    "source_headline": "Madhya Pradesh STF arrests kingpin of fake weapon licenses; guns; ammunition seized",
+    "source_date": "2017-10-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2746275"
+  },
+  {
+    "source_headline": "Meerut police busts chain snatching gang; seize three country made weapons with Rs 26;000 cash",
+    "source_date": "2017-10-24",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2756853"
+  },
+  {
+    "source_headline": "Priyanka Chopra to launch 'Monsoon Shootout' trailer",
+    "source_date": "2017-12-03",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2785238"
+  },
+  {
+    "source_headline": "Watch: Priyanka Chopra launches the interactive trailer of Nawazuddin Siddiqui starrer 'Monsoon Shootout'",
+    "source_date": "2017-12-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2785883"
+  },
+  {
+    "source_headline": "Four pistols seized from criminal; his accomplice",
+    "source_date": "2017-12-22",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2798073"
+  },
+  {
+    "source_headline": "Intel agencies suspect weapons seized in Gurdaspur were meant for gangsters",
+    "source_date": "2018-02-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2831716"
+  },
+  {
+    "source_headline": "Under attack; Congress leader's security officer opens fire",
+    "source_date": "2018-04-13",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2876410"
+  },
+  {
+    "source_headline": "STF arrests two; seizes four pistols",
+    "source_date": "2018-05-13",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2897397"
+  },
+  {
+    "source_headline": "Dilip Ghosh booked for TMC 'encounter' threat",
+    "source_date": "2018-06-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2924508"
+  },
+  {
+    "source_headline": "gangster who jumped parole 8 yrs ago held arms seized in stf raid",
+    "source_date": "2018-06-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2924399"
+  },
+  {
+    "source_headline": "Cops; minister differ on Kolkata's Priya Cinema fire origin",
+    "source_date": "2018-08-07",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2957531"
+  },
+  {
+    "source_headline": "arms seizure sena ex corporator remanded in ats custody for probe",
+    "source_date": "2018-08-21",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2967127"
+  },
+  {
+    "source_headline": "Judicial custody for 4 held in engineer death",
+    "source_date": "2018-08-23",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:2968714"
+  },
+  {
+    "source_headline": "Police raid rowdy sheeters' houses; seize weapons; drugs",
+    "source_date": "2018-10-24",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3011646"
+  },
+  {
+    "source_headline": "TMC leader dies; supari killers shot him; say cops",
+    "source_date": "2018-10-31",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3016612"
+  },
+  {
+    "source_headline": "Cops seize huge cache of arms in Bhilwara; three held",
+    "source_date": "2018-11-23",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3032372"
+  },
+  {
+    "source_headline": "bulandshahr violence assailants snatched cop subodh kumar singhs pistol cellphone",
+    "source_date": "2018-12-05",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3040940"
+  },
+  {
+    "source_headline": "up cops raid bijnor madrassa seize weapons detain 6 persons",
+    "source_date": "2019-07-11",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3154765"
+  },
+  {
+    "source_headline": "Criminals snatch Delhi policeman's pistol; drag him with car",
+    "source_date": "2019-08-12",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3170789"
+  },
+  {
+    "source_headline": "muzaffarnagar police arrests 6 criminals seize 3 country made weapons stolen jewellery car from their possession",
+    "source_date": "2021-01-25",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": false,
+    "retrieval_routes": [
+      "national_weapon_taking_police_or_suspect"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3436102"
+  },
+  {
+    "source_headline": "Kolkata: For kin of cops who fell in line of Covid duty; a shot of bittersweet memories",
+    "source_date": "2021-02-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3443399"
+  },
+  {
+    "source_headline": "NGOs; cops & school join hands to provide relief to Karaya fire victims",
+    "source_date": "2021-02-08",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3443348"
+  },
+  {
+    "source_headline": "Cop battles for life after shooting self",
+    "source_date": "2021-04-04",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3470582"
+  },
+  {
+    "source_headline": "Birbhum BJP leader issues 'encounter' threat; stirs row",
+    "source_date": "2021-04-05",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_any_encounter"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3471313"
+  },
+  {
+    "source_headline": "Museum firing: Cops file initial charge sheet",
+    "source_date": "2022-10-31",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_shooting"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3755990"
+  },
+  {
+    "source_headline": "birbhum custody death cal hc orders 15l to be paid to minor victims family",
+    "source_date": "2023-04-05",
+    "source_date_type": "source_dataset_or_archive_listing_date_not_verified_event_date",
+    "url": "",
+    "wb_headline_proxy": true,
+    "retrieval_routes": [
+      "WB_police_suspect_death"
+    ],
+    "source_provenance": "india-news-headlines 3.csv:3833597"
+  }
+]

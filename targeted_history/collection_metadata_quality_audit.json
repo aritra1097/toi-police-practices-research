@@ -1,0 +1,73 @@
+{
+  "records": 915,
+  "statuses": {
+    "success": 909,
+    "unresolved_body_or_identity": 6
+  },
+  "successful_metadata_with_nonerror_text": 909,
+  "unresolved_records": [
+    {
+      "article_id": "6553224",
+      "status": "unresolved_body_or_identity",
+      "headline": "Kashmir naked parade video: Cases registered for uploading morphed pictures",
+      "body_characters": 0
+    },
+    {
+      "article_id": "4489279",
+      "status": "unresolved_body_or_identity",
+      "headline": "Firing in Nandigram as police move out",
+      "body_characters": 0
+    },
+    {
+      "article_id": "5529430",
+      "status": "unresolved_body_or_identity",
+      "headline": "Editor's death in custody sparks protest by Maoists",
+      "body_characters": 0
+    },
+    {
+      "article_id": "5563122",
+      "status": "unresolved_body_or_identity",
+      "headline": "Maoists fire at DGP's chopper; top cops get commando cover",
+      "body_characters": 0
+    },
+    {
+      "article_id": "4039842",
+      "status": "unresolved_body_or_identity",
+      "headline": "Thief strikes VIP box at R-Day parade",
+      "body_characters": 0
+    },
+    {
+      "article_id": "5725039",
+      "status": "unresolved_body_or_identity",
+      "headline": "Maoist top gun trapped in daylong encounter",
+      "body_characters": 0
+    }
+  ],
+  "success_identity_headline_body_or_date_issues": [],
+  "naive_publication_date_ids": [],
+  "extraction_sources": {
+    "first_party_article_json_story_text_nodes": 909
+  },
+  "html_identity_validation": {},
+  "short_success_bodies_under120": [],
+  "recommendation_tails_removed": 0,
+  "source_date_available": 880,
+  "source_date_vs_publication_date_mismatches": [
+    {
+      "article_id": "4038932",
+      "source_date": "2009-01-27",
+      "source_publication_date": "2009-01-28",
+      "headline": "Thief strikes VIP box at R-Day parade"
+    }
+  ],
+  "publication_date_min": "2001-09-28T23:41:00+05:30",
+  "publication_date_max": "2026-01-09T08:12:00+05:30",
+  "checked_at_utc": "2026-10-28T00:28:58.343686+00:00",
+  "body_error_validation": "Reject ERR-RTF prefixes as well as exact error tokens: an error followed by recommendations is not usable article text.",
+  "correction_note": "Final offline review rejected 4489279: HTML articleBody began with ERR-RTF and appended recommendations. Its cached record is unresolved; no new HTTP request was made.",
+  "limits": [
+    "Success means available identity-validated metadata and non-error text, not full body completeness, truth of police accounts, or reviewed event classification.",
+    "Source dates are dataset/archive dates; mismatches do not alone imply incorrect actual publication dates.",
+    "This audit describes the targeted 915-article collection, not complete TOI coverage or incidence."
+  ]
+}

@@ -1,0 +1,783 @@
+[
+  {
+    "candidate_id": "cb983a08e510cc311f3901c08d8fdb67",
+    "headline": "Looted police rifle recovered",
+    "date": "2001-03-14",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "4cd6e1fc348c414359c1b2b2afcebf62",
+    "headline": "Young couple paraded naked",
+    "date": "2001-07-21",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "fa3f4f2ff19896b43325967f3ea94e91",
+    "headline": "Dalit woman paraded naked in Karnataka",
+    "date": "2001-08-27",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "5d2bea630cc084b0d9f882383966d4f8",
+    "headline": "Kharge; Allum condemn naked parade",
+    "date": "2001-08-28",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "f1b6382fcaa408c39a9a7cc56b5ffefc",
+    "headline": "Woman paraded naked in Bellary district",
+    "date": "2001-08-28",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "b2d30695b84bedff46d6980b9d274f01",
+    "headline": "Nude parade victim says: There were 600; nobody helped me",
+    "date": "2001-08-30",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "5a22e00b728682cc674bfbb10ac41414",
+    "headline": "Nude parade: CPM wants judicial probe",
+    "date": "2001-08-30",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "8ad4f181008f714e09e654142ec4aaeb",
+    "headline": "Nude parade: Guardians of Nakedness?",
+    "date": "2001-08-30",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "2402f6c12380fe3ff86046fea179fac2",
+    "headline": "Series of protests against nude parade",
+    "date": "2001-08-30",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "0e4087dd2bc00a89d9d0ccbe7f8934e3",
+    "headline": "The govt is with you; Kharge tells nude parade victim",
+    "date": "2001-09-01",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "7d59763746412973d092ab51c02a9884",
+    "headline": "Nude parade victim shifted to Bangalore hospital",
+    "date": "2001-09-02",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "2cb00fb90831be0c526ab3293b5ea2ce",
+    "headline": "Nude parade: SI; constable suspended",
+    "date": "2001-09-02",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police",
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "1a03aa5976fb9bdeffb292e11d5374ba",
+    "headline": "Nude parade: Mahila Sangha plans dharna in Bangalore",
+    "date": "2001-09-03",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "386bdce286505908bff7bc1733c10b66",
+    "headline": "Demand to pay more relief to nude parade victim",
+    "date": "2001-09-05",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "e24450fb3efced82081317ef639bc850",
+    "headline": "NCW may probe nude parade on its own",
+    "date": "2001-09-07",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "80030356a438857f901fe99305da8bf0",
+    "headline": "Students march against nude parade",
+    "date": "2001-09-12",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "5d9739194fdcaa435007f465a1a9416c",
+    "headline": "Man gets 2-yr RI for stealing cop's gun",
+    "date": "2001-12-08",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "80658da94076cf6b2bdff0353b1db94f",
+    "headline": "Armymen parade traffic tout naked",
+    "date": "2001-12-27",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "de9b814a63a21da11293527d1537c33e",
+    "headline": "Police worried at rise in arms looting",
+    "date": "2002-01-02",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "50d927fb5944cb26aa10fef029a389a3",
+    "headline": "Police ready for RD parade",
+    "date": "2002-01-26",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "75cf314c6c28c7a7d0553b13258f255d",
+    "headline": "Cops gear up to handle traffic at carnival parade",
+    "date": "2002-02-09",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "75d28606e4b5d1f15f5caf9b6b2ec1c9",
+    "headline": "Police parades labourer on theft allegations",
+    "date": "2002-07-27",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "d8ff9256ea1d9af35d94cf4ade2cf505",
+    "headline": "Woman paraded naked in Amritsar for 'rumour-mongering'",
+    "date": "2002-07-27",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "3308be61adea4f6e8316c6bcd5461351",
+    "headline": "Two looted police rifles recovered from Motipur",
+    "date": "2002-09-23",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "5805644f7c3f468d042fd62fbb56051b",
+    "headline": "Rail police under fire over arrest of former boxer",
+    "date": "2002-10-22",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "8ec6b031bb792ecbc48e86aebfd0d61d",
+    "headline": "Advani to attend parade at National Police Academy",
+    "date": "2002-10-26",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "0102adcb4dad8913eb0d64523ce0de49",
+    "headline": "Weapons stolen from police store in Kanpur",
+    "date": "2002-10-31",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "7df17284a388bb801e51fb140465114e",
+    "headline": "Dalit woman paraded half-naked in Kishanganj",
+    "date": "2002-11-18",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "4cb42111f83b7e861b147ad025a7ed0c",
+    "headline": "Dalit paraded naked in Gopalganj dist",
+    "date": "2002-12-20",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "aca3546c7c043be9be509f3ed120d80a",
+    "headline": "Dalit woman paraded naked in Punjab village",
+    "date": "2002-12-23",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "c7dfc4217c433137d8c075728c0751c4",
+    "headline": "PW extremists loot police rifles in Gaya",
+    "date": "2003-03-21",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "3c8721f70521aaa05fd99ef0e57cb870",
+    "headline": "Policewoman paraded naked in J&K",
+    "date": "2003-04-16",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police",
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "8cf84b9f8c06b59c1d606661b910fa9d",
+    "headline": "Senior officer's rage mars NDA parade",
+    "date": "2003-06-01",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "5f3d4aa93ad9ad5fa59d614dcd5bcf8e",
+    "headline": "MCC men loot police rifles in train ambush",
+    "date": "2003-10-07",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "5fc346c470d45b0c9ceee30b677927b2",
+    "headline": "Cops on lookout for Bijal's nude pictures",
+    "date": "2004-01-22",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "f6516c349fadad50e786bdff4ad5956b",
+    "headline": "MCC attack police picket; loot rifles",
+    "date": "2004-10-11",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "9195c3cd58c85c8908c92a4dad725ea5",
+    "headline": "CBI parades top cops; officials",
+    "date": "2006-05-27",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "f973819d54c9b5adffd531dc786a972b",
+    "headline": "Mob beats up youth; shaves & parades him naked for theft",
+    "date": "2009-02-13",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "2ced1c0c58d1f4dd1ac33f04ac87a98c",
+    "headline": "Woman paraded naked by sarpanch",
+    "date": "2009-08-13",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "5516a02c61ca1d5f60beeb5157bdb7a5",
+    "headline": "Pregnant woman thrashed; paraded naked in UP village",
+    "date": "2009-11-23",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "11fa399bfc9bf376737b423e2da5eb5b",
+    "headline": "Dacoits ambush cops; flee with revolver",
+    "date": "2010-08-25",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "6da95b703ef3834641b867b069290658",
+    "headline": "Pakistani teenager gang-raped; paraded naked in streets",
+    "date": "2011-01-18",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "9ed237e9438c9ee98f5fce3d7b9b2a74",
+    "headline": "Puneite leads Army officers' parade in Chennai academy",
+    "date": "2011-03-22",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "5d657bf468d1d040d17b5ca70d454e79",
+    "headline": "Boxer Dinesh wins opening bout in World Police Games",
+    "date": "2011-08-31",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "b3bd753c302eba0fb5188be7f43a9122",
+    "headline": "18-year-old paraded semi-naked",
+    "date": "2012-01-24",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "eb84b518c9e6089b40958bba4cb43a30",
+    "headline": "Woman paraded naked near Lahore over marriage row",
+    "date": "2012-03-04",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "76912dcf4283f037f294c841fb429cf3",
+    "headline": "Cuffe Parade murder case: Mumbai Police fail to make headway",
+    "date": "2012-04-25",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "eb1923b27e9f546fdf9cc1380b550484",
+    "headline": "Cops find nude pics of Viveka Banerjee!",
+    "date": "2012-04-28",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "78d1a1431ad9a6c599a975ab0b5860a1",
+    "headline": "Girls sexually abused; paraded naked; forced to work at kids' shelter",
+    "date": "2012-05-11",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "a1e01702939b7bc66cec25c62c4d4a8a",
+    "headline": "Pak police parade man; woman naked through streets",
+    "date": "2012-08-05",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police",
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "3a16696bb5fc184270649db3309ac969",
+    "headline": "Cops gear up for I-Day parade",
+    "date": "2012-08-14",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "3a21c476ea057272dcf96dd303e96678",
+    "headline": "TI parade of SSB jawans accused of raping woman conducted",
+    "date": "2012-10-04",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "2ce5778da6f325c2fbc24da83f8cd83c",
+    "headline": "Voyeur engineering student leads cops to a cache of ladies' underwear",
+    "date": "2012-10-05",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "481328af59db06930506f54dfeb82042",
+    "headline": "Two tribals paraded naked in Betul village for 'sorcery'",
+    "date": "2012-11-29",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "ac673933d5f6b22dcb5b20004aae5a05",
+    "headline": "Cops make no headway in Cuffe Parade rapes",
+    "date": "2012-12-19",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "b69a26b87335c6e3017d3abe91a6f70e",
+    "headline": "Police parade held in Chembur",
+    "date": "2013-02-19",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "4a5355bfeadf381cbf2009a4ca3d410f",
+    "headline": "Khandwa resort accused paraded in public",
+    "date": "2013-03-07",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "357489de4a7315d3b241a5f018bd65db",
+    "headline": "No decision to summon boxer Vijender yet; key accused attempts suicide: Police",
+    "date": "2013-03-09",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "0e605c86c8f8853295d15ed68ddb2af4",
+    "headline": "Boxer Ram Singh expelled from national camp; cops silent on questioning Vijender",
+    "date": "2013-03-10",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "d69ea451d5b0ebe2a724f07e11f276c2",
+    "headline": "Boxer Vijender Singh should be in lab for 24 hours: Cops",
+    "date": "2013-04-02",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "ed3b409e2c27e0de881f71e2c7b51891",
+    "headline": "Cops recover naked; decomposed body of woman home guard",
+    "date": "2013-05-20",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "b61a932ed251dd8dd1c3895fcda1c83d",
+    "headline": "Police beat; parade NCL Singrauli security staff",
+    "date": "2013-07-04",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "ffc0dd66c9206731a2083012dbfe0a9b",
+    "headline": "Police seek ID parade for doctor's killers",
+    "date": "2014-02-03",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "680517df91aac50be0aa99bbc12d0cd3",
+    "headline": "Bigwigs give annual police parade the miss",
+    "date": "2014-02-18",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "19a516f1ed3e7a747a973f9c23c40d13",
+    "headline": "Cop 'demoted' for reporting detective's lewd remarks on Houston's naked body",
+    "date": "2014-03-13",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "d09e9b5c8ca9aa31c14c400d07a5b76d",
+    "headline": "Mob justice: 2 suspected thieves beaten up; paraded naked in Goa",
+    "date": "2014-06-02",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police",
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "ad2d534042ec469672e0ef4cb1f38c64",
+    "headline": "Six accused in murder case paraded in streets by cops",
+    "date": "2014-06-18",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "527f2bf00d73b1831de605c32970fdf1",
+    "headline": "Rampur cop uploads nude picture of minor on Facebook",
+    "date": "2014-08-05",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "3f13a1c8c2766121304bb796b08ab186",
+    "headline": "Mother-daughter paraded nude in MP village for land",
+    "date": "2014-08-26",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "6d734c7307b7deb8dc0c16c9b519ea0d",
+    "headline": "Cop dies during police parade at Indore",
+    "date": "2014-10-14",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "f8091d328853b774cc5cd99b25c5d593",
+    "headline": "Man paraded naked for troubling woman",
+    "date": "2015-12-12",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "e9f37605dd021f130188b02577d1a432",
+    "headline": "Poachers kill STF jawan; flee with service pistol",
+    "date": "2016-04-08",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "b48b84422f509a53e4d26aea0626695f",
+    "headline": "Boy paraded naked to please rain god in drought-hit Karnataka village",
+    "date": "2016-06-17",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "5e8e5ace5f7afa41893276b0adf37377",
+    "headline": "Cops parade 4 before raped girl",
+    "date": "2016-12-22",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "ddd1a1e9250a16b12c4f5a110f91e172",
+    "headline": "Teens paraded naked and filmed in Warje",
+    "date": "2017-05-19",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "500e440d16be3b5dba66da927839823a",
+    "headline": "moms of kids stripped paraded seek fast track trial for accused",
+    "date": "2017-05-24",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "0dede9670a4a4368c3f3d62444291993",
+    "headline": "Family alleges human rights violations as cops pick up accused in undergarment",
+    "date": "2017-10-01",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "9720305ac982bcaedf965655abcca35f",
+    "headline": "Chandigarh police hold commemoration day parade",
+    "date": "2017-10-22",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "fb6ee11a08df40834b3d8904962fe1a6",
+    "headline": "Woman held for killing ex-boxer; MMS blackmail led to crime: Cops",
+    "date": "2018-01-19",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "9d41c907798cd062d466b228ef6ee350",
+    "headline": "1;000 cops; 50 CCTVs will keep watch on R-Day parade",
+    "date": "2018-01-25",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "c2b018dc9496b99b7c17ab3548bf776d",
+    "headline": "'Why aren't Karni Sena goons tied to the front of jeeps & paraded'; asks Omar Abdullah",
+    "date": "2018-01-26",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "1353d312f295d23b7132b3ecaca3258a",
+    "headline": "Woman; man paraded naked for 'illicit affair'",
+    "date": "2018-05-17",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "cdfccf4645118b2502227058ef99485c",
+    "headline": "Teacher accused of rape paraded",
+    "date": "2018-05-19",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "27c9bbf830e6e8ba514afa18b9160232",
+    "headline": "2;500 cops to be deployed at Parade Ground for State Formation Day fete",
+    "date": "2018-06-01",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "d46e1bc36d8a7e049e826be64c3b49ef",
+    "headline": "cops paraderickshaw drivers paraded for allegedlyassaulting bjp mlas son in law",
+    "date": "2018-07-28",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "5133ec1912a31c415cfb5843b0dbd7c9",
+    "headline": "BSF jawan's stolen gun recovered from Bangladesh",
+    "date": "2018-09-23",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  },
+  {
+    "candidate_id": "961f3ab95692cb8cf1160e495990ea69",
+    "headline": "Cops ignored family pleas as missing girl lay naked in thorny bushes",
+    "date": "2018-10-22",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "a1d271d8696f24c636daffd5a58d6ce3",
+    "headline": "Cop held for robbing lover's hubby; parading girl as wife",
+    "date": "2018-12-01",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "d4d0c9f98e8c09e63144b8e9c46cebf3",
+    "headline": "Boxer dedicates national gold to friend killed in police firing",
+    "date": "2018-12-05",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "ee08f1f2b7a6bcaedd8e69ecada9801e",
+    "headline": "Vendor thrashed; tonsured & paraded; one accused held",
+    "date": "2021-01-25",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "85f1f908dc60a387f15d357e8576edb9",
+    "headline": "si warns bjp leader on phone to not visit police outpost in underwear audio goes viral",
+    "date": "2021-06-14",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "d878e9c23ff738a238c48da00c7d6125",
+    "headline": "62 yr old accused of parading man naked ends life in khambhalia",
+    "date": "2021-09-09",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police",
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "4639f53c11654ea1d4e9f1ecb3993b0c",
+    "headline": "cops in a tizzy over video of nude dancer in hotel",
+    "date": "2021-10-02",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "8dee79a42dbc2d8d948552e4ff9479e4",
+    "headline": "us parade shooting suspect contemplated 2nd shooting say police",
+    "date": "2022-07-07",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "ca79aface88b5127e7c576e7364af9cb",
+    "headline": "Hubby parades woman's male friend half naked; booked",
+    "date": "2022-10-31",
+    "routes": [
+      "supplement_specific_clothing_parade_or_police"
+    ]
+  },
+  {
+    "candidate_id": "6fc634885ded5c6d394b4a12353b1d09",
+    "headline": "would parade criminals if i had my way rajasthan cm ashok gehlot defends acb order",
+    "date": "2023-01-06",
+    "routes": [
+      "supplement_literal_nonceremonial_actor_parade"
+    ]
+  },
+  {
+    "candidate_id": "9985ccbffc147d861e324a640581c4e0",
+    "headline": "Security guard looted of licenced weapon in Indore",
+    "date": "2023-01-26",
+    "routes": [
+      "supplement_officer_weapon_with_taking_or_shooting"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-10-28T00:35:48.113868+00:00",
+  "catalogue_candidate_headlines": 9733,
+  "source_linked_case_or_context_rows": 41,
+  "cases_by_input": {
+    "wb_historical_special_contexts.csv": 8,
+    "parade_and_wb_context_events.csv": 12,
+    "supplemental_parade_events.csv": 5,
+    "national_gun_events_simple.csv": 12,
+    "national_body_events_simple.csv": 4
+  },
+  "article_record_files": 915,
+  "metadata_statuses": {
+    "success": 909,
+    "unresolved_body_or_identity": 6
+  },
+  "duplicate_case_rows_suppressed": [
+    {
+      "input": "wb_historical_special_contexts.csv",
+      "event_key": "WB_2014_Haridevpur",
+      "reason": "Haridevpur2014 already represented in independent web event table; preserve its separate article-review row."
+    }
+  ],
+  "interpretation": "Purposive discovery catalogue. Rows mix reported target patterns, near matches, special contexts and exclusions; do not sum as one outcome or treat unread articles as negatives.",
+  "inputs_sha256": {
+    "national_gun_events_simple.csv": "d3705c141d14e113fd080abe730b41abfc871a6d1af2dc61513be742d8885055",
+    "national_body_events_simple.csv": "fa082e953166f8c6cb4b7482285b761c79c941adc1fbb7ba6ba7788a97c6c004",
+    "parade_and_wb_context_events.csv": "8857a23b646e2d85a08c441fd27cfa95719ab31dce128599e79457b5fc628432",
+    "wb_historical_special_contexts.csv": "e3c17765e12f0d501f434555a594bf58329e9759a4e4aeb33a41ad526bb6629b",
+    "supplemental_parade_events.csv": "f0ed35a30ff75272e21ebb6cef18677f4ca8457d51fd00769497a6297e0e8767",
+    "combined_candidate_inventory.csv": "26376f47f5f9a63151d16f0f803363b09803d773d7d43ca026dafb04566a0663",
+    "wb_historical_body_review.csv": "071f6e16a3eee6f1312ca2761c3b11639cfefb50641a9488fa4bfa8f50bc8718",
+    "supplemental_parade_body_review.csv": "a1e88c54e9d9d5bb68dd9f4648a0b229ee65f9954330c52be580509ba51ec5c9",
+    "national_body_review.csv": "28798e809b446929d1653e05ab61170ff9e977745b62ef8343e669e9b9746631",
+    "extended_queue.json": "0077db34266e93b36edf551d7751246891afc59f2d773724db219a34974bdff6"
+  }
+}
