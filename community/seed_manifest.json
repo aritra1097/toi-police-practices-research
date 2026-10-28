@@ -1,0 +1,12 @@
+{
+  "seed_date": "2026-10-27",
+  "seed_commit": "c2c2a55",
+  "source_path": "targeted_history/governments/evidence_with_governments.csv",
+  "source_sha256": "f8bb84f49269f72ebd39a42860b5289d066099c4cc7779d18d6aa8b486488e49",
+  "initial_rows": 41,
+  "original_fields_preserved": true,
+  "initial_community_sha256": "fafce36d01c5935dd5662df5335a69e16807672180669b8af12f94e2807cad60",
+  "initial_review_status": "ai_reviewed",
+  "headline_file_linkage": "not_row_level_verified",
+  "update_policy": "Community CSV evolves by reviewed pull requests; do not regenerate it from the seed."
+}

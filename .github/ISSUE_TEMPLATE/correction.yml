@@ -1,0 +1,31 @@
+name: Correct an entry
+description: Challenge or improve a case, date, government assignment, or interpretation.
+title: "[Correction] Case ID"
+body:
+  - type: input
+    id: case
+    attributes:
+      label: Case ID or link to the entry
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change, and why?
+      description: Identify the column and proposed correction. Explain whether it affects identity, outcome, classification, date, government, force authority, or another field.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting sources and relevant passage
+      description: Include URLs and a brief excerpt or paraphrase. Note uncertainty or conflicting evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: review
+    attributes:
+      label: How did you check the source?
+      description: Say whether you read the full source yourself, used AI, or could only read a headline/snippet.
+    validations:
+      required: true

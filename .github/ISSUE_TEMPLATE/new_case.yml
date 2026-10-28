@@ -1,0 +1,57 @@
+name: Suggest a case
+description: Propose a source-linked episode for the public research CSV.
+title: "[Case] State, location, approximate date"
+body:
+  - type: markdown
+    attributes:
+      value: "Submissions are public and reviewed before inclusion. Report what sources establish and distinguish allegations from independently established facts."
+  - type: input
+    id: location
+    attributes:
+      label: State and location
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Incident date or uncertainty
+      description: Use the event date rather than the publication date. Say unknown if necessary.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source URLs and article titles
+      description: Include TOI or other reporting, court records, or official documents; identify the source type.
+    validations:
+      required: true
+  - type: textarea
+    id: account
+    attributes:
+      label: What does the source report?
+      description: Explain custody, alleged firearm-taking, who fired, outcome, clothing/parading, and reconstruction where relevant. Identify group versus individual attribution and who makes the claim.
+    validations:
+      required: true
+  - type: textarea
+    id: government
+    attributes:
+      label: Government and force authority, if known
+      description: Give the chief minister, contemporary party/coalition, force involved, and dated supporting URLs. Leave unknown information explicit.
+  - type: textarea
+    id: provenance
+    attributes:
+      label: How did you find it, and what is uncertain?
+      description: A web search, old scraped file, archive, or another route? If linking a scrape, identify the file and row/headline. Note conflicting dates, unavailable bodies, and possible duplicates.
+    validations:
+      required: true
+  - type: dropdown
+    id: review
+    attributes:
+      label: How was the source checked?
+      options:
+        - I have not read the full source
+        - I personally read the full source
+        - AI-assisted source reading only
+        - I personally read it with AI assistance
+    validations:
+      required: true

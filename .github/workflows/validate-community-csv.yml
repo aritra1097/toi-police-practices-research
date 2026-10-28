@@ -1,0 +1,20 @@
+name: Validate community CSV
+on:
+  pull_request:
+    paths:
+      - 'community/**'
+      - '.github/workflows/validate-community-csv.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'community/**'
+      - '.github/workflows/validate-community-csv.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate structure and review metadata
+        run: python3 community/validate_csv.py
