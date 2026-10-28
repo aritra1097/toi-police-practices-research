@@ -1,0 +1,645 @@
+{
+  "schema_version": "1.0",
+  "compiled_at_utc": "2026-10-28T01:07:27.729157+00:00",
+  "scope": "National gun-taking case-table government coding excluding Delhi, allocated to another reviewer. 15 event mappings; no root case CSV edited.",
+  "coding_rule": "Join political administration to manually coded incident date, not publication date or a politician’s current/later party. Spell dates are source conventions, not uniformly inclusive legal timestamps; none of these incidents falls on a disputed boundary. Null end means not required/fully audited for this task, not an assertion of current incumbency. Party-at-incident values apply to mapped cases and must not be expanded uncritically over later rename dates.",
+  "causal_caution": "Government co-occurrence is descriptive. It does not establish orders, knowledge, responsibility for an individual shooting, or comparative party incidence.",
+  "sources": {
+    "KA_terms": {
+      "url": "https://kla.kar.nic.in/council/cms.htm",
+      "title": "Karnataka Legislative Council: Chief Ministers since 1947",
+      "source_type": "official legislative history; search-index text available, direct open timed out",
+      "supports": "S. M. Krishna 11 October 1999–28 May 2004; Siddaramaiah 13 May 2013–15 May 2018."
+    },
+    "KA_party2001": {
+      "url": "https://www.nammakpsc.com/wp-content/uploads/2023/05/A-Handbook-of-Karnataka-2015.pdf",
+      "title": "Government of Karnataka, A Handbook of Karnataka (2015), p.125",
+      "source_type": "primary government publication hosted on a third-party mirror; original government URL not recovered in bounded search",
+      "supports": "Chief-minister chronology explicitly lists S. M. Krishna and Siddaramaiah as INC; primary-author attribution rather than treating mirror as an official host."
+    },
+    "KA_party2013": {
+      "url": "https://kla.kar.nic.in/assembly/research/la_review_2013-18.pdf",
+      "title": "Karnataka Legislative Assembly review 2013–18, Appendix II",
+      "source_type": "official legislative publication reproducing governor notification",
+      "supports": "10 May 2013 appointment notification says Siddaramaiah was elected leader of Karnataka Congress Legislature Party. Appointment notification date differs from 13 May assumption of office."
+    },
+    "UK_terms": {
+      "url": "https://cm.uk.gov.in/former-chief-ministers/",
+      "title": "Uttarakhand Chief Minister Office: Former Chief Ministers and their tenure",
+      "source_type": "official CM history",
+      "supports": "Nishank tenure begins 27 June 2009; predecessor Khanduri tenure ends 26 June. Ranbir killing on 3 July belongs to Nishank administration."
+    },
+    "UK_party": {
+      "url": "https://timesofindia.indiatimes.com/india/pokhriyal-to-be-new-uttarakhand-cm/articleshow/4697118.cms",
+      "title": "PTI/TOI, Pokhriyal to be new Uttarakhand CM, 24 June 2009",
+      "source_type": "contemporaneous primary news report, supplementary to official tenure source",
+      "supports": "Reports his election as leader of BJP legislature party; announcement is not his oath date."
+    },
+    "UP_terms": {
+      "url": "https://vidhanparishadproceedings.up.gov.in/government/page/chief-minister",
+      "title": "Uttar Pradesh Legislative Council: Chief Minister and tenure",
+      "source_type": "official legislative history",
+      "supports": "Akhilesh Yadav 15 March 2012–19 March 2017; Yogi Adityanath first term 19 March 2017–25 March 2022 and second from 25 March 2022."
+    },
+    "UP_SP": {
+      "url": "https://upvidhansabhaproceedings.gov.in/en/prev_chiefminister_akhileshyadav",
+      "title": "Uttar Pradesh Legislative Assembly: former chief minister Akhilesh Yadav",
+      "source_type": "official biography",
+      "supports": "Records election as Samajwadi Legislature Party leader on 10 March 2012 and chief minister on 15 March."
+    },
+    "UP_BJP": {
+      "url": "https://www.vidhanparishad.up.gov.in/chief-minister",
+      "title": "Uttar Pradesh Legislative Council: Chief Minister",
+      "source_type": "official legislative profile",
+      "supports": "Identifies Yogi Adityanath with Bharatiya Janata Party; used with historical term dates, not as sole temporal evidence."
+    },
+    "TG_2014": {
+      "url": "https://khammam.telangana.gov.in/kcr-profile/",
+      "title": "Khammam district government: K. Chandrashekar Rao profile",
+      "source_type": "official district biography",
+      "supports": "Identifies Telangana Rashtra Samithi and his first chief-minister assumption on 2 June 2014."
+    },
+    "TG_2018": {
+      "url": "https://brsonline.in/about/timeline/",
+      "title": "BRS official party timeline (historical TRS entries)",
+      "source_type": "primary party history, partisan source",
+      "supports": "Records second oath on 13 December 2018 and historical TRS name. Do not replace incident-date TRS with current BRS branding."
+    },
+    "TG_party_election": {
+      "url": "https://ceotelangana.nic.in/List%20of%20Elected%20Members/MLAs%20Elected%20List%202018%20_Lat%20Upate%2002.12.2020.pdf",
+      "title": "Chief Electoral Officer Telangana: 2018 elected members list",
+      "source_type": "official election record",
+      "supports": "2018 elected-members list identifies K. Chandrashekar Rao under Telangana Rashtra Samithi."
+    },
+    "OD_2021": {
+      "url": "https://police.odisha.gov.in/en/sun/homepage/police-initiative",
+      "title": "Odisha Police: Police initiative / ERSS",
+      "source_type": "official police history",
+      "supports": "Identifies Naveen Patnaik as chief minister launching ERSS on 19 March 2021."
+    },
+    "OD_party": {
+      "url": "https://assembly.odisha.gov.in/Details.aspx?page=LeaderOfOppositionHtmlPages%2FShri+Naveen+Patnaik.html",
+      "title": "Odisha Legislative Assembly: Naveen Patnaik membership history",
+      "source_type": "official legislative history",
+      "supports": "Records his Biju Janata Dal membership for 2019–2024 assembly."
+    },
+    "OD_term5": {
+      "url": "https://bjdodisha.org.in/news-details/154/2321",
+      "title": "BJD, CM addresses Council of Ministers, 29 May 2021",
+      "source_type": "primary party publication of incumbent address; partisan source",
+      "supports": "Records two-year anniversary of fifth Naveen Patnaik ministry on 29 May 2021, locating fifth term start in May 2019."
+    },
+    "AS_terms": {
+      "url": "https://gad.assam.gov.in/home.php/information-and-services/honble-governors-honble-chief-ministers-and-chief-secretaries-assam",
+      "title": "Assam General Administration: Chief Ministers and tenure",
+      "source_type": "official government history",
+      "supports": "Lists Himanta Biswa Sarma from 10 May 2021. No reliance on unrelated present-day administration."
+    },
+    "AS_cabinet": {
+      "url": "https://parliamentaryaffairs.assam.gov.in/sites/default/files/swf1/dms38_list_of_ministers_assam_may_2021.pdf",
+      "title": "Assam Governor notification PARL.05/2021/21, 12 May 2021",
+      "source_type": "official portfolio-allocation notification",
+      "supports": "Names Sarma chief minister with Home, and names Atul Bora and Urkhao Gwra Brahma in the council. Notification itself does not label their parties."
+    },
+    "AS_partycoalition": {
+      "url": "https://www.hindustantimes.com/elections/assam-assembly-election/himanta-biswa-sarma-takes-oath-as-assam-s-15th-cm-13-ministers-also-sworn-in-101620632837881.html",
+      "title": "Hindustan Times, Assam oath report, 10 May 2021",
+      "source_type": "contemporaneous primary reporting, supplementary party labels",
+      "supports": "Sarma BJP; coalition includes AGP and UPPL."
+    },
+    "BR_terms": {
+      "url": "https://cm.bihar.gov.in/users/home1.aspx",
+      "title": "Bihar Chief Minister Secretariat: historical tenures",
+      "source_type": "official chief-minister history",
+      "supports": "Lists Nitish Kumar term 10 August 2022–27 January 2024, containing 16 October 2023 incident."
+    },
+    "BR_affidavitparties": {
+      "url": "https://adrindia.org/sites/default/files/Bihar_Minister_Report_Post_Cabinet_Reconstitution_on_16th%20August_2022.english.pdf",
+      "title": "ADR/Bihar Election Watch: ministers after 16 August 2022 reconstitution",
+      "source_type": "original affidavit-based research, supplementary to official tenure; not itself official government",
+      "supports": "Identifies Nitish JD(U), with RJD and Congress ministers in reconstituted cabinet. Initial August 2022 roster is not asserted to be an unchanged full cabinet in October 2023."
+    },
+    "BR_coalitionreport": {
+      "url": "https://www.tribuneindia.com/news/nation/31-new-ministers-in-bihar-cm-keeps-home-tejashwi-health-422390/",
+      "title": "Tribune News Service, Bihar cabinet expansion, 16 August 2022",
+      "source_type": "contemporaneous primary reporting",
+      "supports": "Reports JD(U) break with BJP, joining RJD and Congress in Mahagathbandhan; coalition name and core parties, not a complete October 2023 minister list."
+    }
+  },
+  "spells": [
+    {
+      "spell_id": "KA_Krishna_1999",
+      "state": "Karnataka",
+      "chief_minister": "S. M. Krishna",
+      "chief_minister_party_at_incident": "Indian National Congress",
+      "government_label": "INC government",
+      "term_start": "1999-10-11",
+      "term_end": "2004-05-28",
+      "party_sources": [
+        "KA_party2001"
+      ],
+      "tenure_sources": [
+        "KA_terms"
+      ],
+      "coalition_note": "No complete cabinet/support roster asserted; later BJP affiliation must not be applied retrospectively.",
+      "confidence": "high on incident-date CM and INC; party corroboration includes mirrored government handbook"
+    },
+    {
+      "spell_id": "KA_Siddaramaiah_2013",
+      "state": "Karnataka",
+      "chief_minister": "Siddaramaiah",
+      "chief_minister_party_at_incident": "Indian National Congress",
+      "government_label": "INC government",
+      "term_start": "2013-05-13",
+      "term_end": "2018-05-15",
+      "party_sources": [
+        "KA_party2013"
+      ],
+      "tenure_sources": [
+        "KA_terms"
+      ],
+      "coalition_note": "No complete cabinet/support roster asserted.",
+      "confidence": "high; official appointment and legislative history"
+    },
+    {
+      "spell_id": "UK_Nishank_2009",
+      "state": "Uttarakhand",
+      "chief_minister": "Ramesh Pokhriyal Nishank",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_label": "BJP-led state government",
+      "term_start": "2009-06-27",
+      "term_end": "2011-09-10",
+      "party_sources": [
+        "UK_party"
+      ],
+      "tenure_sources": [
+        "UK_terms"
+      ],
+      "coalition_note": "No complete cabinet/support roster asserted. Term end follows official CM history; next incumbent begins 11 September.",
+      "confidence": "high on event-date mapping; official oath-period history plus contemporaneous party report"
+    },
+    {
+      "spell_id": "UP_Akhilesh_2012",
+      "state": "Uttar Pradesh",
+      "chief_minister": "Akhilesh Yadav",
+      "chief_minister_party_at_incident": "Samajwadi Party",
+      "government_label": "Samajwadi Party government",
+      "term_start": "2012-03-15",
+      "term_end": "2017-03-19",
+      "party_sources": [
+        "UP_SP"
+      ],
+      "tenure_sources": [
+        "UP_terms"
+      ],
+      "coalition_note": "No complete cabinet/support roster asserted. Boundary-day overlaps in official histories do not affect this 2015 incident.",
+      "confidence": "high; official legislative sources"
+    },
+    {
+      "spell_id": "UP_Yogi_2017",
+      "state": "Uttar Pradesh",
+      "chief_minister": "Yogi Adityanath",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_label": "BJP-led state government",
+      "term_start": "2017-03-19",
+      "term_end": "2022-03-25",
+      "party_sources": [
+        "UP_BJP"
+      ],
+      "tenure_sources": [
+        "UP_terms"
+      ],
+      "coalition_note": "BJP-led does not mean BJP was the only cabinet party. Coalition roster changes are not reconstructed.",
+      "confidence": "high; official legislative sources"
+    },
+    {
+      "spell_id": "UP_Yogi_2022",
+      "state": "Uttar Pradesh",
+      "chief_minister": "Yogi Adityanath",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_label": "BJP-led state government",
+      "term_start": "2022-03-25",
+      "term_end": null,
+      "party_sources": [
+        "UP_BJP"
+      ],
+      "tenure_sources": [
+        "UP_terms"
+      ],
+      "coalition_note": "Coding certifies relevant 2022–23 incident dates, not an immutable complete coalition roster.",
+      "confidence": "high; official legislative sources"
+    },
+    {
+      "spell_id": "TG_KCR_2014",
+      "state": "Telangana",
+      "chief_minister": "K. Chandrashekar Rao",
+      "chief_minister_party_at_incident": "Telangana Rashtra Samithi (TRS)",
+      "government_label": "TRS state government",
+      "term_start": "2014-06-02",
+      "term_end": "2018-12-13",
+      "party_sources": [
+        "TG_2014"
+      ],
+      "tenure_sources": [
+        "TG_2014",
+        "TG_2018"
+      ],
+      "coalition_note": "Historical party name at incident is TRS; no whole-cabinet or outside-support roster asserted.",
+      "confidence": "high on 2015 incident-date CM/party; subsequent oath from party primary history"
+    },
+    {
+      "spell_id": "TG_KCR_2018",
+      "state": "Telangana",
+      "chief_minister": "K. Chandrashekar Rao",
+      "chief_minister_party_at_incident": "Telangana Rashtra Samithi (TRS)",
+      "government_label": "TRS state government at 2019 incident",
+      "term_start": "2018-12-13",
+      "term_end": null,
+      "party_sources": [
+        "TG_party_election",
+        "TG_2018"
+      ],
+      "tenure_sources": [
+        "TG_2018"
+      ],
+      "coalition_note": "TRS label certifies the 2019 incident, not the full ministry lifespan; later BRS renaming cannot be retrojected.",
+      "confidence": "high on 2019 incident-date CM/party; second oath party primary history plus official election record"
+    },
+    {
+      "spell_id": "OD_Naveen_2019",
+      "state": "Odisha",
+      "chief_minister": "Naveen Patnaik",
+      "chief_minister_party_at_incident": "Biju Janata Dal",
+      "government_label": "BJD state government",
+      "term_start": "2019-05-29",
+      "term_end": null,
+      "party_sources": [
+        "OD_party"
+      ],
+      "tenure_sources": [
+        "OD_2021",
+        "OD_term5"
+      ],
+      "coalition_note": "Certifies 2021 incident, not a full cabinet roster; an earlier BJD–BJP alliance is not the 2021 government label.",
+      "confidence": "high on 2021 incident mapping; official police and assembly evidence plus contemporary party anniversary"
+    },
+    {
+      "spell_id": "AS_Sarma_2021",
+      "state": "Assam",
+      "chief_minister": "Himanta Biswa Sarma",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_label": "BJP-led coalition with AGP and UPPL",
+      "term_start": "2021-05-10",
+      "term_end": null,
+      "party_sources": [
+        "AS_partycoalition"
+      ],
+      "tenure_sources": [
+        "AS_terms",
+        "AS_cabinet"
+      ],
+      "coalition_note": "AGP and UPPL participation supported by initial official minister list plus contemporary party affiliations. No every-minister October/day-specific roster claimed.",
+      "confidence": "high on 2022 incident CM; coalition named with primary-report corroboration"
+    },
+    {
+      "spell_id": "BR_Nitish_2022",
+      "state": "Bihar",
+      "chief_minister": "Nitish Kumar",
+      "chief_minister_party_at_incident": "Janata Dal (United)",
+      "government_label": "JD(U)-led Mahagathbandhan with RJD and Congress",
+      "term_start": "2022-08-10",
+      "term_end": "2024-01-27",
+      "party_sources": [
+        "BR_affidavitparties",
+        "BR_coalitionreport"
+      ],
+      "tenure_sources": [
+        "BR_terms"
+      ],
+      "coalition_note": "Core coalition parties only. Left outside support and full day-specific cabinet roster not exhaustively audited. Do not list HAM from initial 2022 roster without checking its 2023 departure. Not NDA/BJP at October 2023 incident.",
+      "confidence": "high on October 2023 CM/core coalition; full cabinet composition not asserted"
+    }
+  ],
+  "event_mappings": [
+    {
+      "event_id": "KA-2001-12-14-Pampanagar-Deepika-case-pair",
+      "case_name": "Deepika-case suspects Muniraju and Nataraj",
+      "event_date_ist": "2001-12-14",
+      "event_date_basis": "same-day Friday report",
+      "state_actual": "Karnataka",
+      "government_spell_id": "KA_Krishna_1999",
+      "chief_minister": "S. M. Krishna",
+      "chief_minister_party_at_incident": "Indian National Congress",
+      "government_at_incident": "INC government",
+      "government_sources": [
+        "https://kla.kar.nic.in/council/cms.htm",
+        "https://www.nammakpsc.com/wp-content/uploads/2023/05/A-Handbook-of-Karnataka-2015.pdf"
+      ],
+      "force_institution_as_reported": "Bengaluru/Bangalore city police, Karnataka state police",
+      "force_source_article_ids": "1164422883",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/bengaluru/deepikas-killers-try-to-flee-shot-dead/articleshow/1164422883.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "No complete cabinet/support roster asserted; later BJP affiliation must not be applied retrospectively.",
+      "government_confidence": "high on incident-date CM and INC; party corroboration includes mirrored government handbook"
+    },
+    {
+      "event_id": "UK-2009-07-03-Dehradun-Ranbir-Singh",
+      "case_name": "Ranbir Singh, Dehradun",
+      "event_date_ist": "2009-07-03",
+      "event_date_basis": "explicit historical event date in 2014 court reporting",
+      "state_actual": "Uttarakhand",
+      "government_spell_id": "UK_Nishank_2009",
+      "chief_minister": "Ramesh Pokhriyal Nishank",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP-led state government",
+      "government_sources": [
+        "https://cm.uk.gov.in/former-chief-ministers/",
+        "https://timesofindia.indiatimes.com/india/pokhriyal-to-be-new-uttarakhand-cm/articleshow/4697118.cms"
+      ],
+      "force_institution_as_reported": "Uttarakhand police; later CB-CID/CBI investigation is distinct from alleged shooter institution",
+      "force_source_article_ids": "36168749",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/delhi/18-uttarakhand-cops-held-guilty-in-2009-encounter/articleshow/36168749.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "No complete cabinet/support roster asserted. Term end follows official CM history; next incumbent begins 11 September.",
+      "government_confidence": "high on event-date mapping; official oath-period history plus contemporaneous party report"
+    },
+    {
+      "event_id": "UP-2015-03-16-Bareilly-Mehran-escort-escape",
+      "case_name": "Mehran, Bareilly escort escape",
+      "event_date_ist": "2015-03-16",
+      "event_date_basis": "Monday evening derived from Tuesday March 17 report",
+      "state_actual": "Uttar Pradesh",
+      "government_spell_id": "UP_Akhilesh_2012",
+      "chief_minister": "Akhilesh Yadav",
+      "chief_minister_party_at_incident": "Samajwadi Party",
+      "government_at_incident": "Samajwadi Party government",
+      "government_sources": [
+        "https://vidhanparishadproceedings.up.gov.in/government/page/chief-minister",
+        "https://upvidhansabhaproceedings.gov.in/en/prev_chiefminister_akhileshyadav"
+      ],
+      "force_institution_as_reported": "Shahjahanpur district police escort, Uttar Pradesh (returning from Rudrapur court in Uttarakhand)",
+      "force_source_article_ids": "46600052",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/bareilly/2-gangsters-flee-from-police-custody-another-killed/articleshow/46600052.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "No complete cabinet/support roster asserted. Boundary-day overlaps in official histories do not affect this 2015 incident.",
+      "government_confidence": "high; official legislative sources"
+    },
+    {
+      "event_id": "TG-2015-04-07-Alair-five-undertrials",
+      "case_name": "Alair five-undertrial shooting",
+      "event_date_ist": "2015-04-07",
+      "event_date_basis": "explicit event date in contemporaneous follow-up",
+      "state_actual": "Telangana",
+      "government_spell_id": "TG_KCR_2014",
+      "chief_minister": "K. Chandrashekar Rao",
+      "chief_minister_party_at_incident": "Telangana Rashtra Samithi (TRS)",
+      "government_at_incident": "TRS state government",
+      "government_sources": [
+        "https://khammam.telangana.gov.in/kcr-profile/",
+        "https://brsonline.in/about/timeline/",
+        "https://khammam.telangana.gov.in/kcr-profile/"
+      ],
+      "force_institution_as_reported": "Telangana police escort during Warangal-to-Hyderabad court transport",
+      "force_source_article_ids": "46863217;55932565",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/hyderabad/amnesty-international-demands-independent-probe-on-telangana-encounters/articleshow/46863217.cms;https://timesofindia.indiatimes.com/city/hyderabad/Alair-encounter-Probe-hits-wall-key-suspects-out/articleshow/55932565.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "Historical party name at incident is TRS; no whole-cabinet or outside-support roster asserted.",
+      "government_confidence": "high on 2015 incident-date CM/party; subsequent oath from party primary history"
+    },
+    {
+      "event_id": "KA-2015-08-16-NIMHANS-Vishwanath",
+      "case_name": "Vishwanath, NIMHANS",
+      "event_date_ist": "2015-08-16",
+      "event_date_basis": "Sunday event in August 16 story banner, updated August 17",
+      "state_actual": "Karnataka",
+      "government_spell_id": "KA_Siddaramaiah_2013",
+      "chief_minister": "Siddaramaiah",
+      "chief_minister_party_at_incident": "Indian National Congress",
+      "government_at_incident": "INC government",
+      "government_sources": [
+        "https://kla.kar.nic.in/council/cms.htm",
+        "https://kla.kar.nic.in/assembly/research/la_review_2013-18.pdf"
+      ],
+      "force_institution_as_reported": "Karnataka Internal Security Division Garuda commandos; initial prison escort constables distinct from final shooting team",
+      "force_source_article_ids": "48502942",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/bengaluru/undertrial-fires-23-rounds-at-nimhans-gunned-down/articleshow/48502942.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "No complete cabinet/support roster asserted.",
+      "government_confidence": "high; official appointment and legislative history"
+    },
+    {
+      "event_id": "TG-2019-12-06-Chattanpally-Disha-four",
+      "case_name": "Four Disha-case suspects, Chattanpally",
+      "event_date_ist": "2019-12-06",
+      "event_date_basis": "same-day live coverage and police briefing",
+      "state_actual": "Telangana",
+      "government_spell_id": "TG_KCR_2018",
+      "chief_minister": "K. Chandrashekar Rao",
+      "chief_minister_party_at_incident": "Telangana Rashtra Samithi (TRS)",
+      "government_at_incident": "TRS state government at 2019 incident",
+      "government_sources": [
+        "https://brsonline.in/about/timeline/",
+        "https://ceotelangana.nic.in/List%20of%20Elected%20Members/MLAs%20Elected%20List%202018%20_Lat%20Upate%2002.12.2020.pdf",
+        "https://brsonline.in/about/timeline/"
+      ],
+      "force_institution_as_reported": "Cyberabad police, Telangana state police",
+      "force_source_article_ids": "72400183;72393239",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/hyderabad/police-resorted-to-retaliatory-firing-sajjanar-on-hyderabad-encounter/articleshow/72400183.cms;https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-encounter-live-updates-all-four-accused-gunned-down-people-hail-police-action/liveblog/72393239.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "TRS label certifies the 2019 incident, not the full ministry lifespan; later BRS renaming cannot be retrojected.",
+      "government_confidence": "high on 2019 incident-date CM/party; second oath party primary history plus official election record"
+    },
+    {
+      "event_id": "UP-2020-07-09-Panki-Prabhat-Mishra",
+      "case_name": "Prabhat Mishra (Kartikey/Kartikeya)",
+      "event_date_ist": "2020-07-09",
+      "event_date_basis": "same-day Thursday report",
+      "state_actual": "Uttar Pradesh",
+      "government_spell_id": "UP_Yogi_2017",
+      "chief_minister": "Yogi Adityanath",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP-led state government",
+      "government_sources": [
+        "https://vidhanparishadproceedings.up.gov.in/government/page/chief-minister",
+        "https://www.vidhanparishad.up.gov.in/chief-minister"
+      ],
+      "force_institution_as_reported": "UP Special Task Force/police escort",
+      "force_source_article_ids": "76867811",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/kanpur/gangster-vikas-dubeys-two-more-close-aides-shot-dead-in-separate-encounters/articleshow/76867811.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "BJP-led does not mean BJP was the only cabinet party. Coalition roster changes are not reconstructed.",
+      "government_confidence": "high; official legislative sources"
+    },
+    {
+      "event_id": "UP-2020-07-10-Sachendi-Vikas-Dubey",
+      "case_name": "Vikas Dubey",
+      "event_date_ist": "2020-07-10",
+      "event_date_basis": "explicit Friday event in next-day report",
+      "state_actual": "Uttar Pradesh",
+      "government_spell_id": "UP_Yogi_2017",
+      "chief_minister": "Yogi Adityanath",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP-led state government",
+      "government_sources": [
+        "https://vidhanparishadproceedings.up.gov.in/government/page/chief-minister",
+        "https://www.vidhanparishad.up.gov.in/chief-minister"
+      ],
+      "force_institution_as_reported": "UP Special Task Force/police escort",
+      "force_source_article_ids": "76901667;76884715",
+      "force_source_urls": "https://timesofindia.indiatimes.com/india/vikas-dubey-caught-alive-brought-dead/articleshow/76901667.cms;https://timesofindia.indiatimes.com/city/kanpur/gangster-vikas-dubey-killed-what-we-know-so-far/articleshow/76884715.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "BJP-led does not mean BJP was the only cabinet party. Coalition roster changes are not reconstructed.",
+      "government_confidence": "high; official legislative sources"
+    },
+    {
+      "event_id": "OD-2021-07-24-Simulia-Sheikh-Hyder",
+      "case_name": "Sheikh Hyder",
+      "event_date_ist": "2021-07-24",
+      "event_date_basis": "Saturday derived from Sunday July 25 report",
+      "state_actual": "Odisha",
+      "government_spell_id": "OD_Naveen_2019",
+      "chief_minister": "Naveen Patnaik",
+      "chief_minister_party_at_incident": "Biju Janata Dal",
+      "government_at_incident": "BJD state government",
+      "government_sources": [
+        "https://police.odisha.gov.in/en/sun/homepage/police-initiative",
+        "https://bjdodisha.org.in/news-details/154/2321",
+        "https://assembly.odisha.gov.in/Details.aspx?page=LeaderOfOppositionHtmlPages%2FShri+Naveen+Patnaik.html"
+      ],
+      "force_institution_as_reported": "Odisha commissionerate police prison-transfer escort",
+      "force_source_article_ids": "84737879",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/bhubaneswar/many-raise-questions-over-odisha-gangster-hyder-encounter/articleshow/84737879.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "Certifies 2021 incident, not a full cabinet roster; an earlier BJD–BJP alliance is not the 2021 government label.",
+      "government_confidence": "high on 2021 incident mapping; official police and assembly evidence plus contemporary party anniversary"
+    },
+    {
+      "event_id": "UP-2022-04-26-Gorakhpur-Alok-Paswan",
+      "case_name": "Alok Paswan",
+      "event_date_ist": "2022-04-26",
+      "event_date_basis": "Tuesday derived from Wednesday April 27 report",
+      "state_actual": "Uttar Pradesh",
+      "government_spell_id": "UP_Yogi_2022",
+      "chief_minister": "Yogi Adityanath",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP-led state government",
+      "government_sources": [
+        "https://vidhanparishadproceedings.up.gov.in/government/page/chief-minister",
+        "https://www.vidhanparishad.up.gov.in/chief-minister"
+      ],
+      "force_institution_as_reported": "Gorakhpur police, Uttar Pradesh",
+      "force_source_article_ids": "91113178",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/lucknow/uttar-pradesh-triple-murder-accused-hurt-in-police-firing/articleshow/91113178.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "Coding certifies relevant 2022–23 incident dates, not an immutable complete coalition roster.",
+      "government_confidence": "high; official legislative sources"
+    },
+    {
+      "event_id": "AS-2022-05-25-Kokrajhar-Afruddin-Islam",
+      "case_name": "Afruddin Islam",
+      "event_date_ist": "2022-05-25",
+      "event_date_basis": "Wednesday night derived from Friday May 27 report",
+      "state_actual": "Assam",
+      "government_spell_id": "AS_Sarma_2021",
+      "chief_minister": "Himanta Biswa Sarma",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP-led coalition with AGP and UPPL",
+      "government_sources": [
+        "https://gad.assam.gov.in/home.php/information-and-services/honble-governors-honble-chief-ministers-and-chief-secretaries-assam",
+        "https://parliamentaryaffairs.assam.gov.in/sites/default/files/swf1/dms38_list_of_ministers_assam_may_2021.pdf",
+        "https://www.hindustantimes.com/elections/assam-assembly-election/himanta-biswa-sarma-takes-oath-as-assam-s-15th-cm-13-ministers-also-sworn-in-101620632837881.html"
+      ],
+      "force_institution_as_reported": "Kokrajhar police, Assam",
+      "force_source_article_ids": "91822429",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/guwahati/cops-shoot-at-gang-rape-accused-as-he-tries-to-flee-from-custody-in-kokrajhar/articleshow/91822429.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "AGP and UPPL participation supported by initial official minister list plus contemporary party affiliations. No every-minister October/day-specific roster claimed.",
+      "government_confidence": "high on 2022 incident CM; coalition named with primary-report corroboration"
+    },
+    {
+      "event_id": "BR-2023-10-16-Vaishali-Bittu-Satya-Prakash",
+      "case_name": "Bittu Kumar and Satya Prakash, Vaishali",
+      "event_date_ist": "2023-10-16",
+      "event_date_basis": "Monday derived from Tuesday October 17 report",
+      "state_actual": "Bihar",
+      "government_spell_id": "BR_Nitish_2022",
+      "chief_minister": "Nitish Kumar",
+      "chief_minister_party_at_incident": "Janata Dal (United)",
+      "government_at_incident": "JD(U)-led Mahagathbandhan with RJD and Congress",
+      "government_sources": [
+        "https://cm.bihar.gov.in/users/home1.aspx",
+        "https://adrindia.org/sites/default/files/Bihar_Minister_Report_Post_Cabinet_Reconstitution_on_16th%20August_2022.english.pdf",
+        "https://www.tribuneindia.com/news/nation/31-new-ministers-in-bihar-cm-keeps-home-tejashwi-health-422390/"
+      ],
+      "force_institution_as_reported": "Vaishali police, Bihar",
+      "force_source_article_ids": "104479465",
+      "force_source_urls": "https://timesofindia.indiatimes.com/india/constable-shot-dead-in-bihar-attackers-killed-3-hours-later/articleshow/104479465.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "Core coalition parties only. Left outside support and full day-specific cabinet roster not exhaustively audited. Do not list HAM from initial 2022 roster without checking its 2023 departure. Not NDA/BJP at October 2023 incident.",
+      "government_confidence": "high on October 2023 CM/core coalition; full cabinet composition not asserted"
+    },
+    {
+      "event_id": "UP-2019-11-30-Kanpur-Ehtisham",
+      "case_name": "Ehtisham",
+      "event_date_ist": "2019-11-30",
+      "event_date_basis": "Late Saturday night specified in article published Monday 2 December 2019",
+      "state_actual": "Uttar Pradesh",
+      "government_spell_id": "UP_Yogi_2017",
+      "chief_minister": "Yogi Adityanath",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP-led state government",
+      "government_sources": [
+        "https://vidhanparishadproceedings.up.gov.in/government/page/chief-minister",
+        "https://www.vidhanparishad.up.gov.in/chief-minister"
+      ],
+      "force_institution_as_reported": "Kanpur police, Uttar Pradesh",
+      "force_source_article_ids": "72323364",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/kanpur/criminal-snatches-s-is-gun-in-bid-to-escape-shot-in-leg/articleshow/72323364.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "BJP-led does not mean BJP was the only cabinet party. Coalition roster changes are not reconstructed.",
+      "government_confidence": "high; official legislative sources"
+    },
+    {
+      "event_id": "UP-2022-03-14-Ghaziabad-Kamal-Kallu",
+      "case_name": "Kamal alias Kallu",
+      "event_date_ist": "2022-03-14",
+      "event_date_basis": "Monday night explicitly specified in article published Wednesday 16 March 2022",
+      "state_actual": "Uttar Pradesh",
+      "government_spell_id": "UP_Yogi_2017",
+      "chief_minister": "Yogi Adityanath",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP-led state government",
+      "government_sources": [
+        "https://vidhanparishadproceedings.up.gov.in/government/page/chief-minister",
+        "https://www.vidhanparishad.up.gov.in/chief-minister"
+      ],
+      "force_institution_as_reported": "Indirapuram/Ghaziabad police, Uttar Pradesh",
+      "force_source_article_ids": "90241419",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/ghaziabad/man-grabs-cops-gun-tries-to-flee-caught-after-exchange-of-fire/articleshow/90241419.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "BJP-led does not mean BJP was the only cabinet party. Coalition roster changes are not reconstructed.",
+      "government_confidence": "high; official legislative sources"
+    },
+    {
+      "event_id": "UP-2023-09-21-Noida-unnamed-rape-accused",
+      "case_name": "Unnamed man accused of raping a child",
+      "event_date_ist": "2023-09-21",
+      "event_date_basis": "Thursday return from crime site specified in article published Friday 22 September 2023",
+      "state_actual": "Uttar Pradesh",
+      "government_spell_id": "UP_Yogi_2022",
+      "chief_minister": "Yogi Adityanath",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP-led state government",
+      "government_sources": [
+        "https://vidhanparishadproceedings.up.gov.in/government/page/chief-minister",
+        "https://www.vidhanparishad.up.gov.in/chief-minister"
+      ],
+      "force_institution_as_reported": "Noida police, Uttar Pradesh",
+      "force_source_article_ids": "103850852",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/noida/man-held-for-minors-rape-snatches-gun-tries-to-flee/articleshow/103850852.cms",
+      "force_review_basis": "Cached TOI article source context; institutional identification is not a finding of political direction.",
+      "uncertainty": "Coding certifies relevant 2022–23 incident dates, not an immutable complete coalition roster.",
+      "government_confidence": "high; official legislative sources"
+    }
+  ]
+}

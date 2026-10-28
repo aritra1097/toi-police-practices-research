@@ -2,6 +2,8 @@
 
 Start with [findings and limitations](FINDINGS.md).
 
+Read the [next steps and validation guide](NEXT_STEPS.md), [four-page PDF](../output/pdf/Bengal_Research_Next_Steps_and_Governments.pdf), and [incident-date state governments and force authority](governments/README.md). Government context is available for all 41 historical evidence/context entries; the original evidence CSV is unchanged.
+
 - [Evidence table](evidence_table.csv): reviewed reported patterns, near matches and exclusions, with sources.
 - [Ordinary-crime gun-taking reports](ordinary_crime_gun_reports.csv): selected historical examples, retaining individual/group and fatal/nonfatal distinctions.
 - [Headline catalogue](headline_catalogue.csv): search/filter the targeted historical candidate headlines; these are not incident counts.

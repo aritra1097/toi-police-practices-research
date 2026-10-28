@@ -1,0 +1,492 @@
+{
+  "schema_version": "1.0",
+  "compiled_at_utc": "2026-10-28T01:08:41.942446+00:00",
+  "scope": "Twelve event mappings: Delhi 2018/2021, Rajasthan six, MP two, Punjab one, Maharashtra one. Assigned government audit only; no root case table edited.",
+  "coding_rule": "Use incident date, not publication date. Preserve incident-date party, coalition membership, and separate institutional police authority. Spell boundary dates are cited-source conventions and not uniformly inclusive legal timestamps; no mapped event occurs near a disputed boundary. Null end/start means not fully reconstructed or not needed, not uninterrupted incumbency.",
+  "causal_caution": "Government co-occurrence is descriptive and does not establish orders, responsibility or comparative party incidence.",
+  "sources": {
+    "DL_terms": {
+      "url": "https://delhiassembly.delhi.gov.in/sites/default/files/2025-07/about_delhi_assembly.pdf",
+      "title": "Delhi Legislative Assembly: About Delhi Assembly, former chief ministers",
+      "supports": "Kejriwal is identified as AAP chief minister in 2015–2020 and 2020–2024."
+    },
+    "DL_oath": {
+      "url": "https://delhiassembly.delhi.gov.in/sites/default/files/2023-06/cm.pdf",
+      "title": "Delhi Legislative Assembly: Chief Minister profile",
+      "supports": "Kejriwal second oath 14 February 2015 and third oath 16 February 2020; AAP founder and convener."
+    },
+    "DL_police": {
+      "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2016-pdfs/ls-061216/3279.pdf",
+      "title": "MHA Lok Sabha unstarred question 3279, 6 December 2016, p.2",
+      "supports": "Delhi Police is responsible to Parliament through the Union Ministry of Home Affairs and Lt Governor of Delhi. This is separate from the elected NCT government."
+    },
+    "Union_PM": {
+      "url": "https://www.pmindia.gov.in/en/pms-profile/",
+      "title": "Prime Minister of India: Know the PM",
+      "supports": "Modi served as PM in 2014–2019 and 2019–2024, leading BJP to an absolute majority at both elections."
+    },
+    "RJ_house": {
+      "url": "https://assembly.rajasthan.gov.in/Containers/Overview/HouseTenure.aspx",
+      "title": "Rajasthan Legislative Assembly: House tenure and ruling party",
+      "supports": "15th House: ruling INC, Ashok Gehlot; 16th House: ruling BJP, Bhajan Lal Sharma. House start dates are NOT chief-minister oath dates."
+    },
+    "RJ_Gehlot_oath": {
+      "url": "https://eparlib.sansad.in/bitstream/123456789/787921/1/jpi_march_2019.pdf",
+      "title": "Lok Sabha Secretariat, Journal of Parliamentary Information, March 2019, Rajasthan section",
+      "supports": "Ashok Gehlot was sworn in as CM on 17 December 2018. Official search-index excerpt inspected; direct PDF open timed out."
+    },
+    "RJ_Sharma_oath": {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1986682&lang=2&reg=48",
+      "title": "PMO/PIB: oath-taking of Rajasthan Chief Minister, 15 December 2023",
+      "supports": "Bhajan Lal Sharma took oath as chief minister on 15 December 2023; BJP government identified."
+    },
+    "MP_terms": {
+      "url": "https://mpvidhansabha.nic.in/cm-sschouhan.htm",
+      "title": "Madhya Pradesh Assembly: Shivraj Singh Chouhan, former chief minister",
+      "supports": "CM terms include 12 December 2008–9 December 2013 and 14 December 2013–12 December 2018; profile describes BJP career."
+    },
+    "MP_party": {
+      "url": "https://mpvidhansabha.nic.in/13thvs/13-156.PDF",
+      "title": "Madhya Pradesh Assembly, 13th Assembly member profile, Budhni 156",
+      "supports": "Contemporaneous profile labels Shivraj Singh Chouhan Chief Minister and Bharatiya Janata Party."
+    },
+    "PB_2015": {
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=123261",
+      "title": "PIB, Amritsar HRIDAY launch, 14 July 2015",
+      "supports": "Names Parkash Singh Badal as Punjab CM and explicitly describes the SAD–BJP governing alliance. Near-contemporaneous official evidence; full legal spell boundaries not independently reconstructed."
+    },
+    "MH_oath": {
+      "url": "https://rajbhavan-maharashtra.gov.in/en/video/oath-to-uddhav-thackeray/",
+      "title": "Maharashtra Governor: oath to Uddhav Thackeray, 28 November 2019",
+      "supports": "Governor administered oath as chief minister on 28 November 2019."
+    },
+    "MH_2020": {
+      "url": "https://dgipr.maharashtra.gov.in/sites/default/files/2020-07/MAhead-Jan2020.pdf",
+      "title": "Maharashtra government DGIPR, Maharashtra Ahead, January 2020",
+      "supports": "Contemporaneous government magazine identifies Uddhav as CM and Maha Vikas Aghadi government (printed pp.3–5); cabinet profiles explicitly list Congress, NCP and Shiv Sena party affiliations (e.g. printed pp.10,15,21). Do not substitute later party splits."
+    },
+    "MH_ECI": {
+      "url": "https://ceoelection.maharashtra.gov.in/Downloads/PDF/PN-35_01052020.pdf",
+      "title": "Election Commission press note 35, 1 May 2020, hosted by Maharashtra CEO",
+      "supports": "Confirms Uddhav took oath on 28 November 2019; describes representations from Congress, Shiv Sena and NCP legislature parties."
+    },
+    "MH_end": {
+      "url": "https://rajbhavan-maharashtra.gov.in/en/photo-gallery/?cmonth=06&cyear=2022",
+      "title": "Maharashtra Governor photo gallery, June 2022",
+      "supports": "Dated entry 29 June 2022: CM hands over resignation to Governor."
+    }
+  },
+  "spells": [
+    {
+      "government_spell_id": "DL_Kejriwal_2015",
+      "state_actual": "Delhi",
+      "chief_minister": "Arvind Kejriwal",
+      "chief_minister_party_at_incident": "Aam Aadmi Party",
+      "government_at_incident": "AAP elected NCT government",
+      "start_date": "2015-02-14",
+      "end_date": "2020-02-16",
+      "source_keys": [
+        "DL_terms",
+        "DL_oath"
+      ],
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "notes": "End is successor oath/renewal boundary, not a finding about intra-day office holding."
+    },
+    {
+      "government_spell_id": "DL_Kejriwal_2020",
+      "state_actual": "Delhi",
+      "chief_minister": "Arvind Kejriwal",
+      "chief_minister_party_at_incident": "Aam Aadmi Party",
+      "government_at_incident": "AAP elected NCT government",
+      "start_date": "2020-02-16",
+      "end_date": null,
+      "source_keys": [
+        "DL_terms",
+        "DL_oath"
+      ],
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "notes": "Official retrospective table identifies tenure through 2024; exact terminal day not needed for July 2021 incident and not separately audited."
+    },
+    {
+      "government_spell_id": "RJ_Gehlot_2018",
+      "state_actual": "Rajasthan",
+      "chief_minister": "Ashok Gehlot",
+      "chief_minister_party_at_incident": "Indian National Congress",
+      "government_at_incident": "INC-led government",
+      "start_date": "2018-12-17",
+      "end_date": "2023-12-15",
+      "source_keys": [
+        "RJ_house",
+        "RJ_Gehlot_oath",
+        "RJ_Sharma_oath"
+      ],
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "notes": "End denotes successor oath boundary; resignation/caretaker distinctions do not affect 2019 or 2022 events. Full support-party roster not asserted."
+    },
+    {
+      "government_spell_id": "RJ_Sharma_2023",
+      "state_actual": "Rajasthan",
+      "chief_minister": "Bhajan Lal Sharma",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "start_date": "2023-12-15",
+      "end_date": null,
+      "source_keys": [
+        "RJ_house",
+        "RJ_Sharma_oath"
+      ],
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "notes": "Official current Assembly history corroborates 2026 incumbent; null end means no later boundary needed."
+    },
+    {
+      "government_spell_id": "MP_Chouhan_2008",
+      "state_actual": "Madhya Pradesh",
+      "chief_minister": "Shivraj Singh Chouhan",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "start_date": "2008-12-12",
+      "end_date": "2013-12-09",
+      "source_keys": [
+        "MP_terms",
+        "MP_party"
+      ],
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "notes": ""
+    },
+    {
+      "government_spell_id": "MP_Chouhan_2013",
+      "state_actual": "Madhya Pradesh",
+      "chief_minister": "Shivraj Singh Chouhan",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "start_date": "2013-12-14",
+      "end_date": "2018-12-12",
+      "source_keys": [
+        "MP_terms",
+        "MP_party"
+      ],
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "notes": ""
+    },
+    {
+      "government_spell_id": "PB_Badal_2015",
+      "state_actual": "Punjab",
+      "chief_minister": "Parkash Singh Badal",
+      "chief_minister_party_at_incident": "Shiromani Akali Dal",
+      "government_at_incident": "SAD-led SAD–BJP coalition",
+      "start_date": null,
+      "end_date": null,
+      "source_keys": [
+        "PB_2015"
+      ],
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": true,
+      "notes": "Incident-date government identified; full 2012–2017 legal spell boundaries not reconstructed in this bounded primary-source audit. Official source explicitly confirms SAD–BJP alliance in July 2015."
+    },
+    {
+      "government_spell_id": "MH_Thackeray_2019",
+      "state_actual": "Maharashtra",
+      "chief_minister": "Uddhav Thackeray",
+      "chief_minister_party_at_incident": "Shiv Sena (undivided in 2020)",
+      "government_at_incident": "Shiv Sena-led Maha Vikas Aghadi: Shiv Sena, NCP and INC",
+      "start_date": "2019-11-28",
+      "end_date": "2022-06-29",
+      "source_keys": [
+        "MH_oath",
+        "MH_2020",
+        "MH_ECI",
+        "MH_end"
+      ],
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "notes": "End is resignation date; successor took office later. Do not apply later Sena/NCP splits retrospectively."
+    }
+  ],
+  "event_mappings": [
+    {
+      "state_actual": "Rajasthan",
+      "chief_minister": "Ashok Gehlot",
+      "chief_minister_party_at_incident": "Indian National Congress",
+      "government_at_incident": "INC-led government",
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "event_id": "RJ-2019-09-22-Behror",
+      "event_date_ist": "2019-09-22",
+      "government_spell_id": "RJ_Gehlot_2018",
+      "government_sources": [
+        "https://assembly.rajasthan.gov.in/Containers/Overview/HouseTenure.aspx",
+        "https://eparlib.sansad.in/bitstream/123456789/787921/1/jpi_march_2019.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1986682&lang=2&reg=48"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "state police",
+      "force_source_article_ids": "71251170;71266900;71284810",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/jaipur/rajasthan-cops-parade-13-in-underwear-in-public/articleshow/71251170.cms;https://timesofindia.indiatimes.com/city/jaipur/dgp-seeks-behror-market-parade-details-from-officers/articleshow/71266900.cms;https://timesofindia.indiatimes.com/city/jaipur/shrc-takes-note-of-papla-gang-members-parade-in-innerwear/articleshow/71284810.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    },
+    {
+      "state_actual": "Rajasthan",
+      "chief_minister": "Ashok Gehlot",
+      "chief_minister_party_at_incident": "Indian National Congress",
+      "government_at_incident": "INC-led government",
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "event_id": "RJ-2022-12-01-Kardhani",
+      "event_date_ist": "2022-12-01",
+      "government_spell_id": "RJ_Gehlot_2018",
+      "government_sources": [
+        "https://assembly.rajasthan.gov.in/Containers/Overview/HouseTenure.aspx",
+        "https://eparlib.sansad.in/bitstream/123456789/787921/1/jpi_march_2019.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1986682&lang=2&reg=48"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "state police",
+      "force_source_article_ids": "95952834",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/jaipur/cops-parade-5-suspects-in-bizman-murder-case/articleshow/95952834.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    },
+    {
+      "state_actual": "Rajasthan",
+      "chief_minister": "Bhajan Lal Sharma",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "event_id": "RJ-2024-02-27-Pragpura",
+      "event_date_ist": "2024-02-27",
+      "government_spell_id": "RJ_Sharma_2023",
+      "government_sources": [
+        "https://assembly.rajasthan.gov.in/Containers/Overview/HouseTenure.aspx",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1986682&lang=2&reg=48"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "state police",
+      "force_source_article_ids": "108059093",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/jaipur/nursing-staff-rapes-24-year-old-woman-in-alwar-private-hospital-icu/articleshow/108059093.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    },
+    {
+      "state_actual": "Rajasthan",
+      "chief_minister": "Bhajan Lal Sharma",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "event_id": "RJ-2025-01-Gudhagorji",
+      "event_date_ist": "2025-01",
+      "government_spell_id": "RJ_Sharma_2023",
+      "government_sources": [
+        "https://assembly.rajasthan.gov.in/Containers/Overview/HouseTenure.aspx",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1986682&lang=2&reg=48"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "state police",
+      "force_source_article_ids": "123081647",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/jaipur/street-spectacle-raj-polices-public-parade-of-accused-raises-eyebrows/articleshow/123081647.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    },
+    {
+      "state_actual": "Rajasthan",
+      "chief_minister": "Bhajan Lal Sharma",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "event_id": "RJ-2025-08-01-Merta",
+      "event_date_ist": "2025-08-01",
+      "government_spell_id": "RJ_Sharma_2023",
+      "government_sources": [
+        "https://assembly.rajasthan.gov.in/Containers/Overview/HouseTenure.aspx",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1986682&lang=2&reg=48"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "state police",
+      "force_source_article_ids": "123081647",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/jaipur/street-spectacle-raj-polices-public-parade-of-accused-raises-eyebrows/articleshow/123081647.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    },
+    {
+      "state_actual": "Rajasthan",
+      "chief_minister": "Bhajan Lal Sharma",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "event_id": "RJ-2026-01-08-Chittorgarh",
+      "event_date_ist": "2026-01-08",
+      "government_spell_id": "RJ_Sharma_2023",
+      "government_sources": [
+        "https://assembly.rajasthan.gov.in/Containers/Overview/HouseTenure.aspx",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1986682&lang=2&reg=48"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "state police",
+      "force_source_article_ids": "126421961",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/jaipur/4-held-paraded-over-vendors-extortion-bid/articleshow/126421961.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    },
+    {
+      "state_actual": "Madhya Pradesh",
+      "chief_minister": "Shivraj Singh Chouhan",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "event_id": "MP-2013-07-23_25-Sehore",
+      "event_date_ist": "2013-07-23/2013-07-25",
+      "government_spell_id": "MP_Chouhan_2008",
+      "government_sources": [
+        "https://mpvidhansabha.nic.in/cm-sschouhan.htm",
+        "https://mpvidhansabha.nic.in/13thvs/13-156.PDF"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "Police officers allegedly",
+      "force_source_article_ids": "21539895",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/bhopal/cops-torture-dalits-parade-them-naked-in-sehore/articleshow/21539895.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    },
+    {
+      "state_actual": "Madhya Pradesh",
+      "chief_minister": "Shivraj Singh Chouhan",
+      "chief_minister_party_at_incident": "Bharatiya Janata Party",
+      "government_at_incident": "BJP government",
+      "bjp_led_government": true,
+      "bjp_in_governing_coalition": true,
+      "event_id": "MP-2014-10-04-Bhopal-Anees",
+      "event_date_ist": "2014-10-04",
+      "government_spell_id": "MP_Chouhan_2013",
+      "government_sources": [
+        "https://mpvidhansabha.nic.in/cm-sschouhan.htm",
+        "https://mpvidhansabha.nic.in/13thvs/13-156.PDF"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "Gandhi Nagar police",
+      "force_source_article_ids": "44404045",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/bhopal/barbaric-cops-drag-handcuffed-accused-to-court-in-undergarments/articleshow/44404045.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    },
+    {
+      "state_actual": "Punjab",
+      "chief_minister": "Parkash Singh Badal",
+      "chief_minister_party_at_incident": "Shiromani Akali Dal",
+      "government_at_incident": "SAD-led SAD–BJP coalition",
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": true,
+      "event_id": "PB-2015-05-26-Chinkot",
+      "event_date_ist": "2015-05-26",
+      "government_spell_id": "PB_Badal_2015",
+      "government_sources": [
+        "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=123261"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "Sarpanch/private group with constable on leave",
+      "force_source_article_ids": "47437674",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/ludhiana/sarpanch-cop-parade-woman-naked-booked/articleshow/47437674.cms",
+      "force_authority": "Not an official police operation: alleged private action involving a constable on long leave",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Allegation and denial are retained. Punjab SAD–BJP government is contextual; do not attribute this private attack to a state police reconstruction operation."
+    },
+    {
+      "state_actual": "Delhi",
+      "chief_minister": "Arvind Kejriwal",
+      "chief_minister_party_at_incident": "Aam Aadmi Party",
+      "government_at_incident": "AAP elected NCT government",
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "event_id": "DL-2018-05-17-Inderpuri-Virender",
+      "event_date_ist": "2018-05-17",
+      "government_spell_id": "DL_Kejriwal_2015",
+      "government_sources": [
+        "https://delhiassembly.delhi.gov.in/sites/default/files/2025-07/about_delhi_assembly.pdf",
+        "https://delhiassembly.delhi.gov.in/sites/default/files/2023-06/cm.pdf"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "Delhi Police",
+      "force_source_article_ids": "64279457",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/delhi/man-paraded-naked-rights-body-wants-probe/articleshow/64279457.cms",
+      "force_authority": "Union Ministry of Home Affairs through Lt Governor; responsible to Parliament",
+      "force_authority_party_basis": "Union Narendra Modi government; BJP-led NDA, separate from AAP elected NCT government",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event.",
+      "force_authority_sources": [
+        "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2016-pdfs/ls-061216/3279.pdf",
+        "https://www.pmindia.gov.in/en/pms-profile/"
+      ],
+      "union_government_at_incident": "Narendra Modi; BJP-led NDA",
+      "union_bjp_led": true
+    },
+    {
+      "state_actual": "Delhi",
+      "chief_minister": "Arvind Kejriwal",
+      "chief_minister_party_at_incident": "Aam Aadmi Party",
+      "government_at_incident": "AAP elected NCT government",
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "event_id": "DL-2021-07-13-Rohini-Sumit-Bagga",
+      "event_date_ist": "2021-07-13",
+      "government_spell_id": "DL_Kejriwal_2020",
+      "government_sources": [
+        "https://delhiassembly.delhi.gov.in/sites/default/files/2025-07/about_delhi_assembly.pdf",
+        "https://delhiassembly.delhi.gov.in/sites/default/files/2023-06/cm.pdf"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "Delhi Police",
+      "force_source_article_ids": "84424392",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/delhi/snatcher-grabs-cops-pistol-opens-fire-in-bid-to-flee/articleshow/84424392.cms",
+      "force_authority": "Union Ministry of Home Affairs through Lt Governor; responsible to Parliament",
+      "force_authority_party_basis": "Union Narendra Modi government; BJP-led NDA, separate from AAP elected NCT government",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event.",
+      "force_authority_sources": [
+        "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2016-pdfs/ls-061216/3279.pdf",
+        "https://www.pmindia.gov.in/en/pms-profile/"
+      ],
+      "union_government_at_incident": "Narendra Modi; BJP-led NDA",
+      "union_bjp_led": true
+    },
+    {
+      "state_actual": "Maharashtra",
+      "chief_minister": "Uddhav Thackeray",
+      "chief_minister_party_at_incident": "Shiv Sena (undivided in 2020)",
+      "government_at_incident": "Shiv Sena-led Maha Vikas Aghadi: Shiv Sena, NCP and INC",
+      "bjp_led_government": false,
+      "bjp_in_governing_coalition": false,
+      "event_id": "MH-2020-09-23-Jaripatka",
+      "event_date_ist": "2020-09-23",
+      "government_spell_id": "MH_Thackeray_2019",
+      "government_sources": [
+        "https://rajbhavan-maharashtra.gov.in/en/video/oath-to-uddhav-thackeray/",
+        "https://dgipr.maharashtra.gov.in/sites/default/files/2020-07/MAhead-Jan2020.pdf",
+        "https://ceoelection.maharashtra.gov.in/Downloads/PDF/PN-35_01052020.pdf",
+        "https://rajbhavan-maharashtra.gov.in/en/photo-gallery/?cmonth=06&cyear=2022"
+      ],
+      "government_confidence": "high on incident-date government; spell-boundary qualifications retained",
+      "force_institution_as_reported": "state police",
+      "force_source_article_ids": "78284814",
+      "force_source_urls": "https://timesofindia.indiatimes.com/city/nagpur/crowd-cheers-as-cops-parade-semi-naked-minors-on-road/articleshow/78284814.cms",
+      "force_authority": "respective state government for ordinary state police",
+      "force_authority_party_basis": "state governing party/coalition",
+      "uncertainty": "Government context does not establish political direction, actual truth, or legality of the reported event."
+    }
+  ]
+}

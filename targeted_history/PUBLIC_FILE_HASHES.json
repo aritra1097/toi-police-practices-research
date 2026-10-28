@@ -33,7 +33,7 @@
   "build_extended_queue.py": "581ad956ebbdd845bcd800cd9d21ea6ed6e0339603a6c4210d71f2ab0d3b1916",
   "national_gun_leads.md": "c77675818b7741a4657e5e4dce1ffe288bcbc6a35235d1262ba532073d1f1554",
   "write_wb_special_contexts.py": "bbc5b3b8c59b4e7c4fbed0b9078fa2c1d88bbcd5fc93ac1f6fcbb7ccd953c289",
-  "README.md": "65027ce9e8ec6b84a38bb8baed1385ce844cb5e826e14fd1a0cce4be73341bfa",
+  "README.md": "8220e33edf970fbd94001617e56353770725c355b55fb1a5001220b9f031c8cd",
   "supplement_selected_missing_urls.json": "93f583b20b49071e8dfa676170b56e15ae59226b23dd349ecd0bcf0ae3223013",
   "queue.json": "1fa05cb29c98725ce6a065abd3aad5ff9c1d1fcdb8580be9e5515726bd8af503",
   "event_table_codebook.md": "62dc82554c84f54340483d3c5ae39d67452b52ef10c37cc746d6888f9cc13537",
@@ -56,5 +56,6 @@
   "headline_catalogue.csv": "3e33f02b168d4e3bf9f3ff077ad612f9a618a2e885d0ffbf54800b960437554e",
   "national_gun_leads.json": "1487224f10be9bea4eb21061c39842f16c723284dfe2c84bb9107c9f200ee01c",
   "extended_queue_manifest.json": "47a07a5279668c8877b170671bf020de193072489a060b9a9491046cfd041dce",
-  "combined_candidate_inventory.csv": "26376f47f5f9a63151d16f0f803363b09803d773d7d43ca026dafb04566a0663"
+  "combined_candidate_inventory.csv": "26376f47f5f9a63151d16f0f803363b09803d773d7d43ca026dafb04566a0663",
+  "NEXT_STEPS.md": "0b497fe5541075bdc1d8642f03a7a5acc797901cf3edfabaa153a17773cdefa4"
 }

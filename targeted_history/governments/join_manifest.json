@@ -1,0 +1,12 @@
+{
+  "case_rows": 41,
+  "ordinary_crime_rows": 14,
+  "unmapped_ids": [],
+  "original_evidence_sha256": "83c67940741731b952db8ef843ebc93db562086b64822ec1fb6ba3b02a2d5363",
+  "government_input_sha256": {
+    "national_spells.json": "c5597cf2d444d90198e23ea9bc965a13113f6d80a2d3a9203b478584a531f316",
+    "parade_spells.json": "ab9d08966ede60c59657f89e6d55f1ae64eee9d1e2fc1a1c43460eafebd1e419",
+    "government_audit_wb.json": "fe808d178ccb976ac502bc7ce7f78a6112669c8c322bc8e9ed17776372acbb8a"
+  },
+  "interpretation": "Incident-date government/authority context only; not evidence of political direction or causation."
+}

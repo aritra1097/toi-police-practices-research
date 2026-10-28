@@ -1,0 +1,682 @@
+{
+  "audit_scope": "All West Bengal rows in the 41-row historical evidence catalogue; 2026 succession supplied only for plan/context and later-event mapping.",
+  "input_file": "targeted_history/evidence_table.csv",
+  "input_sha256": "83c67940741731b952db8ef843ebc93db562086b64822ec1fb6ba3b02a2d5363",
+  "checked_at_utc": "2026-10-28T01:09:37.307085+00:00",
+  "catalogue_rows": 41,
+  "west_bengal_rows": 14,
+  "government_spells": [
+    {
+      "spell_id": "WB_JYOTI_LF",
+      "start_ist": "1977-06-21",
+      "end_exclusive_ist": "2000-11-06",
+      "chief_minister": "Jyoti Basu",
+      "cm_party": "CPI(M)",
+      "government_coalition": "CPI(M)-led Left Front",
+      "confidence": "high_for_catalogue_dates",
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "PARLIAMENT_2000",
+        "CPIM_BASU"
+      ]
+    },
+    {
+      "spell_id": "WB_BUDDHADEB_LF",
+      "start_ist": "2000-11-06",
+      "end_exclusive_ist": "2011-05-20",
+      "chief_minister": "Buddhadeb Bhattacharjee",
+      "cm_party": "CPI(M)",
+      "government_coalition": "CPI(M)-led Left Front",
+      "confidence": "high_for_catalogue_dates",
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "PARLIAMENT_2000",
+        "CPIM_BUDDHADEB"
+      ]
+    },
+    {
+      "spell_id": "WB_MAMATA_INC",
+      "start_ist": "2011-05-20",
+      "end_exclusive_ist": "2012-09-22",
+      "chief_minister": "Mamata Banerjee",
+      "cm_party": "AITC",
+      "government_coalition": "AITC-led government with INC cabinet partner",
+      "confidence": "high_for_catalogue_dates; withdrawal_day_boundary_news_based",
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS"
+      ]
+    },
+    {
+      "spell_id": "WB_MAMATA_WITHDRAWAL_DAY",
+      "start_ist": "2012-09-22",
+      "end_exclusive_ist": "2012-09-23",
+      "chief_minister": "Mamata Banerjee",
+      "cm_party": "AITC",
+      "government_coalition": "AITC-led; INC resignation/withdrawal transition day",
+      "confidence": "do_not_resolve_intraday_coalition_without_gazette_or_time",
+      "source_ids": [
+        "INC_WITHDRAWAL_NEWS"
+      ]
+    },
+    {
+      "spell_id": "WB_MAMATA_POST_INC",
+      "start_ist": "2012-09-23",
+      "end_exclusive_ist": "2026-05-09",
+      "chief_minister": "Mamata Banerjee",
+      "cm_party": "AITC",
+      "government_coalition": "AITC-led majority government; INC no longer cabinet partner",
+      "confidence": "high_for_catalogue_dates; exact_formal_2012_acceptance_not_recovered",
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS",
+        "PIB_2026_OATH",
+        "TOI_2026_PARTY"
+      ]
+    },
+    {
+      "spell_id": "WB_SUVENDU_BJP",
+      "start_ist": "2026-05-09",
+      "end_exclusive_ist": null,
+      "chief_minister": "Suvendu Adhikari",
+      "cm_party": "BJP",
+      "government_coalition": "BJP-led government",
+      "confidence": "high_oath_date_official; party_primary_news_corroboration",
+      "source_ids": [
+        "PIB_2026_OATH",
+        "TOI_2026_PARTY"
+      ]
+    }
+  ],
+  "coalition_components_as_described_by_Assembly": {
+    "1996_elected_Left_Front": [
+      "CPI(M)",
+      "FB",
+      "CPI",
+      "RSP",
+      "SP",
+      "DSP",
+      "FB(M)",
+      "Biplabi Bangla Congress"
+    ],
+    "2001_elected_Left_Front": [
+      "CPI(M)",
+      "FB",
+      "RSP",
+      "CPI",
+      "SP",
+      "DSP",
+      "FB(M)"
+    ],
+    "2006_elected_Left_Front": [
+      "CPI(M)",
+      "FB",
+      "RSP",
+      "CPI",
+      "SP",
+      "FB(M)",
+      "DSP",
+      "RJD"
+    ]
+  },
+  "coalition_component_note": "Historical Assembly descriptions of the alliance; not a separately audited complete cabinet membership roster.",
+  "case_assignments": [
+    {
+      "case_id": "WB_2012_Canning",
+      "frozen_input_event_date_ist": "",
+      "government_date_start": "2012-02-04",
+      "government_date_end": "2012-02-06",
+      "government_date_point_inferred": "2012-02-06",
+      "alternative_event_dates": [
+        "2012-02-04",
+        "2012-02-06"
+      ],
+      "government_date_basis": "Opening says Monday around 19:45 before publication 2012-02-07T02:38IST, implying 2012-02-06. Final officer quote instead says Saturday, implying 2012-02-04. Both within same government spell; frozen event-date field remains blank.",
+      "event_date_confidence": "opening_inferred_date_with_internal_weekday_conflict; bounded_government_assignment",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Mamata Banerjee",
+      "state_cm_party": "AITC",
+      "state_government_coalition": "AITC-led government with INC cabinet partner",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_MAMATA_INC",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "West Bengal police",
+      "institutional_authority": "state_police",
+      "authority_note": "Government incumbency is context, not evidence of instructions or responsibility for this act.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943"
+      ]
+    },
+    {
+      "case_id": "WB-2000-03-20-Howrah-MohanSingh",
+      "frozen_input_event_date_ist": "2000-03-20",
+      "government_date_start": "2000-03-20",
+      "government_date_end": "2000-03-20",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "reported_March20_last_year_in_Sept28_2001_article",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Jyoti Basu",
+      "state_cm_party": "CPI(M)",
+      "state_government_coalition": "CPI(M)-led Left Front",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_JYOTI_LF",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "West Bengal police",
+      "institutional_authority": "state_police",
+      "authority_note": "Government incumbency is context, not evidence of instructions or responsibility for this act.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "PARLIAMENT_2000",
+        "CPIM_BASU"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://eparlib.sansad.in/bitstream/123456789/764740/1/jpi_march_2001.pdf",
+        "https://cpim.org/jyoti-basu/"
+      ]
+    },
+    {
+      "case_id": "WB_2008_Liluah",
+      "frozen_input_event_date_ist": "2008-02-08",
+      "government_date_start": "2008-02-08",
+      "government_date_end": "2008-02-08",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "Friday before publication",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Buddhadeb Bhattacharjee",
+      "state_cm_party": "CPI(M)",
+      "state_government_coalition": "CPI(M)-led Left Front",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_BUDDHADEB_LF",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "West Bengal police",
+      "institutional_authority": "state_police",
+      "authority_note": "Government incumbency is context, not evidence of instructions or responsibility for this act.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "PARLIAMENT_2000",
+        "CPIM_BUDDHADEB"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://eparlib.sansad.in/bitstream/123456789/764740/1/jpi_march_2001.pdf",
+        "https://cpim.org/comrade-buddhadeb-bhattacharya/"
+      ]
+    },
+    {
+      "case_id": "WB_2009_Bandih",
+      "frozen_input_event_date_ist": "2009-09-11",
+      "government_date_start": "2009-09-11",
+      "government_date_end": "2009-09-11",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "early Friday before publication",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Buddhadeb Bhattacharjee",
+      "state_cm_party": "CPI(M)",
+      "state_government_coalition": "CPI(M)-led Left Front",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_BUDDHADEB_LF",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "state armed police and CRPF",
+      "institutional_authority": "mixed_state_police_and_Union_MHA_central_force",
+      "authority_note": "Not solely a state-force or centrally directed episode; operational orders are not established.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "PARLIAMENT_2000",
+        "CPIM_BUDDHADEB",
+        "MHA_CAPF",
+        "MHA_ANNUAL"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://eparlib.sansad.in/bitstream/123456789/764740/1/jpi_march_2001.pdf",
+        "https://cpim.org/comrade-buddhadeb-bhattacharya/",
+        "https://www.mha.gov.in/en/divisionofmha/police-ii-division",
+        "https://www.mha.gov.in/sites/default/files/AnnualreportEnglish_04102023.pdf"
+      ]
+    },
+    {
+      "case_id": "WB-2010-06-16_17-Salboni-Murmu",
+      "frozen_input_event_date_ist": "2010-06-16/2010-06-17",
+      "government_date_start": "2010-06-16",
+      "government_date_end": "2010-06-17",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "captured_WednesdayJune16_media_display_reported_by_ThursdayJune17_exact_display_date_unspecified",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Buddhadeb Bhattacharjee",
+      "state_cm_party": "CPI(M)",
+      "state_government_coalition": "CPI(M)-led Left Front",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_BUDDHADEB_LF",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "reported police/joint-forces arrest and media display",
+      "institutional_authority": "exact_agency_breakdown_not_resolved_here",
+      "authority_note": "Do not infer exact force composition or command from a state-government label.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "PARLIAMENT_2000",
+        "CPIM_BUDDHADEB"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://eparlib.sansad.in/bitstream/123456789/764740/1/jpi_march_2001.pdf",
+        "https://cpim.org/comrade-buddhadeb-bhattacharya/"
+      ]
+    },
+    {
+      "case_id": "WB-2010-08-23-DumDum",
+      "frozen_input_event_date_ist": "2010-08-23",
+      "government_date_start": "2010-08-23",
+      "government_date_end": "2010-08-23",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "explicit_day_month_in_Sept2010_report",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Buddhadeb Bhattacharjee",
+      "state_cm_party": "CPI(M)",
+      "state_government_coalition": "CPI(M)-led Left Front",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_BUDDHADEB_LF",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "Dum Dum prison officials",
+      "institutional_authority": "state_correctional_administration",
+      "authority_note": "Prison custodial conduct, distinct from state-police street operation.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "PARLIAMENT_2000",
+        "CPIM_BUDDHADEB"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://eparlib.sansad.in/bitstream/123456789/764740/1/jpi_march_2001.pdf",
+        "https://cpim.org/comrade-buddhadeb-bhattacharya/"
+      ]
+    },
+    {
+      "case_id": "WB_2010_Palsanda",
+      "frozen_input_event_date_ist": "2010-11-13",
+      "government_date_start": "2010-11-13",
+      "government_date_end": "2010-11-13",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "explicit roadblock shooting date; death inferred Saturday November27",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Buddhadeb Bhattacharjee",
+      "state_cm_party": "CPI(M)",
+      "state_government_coalition": "CPI(M)-led Left Front",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_BUDDHADEB_LF",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "West Bengal police",
+      "institutional_authority": "state_police",
+      "authority_note": "Government incumbency is context, not evidence of instructions or responsibility for this act.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "PARLIAMENT_2000",
+        "CPIM_BUDDHADEB"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://eparlib.sansad.in/bitstream/123456789/764740/1/jpi_march_2001.pdf",
+        "https://cpim.org/comrade-buddhadeb-bhattacharya/"
+      ]
+    },
+    {
+      "case_id": "WB_2011_Bagula",
+      "frozen_input_event_date_ist": "2011-10-08",
+      "government_date_start": "2011-10-08",
+      "government_date_end": "2011-10-08",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "Saturday before publication",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Mamata Banerjee",
+      "state_cm_party": "AITC",
+      "state_government_coalition": "AITC-led government with INC cabinet partner",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_MAMATA_INC",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "West Bengal police",
+      "institutional_authority": "state_police",
+      "authority_note": "Government incumbency is context, not evidence of instructions or responsibility for this act.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943"
+      ]
+    },
+    {
+      "case_id": "WB-2011-12-16_17-CoochBehar-BSF",
+      "frozen_input_event_date_ist": "2011-12-16/2011-12-17",
+      "government_date_start": "2011-12-16",
+      "government_date_end": "2011-12-17",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "Friday_night_early_Saturday_in_Monday_Dec19_report",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Mamata Banerjee",
+      "state_cm_party": "AITC",
+      "state_government_coalition": "AITC-led government with INC cabinet partner",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_MAMATA_INC",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "BSF",
+      "institutional_authority": "Union_MHA_central_force",
+      "authority_note": "State party is geographic government context; BSF is not West Bengal state police.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS",
+        "MHA_CAPF",
+        "MHA_ANNUAL"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943",
+        "https://www.mha.gov.in/en/divisionofmha/police-ii-division",
+        "https://www.mha.gov.in/sites/default/files/AnnualreportEnglish_04102023.pdf"
+      ]
+    },
+    {
+      "case_id": "WB-2014-06-27-Haridevpur",
+      "frozen_input_event_date_ist": "2014-06-27",
+      "government_date_start": "2014-06-27",
+      "government_date_end": "2014-06-27",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "inferred_late_Friday_before_June29_2014_publication",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Mamata Banerjee",
+      "state_cm_party": "AITC",
+      "state_government_coalition": "AITC-led majority government; INC no longer cabinet partner",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_MAMATA_POST_INC",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "West Bengal police",
+      "institutional_authority": "state_police",
+      "authority_note": "Government incumbency is context, not evidence of instructions or responsibility for this act.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS",
+        "PIB_2026_OATH",
+        "TOI_2026_PARTY"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259319&lang=1&reg=3",
+        "https://timesofindia.indiatimes.com/city/kolkata/journey-from-nandigram-to-writers-buildings-the-political-journey-of-suvendu-adhikari/articleshow/130970520.cms"
+      ]
+    },
+    {
+      "case_id": "WB_2015_Ganga",
+      "frozen_input_event_date_ist": "2015-10-18",
+      "government_date_start": "2015-10-18",
+      "government_date_end": "2015-10-18",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "early Sunday before publication",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Mamata Banerjee",
+      "state_cm_party": "AITC",
+      "state_government_coalition": "AITC-led majority government; INC no longer cabinet partner",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_MAMATA_POST_INC",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "West Bengal police",
+      "institutional_authority": "state_police",
+      "authority_note": "Government incumbency is context, not evidence of instructions or responsibility for this act.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS",
+        "PIB_2026_OATH",
+        "TOI_2026_PARTY"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259319&lang=1&reg=3",
+        "https://timesofindia.indiatimes.com/city/kolkata/journey-from-nandigram-to-writers-buildings-the-political-journey-of-suvendu-adhikari/articleshow/130970520.cms"
+      ]
+    },
+    {
+      "case_id": "WB_2019_Dulal",
+      "frozen_input_event_date_ist": "2019-07-07",
+      "government_date_start": "2019-07-07",
+      "government_date_end": "2019-07-07",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "late Sunday before Tuesday publication",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Mamata Banerjee",
+      "state_cm_party": "AITC",
+      "state_government_coalition": "AITC-led majority government; INC no longer cabinet partner",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_MAMATA_POST_INC",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "BSF",
+      "institutional_authority": "Union_MHA_central_force",
+      "authority_note": "State party does not identify BSF administrative authority or who ordered firing.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS",
+        "PIB_2026_OATH",
+        "TOI_2026_PARTY",
+        "MHA_CAPF",
+        "MHA_ANNUAL"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259319&lang=1&reg=3",
+        "https://timesofindia.indiatimes.com/city/kolkata/journey-from-nandigram-to-writers-buildings-the-political-journey-of-suvendu-adhikari/articleshow/130970520.cms",
+        "https://www.mha.gov.in/en/divisionofmha/police-ii-division",
+        "https://www.mha.gov.in/sites/default/files/AnnualreportEnglish_04102023.pdf"
+      ]
+    },
+    {
+      "case_id": "WB_2020_Kasem",
+      "frozen_input_event_date_ist": "2020-08-14",
+      "government_date_start": "2020-08-14",
+      "government_date_end": "2020-08-14",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "Friday evening before Monday publication",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Mamata Banerjee",
+      "state_cm_party": "AITC",
+      "state_government_coalition": "AITC-led majority government; INC no longer cabinet partner",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_MAMATA_POST_INC",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "BSF",
+      "institutional_authority": "Union_MHA_central_force",
+      "authority_note": "Central force; state party is not evidence of operational command.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS",
+        "PIB_2026_OATH",
+        "TOI_2026_PARTY",
+        "MHA_CAPF",
+        "MHA_ANNUAL"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259319&lang=1&reg=3",
+        "https://timesofindia.indiatimes.com/city/kolkata/journey-from-nandigram-to-writers-buildings-the-political-journey-of-suvendu-adhikari/articleshow/130970520.cms",
+        "https://www.mha.gov.in/en/divisionofmha/police-ii-division",
+        "https://www.mha.gov.in/sites/default/files/AnnualreportEnglish_04102023.pdf"
+      ]
+    },
+    {
+      "case_id": "WB-2021-04-10-Sitalkuchi-CISF",
+      "frozen_input_event_date_ist": "2021-04-10",
+      "government_date_start": "2021-04-10",
+      "government_date_end": "2021-04-10",
+      "government_date_point_inferred": "",
+      "alternative_event_dates": [],
+      "government_date_basis": "same_day_Apr10_report_and_Saturday_Apr11_followup",
+      "event_date_confidence": "use_input_reported_or_inferred_date_basis; not independently reverified here",
+      "government_assignment_robust_across_alternative_dates": true,
+      "state": "West Bengal",
+      "state_chief_minister": "Mamata Banerjee",
+      "state_cm_party": "AITC",
+      "state_government_coalition": "AITC-led majority government; INC no longer cabinet partner",
+      "state_BJP_led_at_incident": false,
+      "government_spell_id": "WB_MAMATA_POST_INC",
+      "government_assignment_confidence": "high_conditional_on_input_date_or_documented_interval",
+      "force_or_institution": "CISF on election duty",
+      "institutional_authority": "Union_MHA_central_force_with_ECI_election_supervision",
+      "authority_note": "ECI election supervision applies; specific on-site firing order and partisan responsibility are not established. Do not automatically assign state-party or Union-party orders.",
+      "political_order_or_causation_verified": false,
+      "source_ids": [
+        "WB_ASSEMBLY_HISTORY",
+        "INC_WITHDRAWAL_NEWS",
+        "PIB_2026_OATH",
+        "TOI_2026_PARTY",
+        "MHA_CAPF",
+        "MHA_ANNUAL",
+        "RPA_28A",
+        "ECI_FORCE_MANUAL"
+      ],
+      "source_urls": [
+        "https://lalib.wb.gov.in/showOverview",
+        "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259319&lang=1&reg=3",
+        "https://timesofindia.indiatimes.com/city/kolkata/journey-from-nandigram-to-writers-buildings-the-political-journey-of-suvendu-adhikari/articleshow/130970520.cms",
+        "https://www.mha.gov.in/en/divisionofmha/police-ii-division",
+        "https://www.mha.gov.in/sites/default/files/AnnualreportEnglish_04102023.pdf",
+        "https://www.indiacode.nic.in/bitstream/123456789/1941/1/195143.pdf",
+        "https://www.eci.gov.in/eci-backend/public/api/download?url=LMAhAK6sOPBp%2FNFF0iRfXbEB1EVSLT41NNLRjYNJJP1KivrUxbfqkDatmHy12e%2FzVx8fLfn2ReU7TfrqYobgIvZ0n19tFMJzYNUMlQdr0LR9wv8%2B5nXgMo0aziJ0WKXcD2mjzPfzEgKRfE3Jice0BpSrPmQz9vt2aDMViYDfJ9IM%2F2fqtXgeR74oE38CYbCb"
+      ]
+    }
+  ],
+  "assignment_counts": {
+    "WB_MAMATA_INC": 3,
+    "WB_JYOTI_LF": 1,
+    "WB_BUDDHADEB_LF": 5,
+    "WB_MAMATA_POST_INC": 5
+  },
+  "sources": {
+    "WB_ASSEMBLY_HISTORY": {
+      "url": "https://lalib.wb.gov.in/showOverview",
+      "type": "official_state_legislature",
+      "locator": "1996/2000, 2001, 2006, 2011 overview paragraphs",
+      "supports": "Left Front governments; Buddhadeb assumption 6 November2000; Mamata/AITC-INC ministry 20 May2011. Coalition component lists are the Assembly historical descriptions, not separately verified minister rosters."
+    },
+    "PARLIAMENT_2000": {
+      "url": "https://eparlib.sansad.in/bitstream/123456789/764740/1/jpi_march_2001.pdf",
+      "type": "official_parliamentary_journal",
+      "locator": "Parliamentary and Constitutional Developments, West Bengal, printed page81",
+      "supports": "Basu resignation reported29 October 2000; Buddhadeb sworn6 November 2000. Use succession date, not earlier resignation announcement, for government change."
+    },
+    "CPIM_BASU": {
+      "url": "https://cpim.org/jyoti-basu/",
+      "type": "party_primary_biography",
+      "supports": "Jyoti Basu CPI(M) leadership, Left Front government and21 June 1977 oath; party source used for affiliation, not evaluation of conduct."
+    },
+    "CPIM_BUDDHADEB": {
+      "url": "https://cpim.org/comrade-buddhadeb-bhattacharya/",
+      "type": "party_primary_obituary",
+      "supports": "Buddhadeb CPI(M) leadership and Left Front chief ministership; affiliation corroboration, not neutral policy assessment."
+    },
+    "INC_WITHDRAWAL_NEWS": {
+      "url": "https://www.ndtv.com/india-news/congress-ministers-resign-from-west-bengal-government-set-sights-at-cabinet-berths-499943",
+      "type": "contemporaneous_original_reporting_official_notification_not_found",
+      "published": "2012-09-22",
+      "supports": "Six Congress ministers submitted resignations and Congress leaders withdrew support on 22 September 2012. Formal gazette acceptance and intraday boundary not independently recovered."
+    },
+    "PIB_2026_OATH": {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259319&lang=1&reg=3",
+      "type": "official_PMO_PIB_release",
+      "published": "2026-05-09",
+      "supports": "Suvendu Adhikari took CM oath9 May 2026; official date anchor. Not a source for every coalition/cabinet detail."
+    },
+    "TOI_2026_PARTY": {
+      "url": "https://timesofindia.indiatimes.com/city/kolkata/journey-from-nandigram-to-writers-buildings-the-political-journey-of-suvendu-adhikari/articleshow/130970520.cms",
+      "type": "contemporaneous_primary_news",
+      "published": "2026-05-09",
+      "supports": "BJP legislature-party leader became first BJP CM. Used for explicit party label alongside official oath release."
+    },
+    "MHA_CAPF": {
+      "url": "https://www.mha.gov.in/en/divisionofmha/police-ii-division",
+      "type": "official_union_ministry",
+      "supports": "MHA Police-II Division handles CAPF policy/personnel/operational including deployment/financial matters and lists BSF and CISF."
+    },
+    "MHA_ANNUAL": {
+      "url": "https://www.mha.gov.in/sites/default/files/AnnualreportEnglish_04102023.pdf",
+      "type": "official_union_ministry_annual_report",
+      "locator": "paragraph 7.27",
+      "supports": "BSF, CISF and CRPF are central forces under MHA. Does not establish orders for a particular shooting."
+    },
+    "RPA_28A": {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1941/1/195143.pdf",
+      "type": "official_legislation",
+      "locator": "Representation of the People Act 1951, section 28A; inserted 1989",
+      "supports": "Designated election police officers stand deputed to ECI during statutory election period and are subject to its control/superintendence/discipline."
+    },
+    "ECI_FORCE_MANUAL": {
+      "url": "https://www.eci.gov.in/eci-backend/public/api/download?url=LMAhAK6sOPBp%2FNFF0iRfXbEB1EVSLT41NNLRjYNJJP1KivrUxbfqkDatmHy12e%2FzVx8fLfn2ReU7TfrqYobgIvZ0n19tFMJzYNUMlQdr0LR9wv8%2B5nXgMo0aziJ0WKXcD2mjzPfzEgKRfE3Jice0BpSrPmQz9vt2aDMViYDfJ9IM%2F2fqtXgeR74oE38CYbCb",
+      "type": "official_ECI_manual_2023",
+      "locator": "section 1.4 and chapter 3",
+      "supports": "State/central forces on election duty are under ECI election supervision; deployment involves ECI, MHA, state/district functionaries. This 2023 manual is framework evidence, not the specific2021 firing order."
+    }
+  },
+  "limitations": [
+    "The September 22, 2012 Congress withdrawal uses original contemporaneous reporting; exact formal gazette acceptance/intraday cutoff not located. No catalogue event falls on that transition.",
+    "A resignation announcement, election result, swearing-in and administrative responsibility are different dates/concepts. We use assumption/oath transitions and retain same-day ambiguity.",
+    "State-government party at an incident location is not automatically the command authority of BSF/CISF/CRPF, a partisan order, or proof of causation.",
+    "The ECI 2023 manual explains framework; section 28A legislation predates 2021. Neither documents the specific Sitalkuchi firing command.",
+    "Original evidence CSV was not modified."
+  ]
+}

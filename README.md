@@ -6,6 +6,8 @@ This is a public **work in progress**, dated 27 October 2026 (New York time). It
 
 The [extension plan](EXTENSION_PLAN.md) sets out a proposed full-corpus backfill. The general backfill remains unstarted; the [targeted historical search](targeted_history/FINDINGS.md) has now been completed as a separate discovery pass. No recurring automation has started.
 
+For reading and validation, open the [four-page next-steps and government-context PDF](output/pdf/Bengal_Research_Next_Steps_and_Governments.pdf), the [readable next steps](targeted_history/NEXT_STEPS.md), and the [source-linked incident-date government table](targeted_history/governments/README.md). The government table adds the chief minister, contemporary party/coalition and reported force authority to all 41 historical evidence/context entries. These are selected, differently defined entries, not 41 comparable outcomes or a party-effect estimate.
+
 ## Questions
 
 1. Do reports from West Bengal describe an accused person taking or attempting to take an officer's gun immediately before police shoot that person?
