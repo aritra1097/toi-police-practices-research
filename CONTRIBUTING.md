@@ -1,10 +1,12 @@
 # Add a case or correct the research
 
-The public, editable-through-review dataset is [community/cases.csv](community/cases.csv). Anyone with a GitHub account can contribute.
+The public, editable-through-review dataset is [community/cases.csv](community/cases.csv). Submit through [Google Forms](https://forms.gle/qLpe7RqhSpFp7awy5) without a GitHub account, or use GitHub issues/pull requests.
 
 ## Without editing a CSV
 
-Use [Suggest a case](https://github.com/aritra1097/toi-police-practices-research/issues/new?template=new_case.yml) or [Correct an entry](https://github.com/aritra1097/toi-police-practices-research/issues/new?template=correction.yml). A maintainer can turn the submission into a CSV change after reviewing the sources. Submission does not automatically add an accepted case. GitHub issues are public.
+Use the [Google Form](https://forms.gle/qLpe7RqhSpFp7awy5) for a new case, correction, or additional source. Email collection is off, no GitHub account is needed, and a separate response sheet holds submissions for review. Keep the response-edit link if you want to revise a submission later. Research content and optional public credit may be published after review; avoid private contact details. The form footer identifies UMass Amherst. See [form details](community/google_form.md).
+
+Alternatively, use [Suggest a case](https://github.com/aritra1097/toi-police-practices-research/issues/new?template=new_case.yml) or [Correct an entry](https://github.com/aritra1097/toi-police-practices-research/issues/new?template=correction.yml) on GitHub. A maintainer can turn a submission into a CSV change after reviewing the sources. Submission does not automatically add an accepted case. GitHub issues are public.
 
 ## By pull request
 
@@ -23,3 +25,5 @@ Check the actual body or primary document, incident identity/date, outcome and a
 Set `headline_file_linkage=verified` only after checking the original file reference/hash and row or exact date-headline match documented in `evidence_notes`. This is a substantive maintainer check: the validator cannot establish old-file linkage from generic notes or a status label.
 
 Merge accepted changes into `community/cases.csv`. Do not run a seed import over that file. Original research tables under `targeted_history/` are reproducible snapshots and remain separate; corrections to those outputs require a documented source-input change and regeneration. A community addition does not automatically revise past numerical findings or PDFs.
+
+For Google Forms submissions, review the linked response sheet or download the responses CSV from the form. Map the submitted evidence into the community schema, leave unknown fields blank with explanations, assign a stable case ID, and start with `pending_review`. Record a public review issue/PR after checking that its content is appropriate to publish. Raw form responses and their edit links should not be committed wholesale. No automatic import or scheduled review has been enabled.

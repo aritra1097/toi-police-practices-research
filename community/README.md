@@ -1,8 +1,10 @@
 # Contribute to the public case CSV
 
-[View the CSV](cases.csv) · [Download raw CSV](https://raw.githubusercontent.com/aritra1097/toi-police-practices-research/main/community/cases.csv) · [Suggest a case](https://github.com/aritra1097/toi-police-practices-research/issues/new?template=new_case.yml) · [Correct an entry](https://github.com/aritra1097/toi-police-practices-research/issues/new?template=correction.yml)
+[Submit using Google Forms](https://forms.gle/qLpe7RqhSpFp7awy5) · [View the CSV](cases.csv) · [Download raw CSV](https://raw.githubusercontent.com/aritra1097/toi-police-practices-research/main/community/cases.csv) · [GitHub case submission](https://github.com/aritra1097/toi-police-practices-research/issues/new?template=new_case.yml) · [GitHub correction](https://github.com/aritra1097/toi-police-practices-research/issues/new?template=correction.yml)
 
-Anyone with a GitHub account can propose additions or corrections using these forms, or edit the CSV in a fork and open a pull request. A maintainer reviews submissions before merging them. Public access does not grant anonymous write access to the main file.
+Anyone can propose additions or corrections through the [Google Form](https://forms.gle/qLpe7RqhSpFp7awy5), without a GitHub account. Email collection is off; an anonymous-access check confirmed the form loads without signing in. Submitters can save their response-edit link. Raw responses remain in a separate review queue, with public response summaries disabled. See [form details](google_form.md).
+
+Anyone with a GitHub account can also use the GitHub issue forms, or edit the CSV in a fork and open a pull request. A maintainer reviews submissions before merging them. Public access does not grant anonymous write access to the main file.
 
 The starting CSV contains **41 historical case/context entries**, including near matches and exclusions. They cover several distinct practices, and must not be counted as 41 comparable police shootings. This is a living community edition; the original [government-annotated research snapshot](../targeted_history/governments/evidence_with_governments.csv) remains separate. The snapshot generator does not overwrite this file.
 
